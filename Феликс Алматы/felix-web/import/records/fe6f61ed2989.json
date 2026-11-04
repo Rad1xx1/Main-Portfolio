@@ -1,0 +1,23 @@
+{
+  "id": "item-fe6f61ed2989",
+  "title": "Статуэтка \"Филин\"",
+  "source": "https://www.felix-almaty.kz/product-page/статуэтка-филин",
+  "checked_at": "2026-10-31T10:07:41.219Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_2f3ada62aa1e4f5c93eac556772a31e6~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "width": 220,
+      "height": 220
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "accessories"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-fe6f61ed2989.jpg"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "item-2f6cb96dda23",
+  "title": "Офисная мебель для персонала \"Система М\" - стол рабочий",
+  "source": "https://www.felix-almaty.kz/product-page/офисная-мебель-для-персонала-система-м",
+  "checked_at": "2026-10-31T10:06:45.638Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_65d14efabd444daf8765a03be5163a4f~mv2.gif/v1/fit/w_500,h_500,q_90/file.webp",
+      "width": 600,
+      "height": 450
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_493dc0a82f9b4b8bb2181775bce52bee~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 600,
+      "height": 450
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_f230d722ca9a4beda9f3f2fbeb466c88~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 600,
+      "height": 427
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_f138319b9432474db7f3c9bb40b6ebed~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 600,
+      "height": 450
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_ce810ec400c14b318e9cb10aa855aea4~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 600,
+      "height": 451
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_ab752aed91ff46a2b767af32097e9a3e~mv2_d_2000_1428_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2000,
+      "height": 1428
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_8d6f1853849e486bb52e8f3af5a26e6a~mv2_d_2000_1428_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2000,
+      "height": 1428
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_8eb1bde7b4f3495484788f412169f491~mv2_d_2000_1428_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2000,
+      "height": 1428
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_cabfe79e11554dfda6b8915cd0e8637f~mv2_d_2000_1428_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2000,
+      "height": 1428
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_c07faac4d6444c54b3db65d1d067644e~mv2_d_2000_1428_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2000,
+      "height": 1428
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "РАБОЧИЕ ПОВЕРХНОСТИ (СТОЛЕШНИЦЫ, ТОПЫ ШКАФОВ И ТУМБ) ЛДСП толщиной 25 мм с тиснением поверхности типа «шагреневая кожа»",
+    "КРОМКА РАБОЧИХ ПОВЕРХНОСТЕЙ Кромка ПВХ толщиной 2 мм, 0,45 мм",
+    "КАРКАСЫ СТОЛОВ ЛДСП толщиной 18 мм с тиснением поверхности типа «шагреневая кожа»",
+    "КАРКАСЫ ШКАФОВ И ТУМБ ЛДСП толщиной 18 мм с тиснением поверхности типа «шагреневая кожа»",
+    "КРОМКА КАРКАСОВ И ФАСАДОВ ШКАФОВ Кромка ПВХ толщиной 2 мм, 0,45 мм",
+    "ЗАДНИЕ СТЕНКИ ШКАФОВ, ДОНЬЯ ЯЩИКОВ ДВП толщиной 3.2 мм",
+    "СТЕКЛЯННЫЕ ФАСАДЫ В РАМКЕ Рама ЛДСП толщиной 18 мм с тонированным стеклом под «бронзу» толщиной 4 мм",
+    "ЦЕЛЬНОСТЕКЛЯННЫЕ ФАСАДЫ Каленое стекло прозрачное толщиной 5 мм",
+    "ГЛУХИЕ ФАСАДЫ ЛДСП толщиной 18 мм с тиснением поверхности типа «шагреневая кожа»",
+    "ЗАМКИ Центральный замок в приставной тумбе, замок в гардеробе и в верхнем ящике мобильной тумбы",
+    "РУЧКИ Алюминиевые скобы (межцентровое расстояние присадки 96 мм.",
+    "НАПРАВЛЯЮЩИЕ ЯЩИКОВ Роликовые",
+    "СОЕДИНИТЕЛЬНАЯ ФУРНИТУРА Двухкомпонентная эксцентриковая стяжка",
+    "ОПОРЫ СТОЛОВ Регулируемые (диапазон регулировки до 10 мм)",
+    "ОПОРЫ МОБИЛЬНОЙ ТУМБЫ Колесные"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "work"
+  ],
+  "published_specs": [
+    "10 см",
+    "74,6 см",
+    "2 см"
+  ],
+  "local_image": "images/item-2f6cb96dda23.jpg"
+}

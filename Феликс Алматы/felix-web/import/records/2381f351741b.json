@@ -1,0 +1,21 @@
+{
+  "id": "item-2381f351741b",
+  "title": "Статуэтка \"Знак зодиака Лев\"",
+  "source": "https://www.felix-almaty.kz/product-page/статуэтка-знак-зодиака-лев",
+  "checked_at": "2026-10-31T10:07:38.564Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_55482a39d7f445b685fce177a1a06d65~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "width": 220,
+      "height": 220
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [],
+  "published_specs": [],
+  "local_image": "images/item-2381f351741b.jpg"
+}

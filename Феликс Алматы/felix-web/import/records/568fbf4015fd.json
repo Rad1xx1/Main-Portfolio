@@ -1,0 +1,55 @@
+{
+  "id": "item-568fbf4015fd",
+  "title": "CHAIRMAN 9801 Chrom",
+  "source": "https://www.felix-almaty.kz/product-page/chairman-9801-chrom",
+  "checked_at": "2026-10-31T10:05:44.856Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_ba5fe7f06ab24c5ab6a64354fde80596~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 700,
+      "height": 800
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_b85b9d7f24f342b2ac0cc9cb1d52b58e~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 700,
+      "height": 800
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_53e586d6629e4ad7924bed7f877cb1b9~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 700,
+      "height": 800
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_27c05944abdc4207be69f599fe786dea~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 700,
+      "height": 800
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_0eb1c8ad99194b3fa35816c0070d608b~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 700,
+      "height": 800
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "Обивка Ткань стандарт",
+    "Подлокотники Пластиковые с алюминиевыми вставками",
+    "Механизм качания Асинхронный механизм качания с изменением угла наклона спинки и сидения независимо друг от друга. Механизм регулировки кресла по высоте.",
+    "Крестовина Хромированный металл",
+    "Газпатрон 3 класса по стандарту Germany DIN 4550",
+    "Ролики Стандарт BIFMA 5,1 (США). Диаметр штока 11 мм.",
+    "Каркас Немонолитный",
+    "Набивка кресла Стандартный поролон плотности 25-40 кг/м3",
+    "Рекомендованная максимальная нагрузка 100 кг.",
+    "Вес/объем коробки 16,5 кг/0,11 м3",
+    "Срок гарантии 2 года"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "staff-chairs"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-568fbf4015fd.jpg"
+}

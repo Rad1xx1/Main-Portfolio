@@ -1,0 +1,48 @@
+{
+  "id": "item-1ae5ae7ba1ec",
+  "title": "Стул CHAIRMAN 658",
+  "source": "https://www.felix-almaty.kz/product-page/стул-chairman-658",
+  "checked_at": "2026-10-31T10:07:43.699Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_a3eb1d9a860a42558acc48ca3e15ba29~mv2_d_2160_2484_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2160,
+      "height": 2484
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_c6029d2fb0544eb3bbd0a09b28de2dfe~mv2_d_2004_2533_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2004,
+      "height": 2533
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_c066156e1ded4d88a323b1e772c16b39~mv2_d_2592_3888_s_4_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2592,
+      "height": 3888
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_6e9111283653425198fd3b28afcdc1a3~mv2_d_2592_3888_s_4_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2592,
+      "height": 3888
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_1c77fa32605144ab86b48aa024dae3e8~mv2_d_2070_2835_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2070,
+      "height": 2835
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_d47156c2a350455ebd40f9386b6e6109~mv2_d_1820_2341_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1820,
+      "height": 2341
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "chairs"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-1ae5ae7ba1ec.jpg"
+}

@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ala Clinic — Стоматология в Алматы | Лечение во сне, имплантация, брекеты</title>
+<meta name="description" content="Современная стоматология в Алматы. Лечение под седацией, имплантация, ортодонтия, детская стоматология. Без боли и страха. Работаем без выходных 10:00–23:00.">
+<meta name="theme-color" content="#0e6b63">
+<meta name="format-detection" content="telephone=no">
+<link rel="icon" href="img/logo-new-e1750850565976.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== Header ===== -->
+<header class="header" id="header">
+  <div class="header__top">
+    <div class="container header__top-inner">
+      <div class="header__hours">Без выходных · <b>10:00 — 23:00</b></div>
+      <div class="header__top-right">
+        <a href="tel:+77080919141" class="header__phone">+7 (708) 091 91 41</a>
+        <button class="btn btn--ghost btn--sm" data-open-modal>Заказать звонок</button>
+      </div>
+    </div>
+  </div>
+  <div class="header__main">
+    <div class="container header__main-inner">
+      <a href="#" class="logo"><img src="img/logo-new-e1750850565976.png" alt="Ala Clinic"></a>
+      <nav class="nav" id="nav">
+        <a href="#services">Услуги</a>
+        <a href="#about">О клинике</a>
+        <a href="#doctors">Врачи</a>
+        <a href="#works">Наши работы</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <div class="header__actions">
+        <a class="btn btn--accent btn--sm" href="#consult">Записаться</a>
+        <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===== Hero ===== -->
+<section class="hero">
+  <div class="container hero__inner">
+    <div class="hero__content">
+      <span class="hero__badge">Стоматология премиум-класса · Алматы</span>
+      <h1>Стоматология для тех, кто ценит <em>качество</em> и спокойствие</h1>
+      <p>Лечим взрослых и детей без боли и страха. Седация, современное оборудование и врачи со стажем 10+ лет.</p>
+      <div class="hero__cta">
+        <a href="#consult" class="btn btn--accent">Получить скидку 10%</a>
+        <a href="#services" class="btn btn--outline">Узнать цены</a>
+      </div>
+      <div class="hero__stats">
+        <div><b>10+</b><span>лет успешной работы</span></div>
+        <div><b>10 000+</b><span>довольных пациентов</span></div>
+        <div><b>2</b><span>удобных филиала</span></div>
+      </div>
+    </div>
+    <div class="hero__teeth" aria-hidden="true"><svg class="tooth tooth--1" viewBox="0 0 32 32"><path d="M16 2C10 2 6 6 6 11c0 6 2 8 3 13 .6 3 1 6 2.5 6S14 24 16 24s3 6 4.5 6 1.9-3 2.5-6c1-5 3-7 3-13C26 6 22 2 16 2z"/></svg><svg class="tooth tooth--2" viewBox="0 0 32 32"><path d="M16 2C10 2 6 6 6 11c0 6 2 8 3 13 .6 3 1 6 2.5 6S14 24 16 24s3 6 4.5 6 1.9-3 2.5-6c1-5 3-7 3-13C26 6 22 2 16 2z"/></svg><svg class="tooth tooth--3" viewBox="0 0 32 32"><path d="M16 2C10 2 6 6 6 11c0 6 2 8 3 13 .6 3 1 6 2.5 6S14 24 16 24s3 6 4.5 6 1.9-3 2.5-6c1-5 3-7 3-13C26 6 22 2 16 2z"/></svg></div><div class="hero__media">
+      <div class="hero__img-wrap"><img src="img/785e26ed312f83bd30b8ada4187dc3648f480e87-scaled.png" alt="Ala Clinic"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Promo ===== -->
+<section class="promo">
+  <div class="container promo__inner">
+    <div class="promo__content">
+      <span class="promo__label">Специальное предложение</span>
+      <h2>Здоровые зубы — к школе</h2>
+      <ul>
+        <li>Профессиональная чистка для школьников — <b>5 000 ₸</b></li>
+        <li>Консультация + план лечения — <b>бесплатно</b></li>
+        <li>При лечении — <b>скидка 20%</b></li>
+      </ul>
+      <button class="btn btn--light" data-open-modal>Подробнее</button>
+    </div>
+    <div class="promo__img"><img src="img/18246125_v982-d3-04-1.png" alt="Здоровые зубы к школе"></div>
+  </div>
+</section>
+
+<!-- ===== Services ===== -->
+<section class="services section" id="services">
+  <div class="container">
+    <div class="section__head">
+      <div>
+        <span class="section__label">Услуги</span>
+        <h2>Полный спектр стоматологических услуг</h2>
+      </div>
+      <a href="#consult" class="btn btn--outline">Посмотреть прайс</a>
+    </div>
+    <p class="section__sub">От профилактики до сложной хирургии — работаем с любыми случаями, подбирая индивидуальный подход для каждого пациента.</p>
+    <div class="services__grid">
+      <a class="service-card" href="#consult"><div class="service-card__icon"><img src="img/therapy.svg" alt=""></div><h3>Терапия</h3><p>Лечение кариеса и реставрация зубов любой сложности</p><span class="service-card__link">Подробнее →</span></a>
+      <a class="service-card" href="#consult"><div class="service-card__icon"><img src="img/surgery.svg" alt=""></div><h3>Хирургия</h3><p>Удаление зубов любой сложности, костная пластика</p><span class="service-card__link">Подробнее →</span></a>
+      <a class="service-card" href="#consult"><div class="service-card__icon"><img src="img/implants.svg" alt=""></div><h3>Имплантация</h3><p>Восстановление зубов имплантами</p><span class="service-card__link">Подробнее →</span></a>
+      <a class="service-card" href="#consult"><div class="service-card__icon"><img src="img/orthopedics.svg" alt=""></div><h3>Ортопедия</h3><p>Виниры, коронки из диоксида циркония, протезирование</p><span class="service-card__link">Подробнее →</span></a>
+      <a class="service-card" href="#consult"><div class="service-card__icon"><img src="img/orthodontics.svg" alt=""></div><h3>Ортодонтия</h3><p>Брекет-системы и элайнеры для правильного прикуса</p><span class="service-card__link">Подробнее →</span></a>
+      <a class="service-card" href="#consult"><div class="service-card__icon"><img src="img/kids.svg" alt=""></div><h3>Детская стоматология</h3><p>Бережное лечение малышей в игровой форме</p><span class="service-card__link">Подробнее →</span></a>
+      <a class="service-card service-card--wide" href="#consult"><div class="service-card__icon"><img src="img/sleep.svg" alt=""></div><h3>Лечение во сне</h3><p>Седация и наркоз севофлураном — лечение без боли и страха</p><span class="service-card__link">Подробнее →</span></a>
+      <a class="service-card" href="#consult"><h3>All on 4–6</h3><p>Полное восстановление челюсти на имплантах за один день</p><span class="service-card__link">Подробнее →</span></a>
+      <a class="service-card" href="#consult"><h3>Эндодонтия</h3><p>Лечение каналов под микроскопом</p><span class="service-card__link">Подробнее →</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Advantages ===== -->
+<section class="advantages section">
+  <div class="container">
+    <div class="section__head"><div><span class="section__label">Наши преимущества</span><h2>Почему выбирают Ala Clinic</h2></div>
+    <div class="advantages__grid">
+      <div class="adv-card"><div class="adv-card__num">01</div><h3>Опытная команда</h3><p>Врачи со стажем 5–10+ лет, регулярное обучение и международные сертификаты</p></div>
+      <div class="adv-card"><div class="adv-card__num">02</div><h3>Лечение под седацией</h3><p>Засыпаете спокойно — просыпаетесь с вылеченными зубами</p></div>
+      <div class="adv-card"><div class="adv-card__num">03</div><h3>Современное оборудование</h3><p>Цифровая диагностика, микроскопы и собственная зуботехническая лаборатория</p></div>
+      <div class="adv-card"><div class="adv-card__num">04</div><h3>Комфорт и забота</h3><p>Максимально бережный подход, особенно к детям</p></div>
+      <div class="adv-card"><div class="adv-card__num">05</div><h3>Удобное время приёма</h3><p>Работаем без выходных с 10:00 до 23:00</p></div>
+      <div class="adv-card"><div class="adv-card__num">06</div><h3>Рассрочка на лечение</h3><p>Доступное лечение без переплат</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Sleep treatment ===== -->
+<section class="sleep section">
+  <div class="container sleep__inner">
+    <div class="sleep__img"><img src="img/img_1863-scaled.jpg" alt="Лечение во сне"></div>
+    <div class="sleep__content">
+      <span class="section__label">Лечение во сне</span>
+      <h2>Современный способ лечения без боли и страха</h2>
+      <p>Мы используем седацию и наркоз севофлураном — щадящий и безопасный метод, который позволяет пациенту спокойно «уснуть» и проснуться уже с вылеченными зубами.</p>
+      <ul class="check-list">
+        <li>Быстрое и лёгкое пробуждение без неприятных ощущений</li>
+        <li>Полное отсутствие боли и дискомфорта во время лечения</li>
+        <li>Идеально для детей и пациентов с дентофобией</li>
+      </ul>
+      <div class="sleep__cta">
+        <button class="btn btn--accent" data-open-modal>Записаться</button>
+        <a href="#consult" class="btn btn--outline">Узнать подробнее</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Doctors ===== -->
+<section class="doctors section" id="doctors">
+  <div class="container">
+    <div class="section__head">
+      <div><span class="section__label">Кейсы и команда</span><h2>Наши специалисты</h2></div>
+      <button class="btn btn--outline" data-open-modal>Все специалисты</button>
+    </div>
+    <div class="doctors__grid">
+      <article class="doctor-card"><div class="doctor-card__photo"><img src="img/dr_f09a99ef.jpg" alt="Асанов Ислам Шамшидинович"></div><span class="doctor-card__exp">Стаж: 10+ лет</span><h3>Асанов Ислам Шамшидинович</h3><p>Имплантолог, хирург, ортопед</p></article>
+      <article class="doctor-card"><div class="doctor-card__photo"><img src="img/dr_4cd6ed11.jpg" alt="Махмуд Османжанович"></div><span class="doctor-card__exp">Стаж: 10+ лет</span><h3>Махмуд Османжанович</h3><p>Хирург, детский врач-хирург, детский врач-терапевт</p></article>
+      <article class="doctor-card"><div class="doctor-card__photo"><img src="img/dr_e00a9681.jpg" alt="Назым Нурлановна"></div><span class="doctor-card__exp">Стаж: 8+ лет</span><h3>Назым Нурлановна</h3><p>Ортодонт, детский ортодонт, детский терапевт, детский хирург</p></article>
+      <article class="doctor-card"><div class="doctor-card__photo"><img src="img/dr_c6be06d4.jpg" alt="Юсупов Дамир Рашитович"></div><span class="doctor-card__exp">Стаж: 5+ лет</span><h3>Юсупов Дамир Рашитович</h3><p>Ортодонт, детский ортодонт</p></article>
+      <article class="doctor-card"><div class="doctor-card__photo"><img src="img/dr_ala5-3.jpg" alt="Досаева Асем Кайратовна"></div><span class="doctor-card__exp">Стаж: 5+ лет</span><h3>Досаева Асем Кайратовна</h3><p>Стоматолог-терапевт</p></article>
+      <article class="doctor-card"><div class="doctor-card__photo"><img src="img/dr_08c2c73a.jpg" alt="Жалгасова Гульдара Жанартовна"></div><span class="doctor-card__exp">Стаж: 5+ лет</span><h3>Жалгасова Гульдара Жанартовна</h3><p>Детский врач-терапевт, детский врач-хирург</p></article>
+      <article class="doctor-card"><div class="doctor-card__photo"><img src="img/img_4148.jpg" alt="Тайжанова Айгуль Николаевна"></div><span class="doctor-card__exp">Стаж: 5+ лет</span><h3>Тайжанова Айгуль Николаевна</h3><p>Детский врач-ортодонт, детский врач-терапевт</p></article>
+      <article class="doctor-card"><div class="doctor-card__photo"><img src="img/img_4150.jpg" alt="Муталип Темирлан"></div><span class="doctor-card__exp">Стаж: 5+ лет</span><h3>Муталип Темирлан</h3><p>Детский стоматолог, детский терапевт</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Works ===== -->
+<section class="works section" id="works">
+  <div class="container">
+    <div class="section__head">
+      <div><span class="section__label">Портфолио</span><h2>Наши работы</h2></div>
+      <a href="#consult" class="btn btn--outline">Посмотреть все</a>
+    </div>
+    <div class="works__grid">
+      <article class="work-card" data-work>
+        <div class="work-card__photos work-card__vertical">
+          <div class="work-card__photo-block work-card__photo-before">
+            <img src="img/img_2927_compressed-1.jpg" alt="Имплантация до">
+            <span class="work-card__label work-card__label-before">До</span>
+          </div>
+          <div class="work-card__photo-block work-card__photo-after">
+            <img src="img/img_2927_compressed-1.jpg" alt="Имплантация после">
+            <span class="work-card__label work-card__label-after">После</span>
+          </div>
+          <span class="work-card__tag">Имплантация</span>
+        </div>
+        <div class="work-card__body">
+          <span class="work-card__doctor">Ислам Шамшидинович · Имплантолог</span>
+          <h3>Имплантация</h3>
+          <p><b>Срок лечения:</b> 1 год 8 месяцев</p>
+          <p class="work-card__desc">Удаление всех несостоятельных зубов по показаниям, установка дентальных имплантов с моментальным протезированием несъёмными временными конструкциями.</p>
+        </div>
+      </article>
+      <article class="work-card" data-work>
+        <div class="work-card__photos work-card__vertical">
+          <div class="work-card__photo-block work-card__photo-before">
+            <img src="img/img_2928_compressed-1.jpg" alt="Лечение кариеса до">
+            <span class="work-card__label work-card__label-before">До</span>
+          </div>
+          <div class="work-card__photo-block work-card__photo-after">
+            <img src="img/img_2928_compressed-1.jpg" alt="Лечение кариеса после">
+            <span class="work-card__label work-card__label-after">После</span>
+          </div>
+          <span class="work-card__tag">Лечение кариеса</span>
+        </div>
+        <div class="work-card__body">
+          <span class="work-card__doctor">Махмуд Османжанович · Детский стоматолог</span>
+          <h3>Лечение кариеса</h3>
+          <p><b>Срок лечения:</b> 1 посещение</p>
+          <p class="work-card__desc">Ребёнок 2,5 года: пролечили 14 зубов — 4 пульпита и 10 кариесов.</p>
+        </div>
+      </article>
+      <article class="work-card" data-work>
+        <div class="work-card__photos work-card__vertical">
+          <div class="work-card__photo-block work-card__photo-before">
+            <img src="img/img_2932_compressed.jpg" alt="Ортодонтия до">
+            <span class="work-card__label work-card__label-before">До</span>
+          </div>
+          <div class="work-card__photo-block work-card__photo-after">
+            <img src="img/img_2932_compressed.jpg" alt="Ортодонтия после">
+            <span class="work-card__label work-card__label-after">После</span>
+          </div>
+          <span class="work-card__tag">Ортодонтия</span>
+        </div>
+        <div class="work-card__body">
+          <span class="work-card__doctor">Назым Нурлановна · Ортодонт</span>
+          <h3>Ортодонтия</h3>
+          <p><b>Срок лечения:</b> 6 месяцев</p>
+          <p class="work-card__desc">Пациентке 16 лет. Обратилась с жалобой на неправильное смыкание зубов в боковом сегменте справа. На брекет-системе исправили перекрестный прикус. Срок ношения брекетов 6 месяцев.</p>
+        </div>
+      </article>
+      <article class="work-card" data-work>
+        <div class="work-card__photos work-card__vertical">
+          <div class="work-card__photo-block work-card__photo-before">
+            <img src="img/img_2933_compressed.jpg" alt="Хирургия до">
+            <span class="work-card__label work-card__label-before">До</span>
+          </div>
+          <div class="work-card__photo-block work-card__photo-after">
+            <img src="img/img_2933_compressed.jpg" alt="Хирургия после">
+            <span class="work-card__label work-card__label-after">После</span>
+          </div>
+          <span class="work-card__tag">Хирургия</span>
+        </div>
+        <div class="work-card__body">
+          <span class="work-card__doctor">Муталип Темирлан · Терапевт, детский хирург</span>
+          <h3>Хирургия</h3>
+          <p><b>Срок лечения:</b> 2 года</p>
+          <p class="work-card__desc">Ребенку 4,5 года. Лечили 12 зубов под севофлураном.</p>
+        </div>
+      </article>
+      <article class="work-card" data-work>
+        <div class="work-card__photos work-card__vertical">
+          <div class="work-card__photo-block work-card__photo-before">
+            <img src="img/img_2934.jpg" alt="Коронки и виниры до">
+            <span class="work-card__label work-card__label-before">До</span>
+          </div>
+          <div class="work-card__photo-block work-card__photo-after">
+            <img src="img/img_2934.jpg" alt="Коронки и виниры после">
+            <span class="work-card__label work-card__label-after">После</span>
+          </div>
+          <span class="work-card__tag">Имплантация</span>
+        </div>
+        <div class="work-card__body">
+          <span class="work-card__doctor">Ислам Шамшидинович · Имплантолог</span>
+          <h3>Имплантация</h3>
+          <p><b>Срок лечения:</b> 1 год 8 месяцев</p>
+          <p class="work-card__desc">На верхней челюсти установлены импланты с циркониевыми коронками, на нижней — циркониевые коронки и виниры.</p>
+        </div>
+      </article>
+      <article class="work-card" data-work>
+        <div class="work-card__photos work-card__vertical">
+          <div class="work-card__photo-block work-card__photo-before">
+            <img src="img/img_2935.jpg" alt="Брекеты до">
+            <span class="work-card__label work-card__label-before">До</span>
+          </div>
+          <div class="work-card__photo-block work-card__photo-after">
+            <img src="img/img_2935.jpg" alt="Брекеты после">
+            <span class="work-card__label work-card__label-after">После</span>
+          </div>
+          <span class="work-card__tag">Ортодонтия</span>
+        </div>
+        <div class="work-card__body">
+          <span class="work-card__doctor">Назым Нурлановна · Ортодонт</span>
+          <h3>Ортодонтия</h3>
+          <p><b>Срок лечения:</b> 2 года</p>
+          <p class="work-card__desc">Пациентке 32 года. Установлены южнокорейские брекеты. Жалобы на неправильное положение боковых резцов, неправильное смыкание зубных рядов. Срок лечения год и 7 месяцев. После снятия брекетов сделали художественную реставрацию зуба 1.2 и 2.1.</p>
+        </div>
+      </article>
+      <article class="work-card" data-work>
+        <div class="work-card__photos work-card__vertical">
+          <div class="work-card__photo-block work-card__photo-before">
+            <img src="img/img_2928_compressed-1.jpg" alt="Лечение кариеса до">
+            <span class="work-card__label work-card__label-before">До</span>
+          </div>
+          <div class="work-card__photo-block work-card__photo-after">
+            <img src="img/img_2928_compressed-1.jpg" alt="Лечение кариеса после">
+            <span class="work-card__label work-card__label-after">После</span>
+          </div>
+          <span class="work-card__tag">Лечение кариеса</span>
+        </div>
+        <div class="work-card__body">
+          <span class="work-card__doctor">Махмуд Османжанович · Детский стоматолог</span>
+          <h3>Лечение кариеса</h3>
+          <p><b>Срок лечения:</b> 1 посещение</p>
+          <p class="work-card__desc">Девочка 4 года. Жалобы на боли и эстетический дефект. Было лечение 12 зубов.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== About ===== -->
+<section class="about section" id="about">
+  <div class="container about__inner">
+    <div class="about__media">
+      <img class="about__img-main" src="img/ala5-3-iz-71-scaled.jpg" alt="Клиника Ala Clinic">
+      <img class="about__img-sm" src="img/img_4795_compressed.jpg" alt="Кабинет клиники">
+      <div class="about__badge"><b>10+</b><span>лет заботимся об улыбках Алматы</span></div>
+    </div>
+    <div class="about__content">
+      <span class="section__label">О клинике</span>
+      <h2>Мы — современная стоматологическая клиника с опытными врачами и передовым оборудованием</h2>
+      <p>Лечим взрослых и детей, делаем всё, чтобы пациент чувствовал себя спокойно и уверенно. Предлагаем полный спектр услуг — от профилактики и лечения кариеса до сложной имплантации и восстановления улыбки.</p>
+      <div class="about__cta">
+        <a href="#services" class="btn btn--accent">Услуги и цены</a>
+        <a href="#doctors" class="btn btn--outline">Наши врачи</a>
+      </div>
+      <div class="about__stats">
+        <div><b>10+</b><span>лет успешной работы в стоматологии</span></div>
+        <div><b>10 000+</b><span>довольных пациентов каждый год</span></div>
+        <div><b>15+</b><span>врачей различных специальностей</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Reviews ===== -->
+<section class="reviews section" id="reviews">
+  <div class="container">
+    <div class="section__head">
+      <div><span class="section__label">Отзывы</span><h2>Что говорят наши пациенты</h2></div>
+      <a class="btn btn--outline" href="https://2gis.kz/almaty" target="_blank" rel="noopener"><img src="img/2gis.svg" alt="2ГИС" class="btn-icon">Отзывы из 2ГИС</a>
+    </div>
+    <div class="reviews__grid">
+      <article class="review-card">
+        <p class="review-card__text">«Прошло 2 года после установки виниров и имплантов — ощущение, будто я с этими зубами родилась! Результат идеальный, никакого дискомфорта. Безмерно благодарна врачу Исламу Шамшидиновичу за его мастерство и всей команде клиники за чуткость и профессионализм. В этом году закончили полное лечение и протезирование моему брату — он тоже очень доволен. Ни боли, ни страха!»</p>
+        <div class="review-card__footer"><div class="review-card__avatar">Б</div><div><b>Bayansulu Nuraliyeva</b><span>Установка виниров и имплантов · отзыв из 2ГИС</span></div></div>
+      </article>
+      <article class="review-card">
+        <p class="review-card__text">«Хочу написать отзыв и поблагодарить Назым Нурлановну ❤️ Она прекрасный стоматолог, профессионал своего дела. Пролечила все зубы у неё, вообще безболезненно и приятно прошло лечение 😊 Она сама тоже очень приятная, советую данную клинику, персонал тоже приветливый»</p>
+        <div class="review-card__footer"><div class="review-card__avatar">A</div><div><b>Assylzhan Nurlankyzy</b><span>Пролечила все зубы · отзыв из 2ГИС</span></div></div>
+      </article>
+      <article class="review-card">
+        <p class="review-card__text">«Хочу от всей души поблагодарить Ala Clinic и, конечно, нашего стоматолога Гульдару Жанартовну! Привели на приём маленькую дочь и очень волновались. Но Гульдара Жанартовна просто волшебница — с такой добротой и профессионализмом подошла к ребёнку, что страх улетучился за минуту. Дочка вышла с улыбкой и сказала: “это было совсем не страшно”. Спасибо за человечность и заботу!»</p>
+        <div class="review-card__footer"><div class="review-card__avatar">Н</div><div><b>Низамдун Даутов</b><span>Детская стоматология · отзыв из 2ГИС</span></div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="faq section">
+  <div class="container faq__inner">
+    <div class="faq__head"><span class="section__label">FAQ</span><h2>Часто задаваемые вопросы</h2></div>
+    <div class="faq__list">
+      <details class="faq-item" open><summary><span>01</span> Больно ли лечить зубы?<i></i></summary><p>Нет. Мы используем современную аппликационную и инъекционную анестезию, а при необходимости — лечение во сне (седация). Пациенты отмечают полное отсутствие боли и дискомфорта.</p></details>
+      <details class="faq-item"><summary><span>02</span> Какие виды анестезии используются?<i></i></summary><p>Мы применяем местную анестезию последнего поколения, а также седацию и общий наркоз севофлураном — безопасный метод, который подходит даже маленьким детям.</p></details>
+      <details class="faq-item"><summary><span>03</span> Как понять, что мне нужен имплант?<i></i></summary><p>Если у вас отсутствует один или несколько зубов, имплант — самое надёжное решение: он восстанавливает функцию жевания и предотвращает смещение соседних зубов. Точный ответ даст бесплатная консультация с КТ-диагностикой.</p></details>
+      <details class="faq-item"><summary><span>04</span> Можно ли вылечить кариес без сверления?<i></i></summary><p>На ранних стадиях — да, применяются методики ICON и глубокое фторирование. Поэтому так важны регулярные профилактические осмотры раз в полгода.</p></details>
+      <details class="faq-item"><summary><span>05</span> Как ухаживать за зубами после отбеливания?<i></i></summary><p>Первые 48 часов избегайте красящих продуктов (кофе, чай, вино, ягоды), используйте мягкую щётку и пасту для чувствительных зубов, а также ополаскиватель без спирта.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Consultation ===== -->
+<section class="consult section" id="consult">
+  <div class="container consult__inner">
+    <div class="consult__form-wrap">
+      <h2>Запишитесь на бесплатную консультацию с врачом</h2>
+      <p>Оставьте заявку — мы свяжемся с вами в ближайшее время. <b>Заявка с сайта даёт скидку 10% на лечение.</b></p>
+      <form class="consult__form" id="consultForm">
+        <input type="text" name="name" placeholder="Ваше имя" required>
+        <input type="tel" name="phone" placeholder="+7 (___) ___ __ __" required>
+        <select name="branch">
+          <option value="">— Выберите филиал (необязательно) —</option>
+          <option>ул. Егизбаева, 5 к4</option>
+          <option>ул. Толе би 189/3</option>
+        </select>
+        <div class="consult__contact-way">
+          <span>Удобный способ связи:</span>
+          <label><input type="radio" name="way" value="call" checked><span>Звонок</span></label>
+          <label><input type="radio" name="way" value="whatsapp"><span>WhatsApp</span></label>
+        </div>
+        <button type="submit" class="btn btn--accent btn--lg">Отправить</button>
+        <p class="consult__note">Отправляя данные, вы соглашаетесь с Политикой конфиденциальности</p>
+      </form>
+      <div class="consult__success" id="consultSuccess" hidden>
+        <b>Спасибо! Заявка отправлена 🎉</b><p>Мы свяжемся с вами в ближайшее время.</p>
+      </div>
+    </div>
+    <div class="consult__side">
+      <div class="consult__photo"><img src="img/consultation-form.png" alt="Менеджер клиники"><div class="consult__photo-name"><b>Максатова Кристина</b><span>Менеджер</span></div></div>
+      <p class="consult__alt">Или звоните нам, работаем без выходных с 10:00 до 23:00</p>
+      <a class="consult__phone" href="tel:+77000919141">+7 (700) 091 91 41</a>
+      <a class="consult__phone" href="tel:+77080919141">+7 (708) 091 91 41</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Contacts ===== -->
+<section class="contacts section" id="contacts">
+  <div class="container">
+    <div class="section__head"><div><span class="section__label">Контакты</span><h2>Как нас найти</h2></div></div>
+    <div class="contacts__grid">
+      <div class="contact-card">
+        <h3>ЖК ALA PARK</h3>
+        <p>Улица Егизбаева, 5 к4, 1 этаж<br>Бостандыкский район, Алматы, 050046</p>
+        <a href="tel:+77080919141">+7 (708) 091 91 41</a>
+        <span class="contact-card__hours">Ежедневно с 10:00 до 23:00</span>
+      </div>
+      <div class="contact-card">
+        <h3>ЖК «Nomad»</h3>
+        <p>ул. Толе би 189/3<br>Алматы</p>
+        <a href="tel:+77000919141">+7 (700) 091 91 41</a>
+        <span class="contact-card__hours">Ежедневно с 10:00 до 23:00</span>
+      </div>
+      <div class="contact-card contact-card--accent">
+        <h3>Записаться на приём</h3>
+        <p>Бесплатная консультация и скидка 10% при заявке с сайта</p>
+        <button class="btn btn--light" data-open-modal>Записаться на приём</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a href="#" class="logo logo--light"><img src="img/logo-new-e1750850565976.png" alt="Ala Clinic"></a>
+        <p>Ala Clinic — предоставляем современные стоматологические решения для здоровья и красивой улыбки</p>
+        <div class="footer__branches">
+          <div><b>ЖК ALA PARK</b><span>ул. Егизбаева, 5 к4 · +7 (708) 091 91 41</span></div>
+          <div><b>ЖК «Nomad»</b><span>ул. Толе би 189/3 · +7 (700) 091 91 41</span></div>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Услуги</h4>
+        <a href="#services">Хирургия (имплантация)</a><a href="#services">Ортодонтия</a><a href="#services">Ортопедия</a><a href="#services">Детская стоматология</a><a href="#services">Лечение зубов</a>
+      </div>
+      <div class="footer__col">
+        <h4>О клинике</h4>
+        <a href="#about">О клинике</a><a href="#doctors">Наши врачи</a><a href="#works">Наши работы</a><a href="#reviews">Отзывы</a><a href="#contacts">Контакты</a>
+      </div>
+      <div class="footer__col">
+        <h4>Будьте в курсе новостей</h4>
+        <p class="footer__small">Смотрите живые фотографии, акции и полезные советы</p>
+        <button class="btn btn--accent btn--sm" data-open-modal>Получить консультацию</button>
+      </div>
+    </div>
+    <div class="footer__legal">
+      <p>© 2025, ТОО «Ala Clinic». Юридический адрес: 050006, Республика Казахстан, город Алматы, Бостандыкский район, улица Егизбаева, дом 5, корпус 4, н.п. 77. БИН: 221140051243. Лицензия на осуществление медицинской деятельности: 23019096. Режим работы: с 10:00 до 23:00, без выходных.</p>
+      <p>Сайт носит информационный характер и предназначен исключительно для ознакомительных и образовательных целей. Информация на сайте не является медицинской рекомендацией и не заменяет консультацию врача. Указанные цены и услуги не являются публичной офертой. Актуальные цены уточняйте у администраторов клиники.</p>
+  </div>
+</footer>
+
+<!-- ===== Mobile quick actions ===== -->
+<div class="mobile-bar">
+  <a href="tel:+77080919141" class="mobile-bar__btn">📞 Позвонить</a>
+  <a href="https://wa.me/77080919141" target="_blank" rel="noopener" class="mobile-bar__btn">💬 WhatsApp</a>
+  <button class="mobile-bar__btn mobile-bar__btn--accent" data-open-modal>Записаться</button>
+</div>
+
+<!-- ===== Modal ===== -->
+<div class="modal" id="modal" hidden>
+  <div class="modal__overlay" data-close-modal></div>
+  <div class="modal__box">
+    <button class="modal__close" data-close-modal aria-label="Закрыть">×</button>
+    <h3>Оставьте заявку</h3>
+    <p>Перезвоним в течение 15 минут в рабочее время. Скидка 10% при заявке с сайта</p>
+    <form id="modalForm">
+      <input type="text" name="name" placeholder="Ваше имя" required>
+      <input type="tel" name="phone" placeholder="+7 (___) ___ __ __" required>
+      <button type="submit" class="btn btn--accent">Отправить</button>
+    </form>
+    <p class="modal__ok" hidden>Спасибо! Мы свяжемся с вами в ближайшее время 🎉</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

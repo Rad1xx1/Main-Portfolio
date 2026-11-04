@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Silver Climat — кондиционеры для дома и бизнеса. Подбор, установка и сервис в Алматы и области.">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#173e32">
+  <title>Silver Climat — климат, в котором хочется жить</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/manrope-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/hero.webp" as="image">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h15M13 5l7 7-7 7"/></symbol>
+    <symbol id="phone" viewBox="0 0 24 24"><path d="m7 3 3 5-2.5 2a15 15 0 0 0 6.5 6.5l2-2.5 5 3-1 3c-.2.7-.8 1-1.5 1C10 20.5 3.5 14 3 5.5c0-.7.3-1.3 1-1.5l3-1Z"/></symbol>
+    <symbol id="air" viewBox="0 0 40 32"><path d="M2 9c8-7 17 7 26 0l9-7M2 17c8-7 17 7 26 0l9-7M2 25c8-7 17 7 26 0l9-7"/></symbol>
+    <symbol id="close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+    <symbol id="menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+    <symbol id="chat" viewBox="0 0 24 24"><path d="M20 11.5a8.5 8.5 0 0 1-12.8 7.3L3 20l1.2-4.2A8.5 8.5 0 1 1 20 11.5Z"/><path d="m8 8 1.5 2-1 1a6 6 0 0 0 3.5 3.5l1-1 2 1.5"/></symbol>
+  </svg>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a class="wordmark" href="#" aria-label="Silver Climat — на главную">SILVER CLIMAT<svg class="air-mark"><use href="#air"/></svg></a>
+      <nav class="desktop-nav" aria-label="Основная навигация">
+        <a href="#catalog">Каталог</a><a href="#service">Монтаж и сервис</a><a href="#contacts">Контакты</a>
+      </nav>
+      <div class="header-actions"><a class="header-phone" href="tel:+77073471974"><svg class="icon"><use href="#phone"/></svg>+7 707 347 19 74</a><a class="square-link" href="#selection" aria-label="Подобрать кондиционер"><svg class="icon"><use href="#arrow"/></svg></a></div>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Открыть меню"><svg class="icon"><use href="#menu"/></svg></button>
+    </div>
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Мобильная навигация" hidden>
+      <a href="#catalog">Каталог</a><a href="#service">Монтаж и сервис</a><a href="#contacts">Контакты</a><a href="tel:+77073471974">+7 707 347 19 74</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title"><span>Климат,</span><span>в котором</span><span>хочется жить.</span></h1>
+        <p class="hero-description">Кондиционеры для дома и бизнеса.<br class="desktop-break"> Подбор, установка и сервис в Алматы и области.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#selection">Подобрать кондиционер</a><a class="text-link" href="#catalog">Смотреть каталог<svg class="icon"><use href="#arrow"/></svg></a></div>
+        <p class="hero-note">Поможем разобраться в моделях и выбрать своё.</p>
+      </div>
+      <div class="hero-photo"><img src="assets/hero.webp" width="1122" height="1402" alt="Светлая гостиная с кондиционером, оливковым деревом и видом на горы — иллюстрация" fetchpriority="high"></div>
+    </section>
+    <div class="brand-strip" aria-label="Бренды в каталоге компании">
+      <div class="brands wrap"><span><img src="assets/brand-almacom.webp" alt="Almacom" width="180" height="84"></span><span><img src="assets/brand-gree.webp" alt="GREE" width="180" height="84"></span><span><img src="assets/brand-lg.webp" alt="LG" width="180" height="84"></span><span><img src="assets/brand-samsung.webp" alt="Samsung" width="180" height="84"></span><span><img src="assets/brand-otex.webp" alt="OTEX" width="180" height="84"></span></div>
+    </div>
+    <section class="catalog section wrap" id="catalog" aria-labelledby="catalog-title">
+      <div class="section-heading"><h2 id="catalog-title">Комфорт начинается<br> с правильного выбора</h2><p>Для квартиры, дома или рабочего пространства. Выберите направление — поможем с моделью и комплектацией.</p></div>
+      <div class="selection" id="selection">
+        <div class="area-control"><div class="area-label"><label for="room-area">Площадь комнаты</label><output id="area-value" for="room-area">25 м²</output></div><input id="room-area" type="range" min="10" max="100" step="5" value="25" aria-describedby="selection-note"><div class="range-limits"><span>10 м²</span><span>100 м²</span></div></div>
+        <div class="power-result">Ориентир: <strong id="power-value" aria-live="polite">2,5 кВт</strong></div>
+        <a class="button button-dark" id="discuss-selection" href="#contacts">Обсудить подбор<svg class="icon"><use href="#arrow"/></svg></a>
+      </div>
+      <div class="filters" role="group" aria-label="Фильтр по бренду">
+        <button class="filter active" data-brand="all" aria-pressed="true">Все</button><button class="filter" data-brand="ALMACOM" aria-pressed="false">ALMACOM</button><button class="filter" data-brand="GREE" aria-pressed="false">GREE</button><button class="filter" data-brand="LG" aria-pressed="false">LG</button><button class="filter" data-brand="SAMSUNG" aria-pressed="false">SAMSUNG</button><button class="filter" data-brand="OTEX" aria-pressed="false">OTEX</button>
+      </div>
+      <div class="product-grid" id="product-grid">
+        <article class="product" data-product="almacom" data-brand="ALMACOM"><div class="product-image"><img src="assets/almacom-inverter.webp" alt="Кондиционер Almacom серии Inverter" width="600" height="600" loading="eager"></div><h3>ALMACOM</h3><p class="product-name">Серия Inverter</p><p class="product-price">Стоимость и наличие — по запросу</p><button class="text-link product-details" data-id="almacom">Узнать подробнее<svg class="icon"><use href="#arrow"/></svg></button></article>
+        <article class="product" data-product="gree" data-brand="GREE"><div class="product-image"><img src="assets/gree-bora.webp" alt="Настенный кондиционер GREE Bora" width="700" height="800" loading="eager"></div><h3>GREE</h3><p class="product-name">Настенные системы</p><p class="product-price">Стоимость и наличие — по запросу</p><button class="text-link product-details" data-id="gree">Узнать подробнее<svg class="icon"><use href="#arrow"/></svg></button></article>
+        <article class="product" data-product="lg" data-brand="LG"><div class="product-image"><img src="assets/lg-artcool.webp" alt="Чёрный настенный кондиционер LG ARTCOOL Mirror" width="700" height="800" loading="eager"></div><h3>LG</h3><p class="product-name">ARTCOOL Mirror</p><p class="product-price">Стоимость и наличие — по запросу</p><button class="text-link product-details" data-id="lg">Узнать подробнее<svg class="icon"><use href="#arrow"/></svg></button></article>
+      </div>
+      <div id="brand-request" class="brand-request" hidden><div><h3 id="brand-request-title">Подберём оборудование</h3><p>Уточним актуальные модели, комплектацию и стоимость под вашу задачу.</p></div><div class="brand-request-actions"><a id="brand-catalog-link" class="text-link" href="https://silverclimat.kz/shop/" target="_blank" rel="noopener noreferrer">Каталог компании<svg class="icon"><use href="#arrow"/></svg></a><a class="button button-dark" id="brand-request-link" href="#contacts">Обсудить подбор</a></div></div>
+      <p class="selection-note" id="selection-note">Подбор по площади — предварительный. Учитываем высоту потолка, окна и теплопритоки.</p>
+    </section>
+    <section class="service section" id="service" aria-labelledby="service-title">
+      <div class="service-layout wrap"><div class="service-photo"><img src="assets/service.webp" alt="Мастер обслуживает настенный кондиционер — иллюстративная сцена" width="1448" height="1086" loading="eager"></div><div class="service-copy"><h2 id="service-title">От выбора<br>до первого<br class="service-break"> прохладного дня</h2><ol class="steps"><li><span class="step-number">01</span><div><h3>Подбор оборудования</h3><p>Обсудим помещение и задачу.</p></div></li><li><span class="step-number">02</span><div><h3>Монтаж</h3><p>Согласуем объём работ и стоимость.</p></div></li><li><span class="step-number">03</span><div><h3>Сервис</h3><p>Поможем с обслуживанием оборудования.</p></div></li></ol></div></div>
+    </section>
+    <section class="contact section" id="contacts" aria-labelledby="contact-title">
+      <div class="contact-layout wrap"><div class="contact-copy"><h2 id="contact-title">Давайте настроим<br>ваш комфорт.</h2><p>Расскажите о помещении — начнём с подбора.</p><div class="contact-links"><a href="tel:+77073471974">+7 707 347 19 74</a><a class="secondary-phone" href="tel:+77773530048">+7 777 353 00 48</a></div></div>
+        <form id="request-form" class="request-form">
+          <div class="field"><label for="customer-name">Ваше имя</label><input id="customer-name" name="name" type="text" placeholder="Как к вам обращаться?" autocomplete="name" required minlength="2" maxlength="80"></div>
+          <div class="field"><label for="customer-phone">Телефон</label><input id="customer-phone" name="phone" type="tel" placeholder="+7 ___ ___ __ __" autocomplete="tel" inputmode="tel" required maxlength="24" aria-describedby="phone-error"><span class="field-error" id="phone-error" aria-live="polite"></span></div>
+          <div class="field"><label for="request-type">Что нужно?</label><select id="request-type" name="request"><option value="Подбор кондиционера">Подбор кондиционера</option><option value="Монтаж кондиционера">Монтаж кондиционера</option><option value="Сервисное обслуживание">Сервисное обслуживание</option><option value="Оборудование для бизнеса">Оборудование для бизнеса</option></select></div>
+          <p class="selected-context" id="selected-context" hidden></p>
+          <button class="button button-lime" type="submit">Подготовить запрос в WhatsApp<svg class="icon"><use href="#arrow"/></svg></button>
+          <p class="form-note">Откроется готовый текст. Отправляете вы сами.</p>
+        </form>
+      </div>
+      <footer class="footer wrap"><div class="footer-main"><a class="wordmark" href="#" aria-label="Silver Climat — наверх">SILVER CLIMAT<svg class="air-mark"><use href="#air"/></svg></a><p>Пн–Пт 09:00–18:00 · Сб 09:00–15:00</p><p>Алматы и область</p><a href="https://www.instagram.com/air_conditioning_almaty/" target="_blank" rel="noopener noreferrer">Instagram<svg class="icon"><use href="#arrow"/></svg></a></div><div class="footer-note"><span>Демонстрационная концепция сайта</span><span>Интерьер и сцена монтажа — иллюстрации. Цены и наличие уточняйте у менеджера.</span></div></footer>
+    </section>
+  </main>
+  <div class="mobile-contact-bar"><a href="tel:+77073471974"><svg class="icon"><use href="#phone"/></svg>Позвонить</a><a href="https://wa.me/77073471974" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#chat"/></svg>WhatsApp</a></div>
+  <dialog id="product-dialog" class="product-dialog" aria-labelledby="product-dialog-title"><button class="dialog-close" data-close="product-dialog" aria-label="Закрыть карточку"><svg class="icon"><use href="#close"/></svg></button><div class="dialog-product-image"><img id="dialog-product-image" src="assets/almacom-inverter.webp" alt=""></div><div class="dialog-product-copy"><p class="dialog-brand" id="dialog-brand"></p><h2 id="product-dialog-title"></h2><p id="dialog-description"></p><p class="dialog-availability">Стоимость, комплектацию и наличие уточняйте у менеджера.</p><button class="button button-dark" id="choose-product">Обсудить эту модель<svg class="icon"><use href="#arrow"/></svg></button><a class="text-link source-link" id="product-source" href="https://silverclimat.kz/shop/" target="_blank" rel="noopener noreferrer">На сайте компании<svg class="icon"><use href="#arrow"/></svg></a></div></dialog>
+  <dialog id="request-dialog" class="request-dialog" aria-labelledby="request-dialog-title"><button class="dialog-close" data-close="request-dialog" aria-label="Закрыть предпросмотр"><svg class="icon"><use href="#close"/></svg></button><h2 id="request-dialog-title">Ваш запрос готов</h2><p>Проверьте текст перед переходом в WhatsApp.</p><label class="sr-only" for="request-preview">Текст запроса</label><textarea id="request-preview" readonly rows="8"></textarea><a id="whatsapp-draft" class="button button-dark" href="https://wa.me/77073471974" target="_blank" rel="noopener noreferrer">Перейти в WhatsApp<svg class="icon"><use href="#arrow"/></svg></a><p class="preview-note">Запрос ещё не отправлен. Нажмите «Отправить» в WhatsApp, когда будете готовы.</p></dialog>
+  <noscript><div class="noscript-note">Для подбора по площади и фильтров включите JavaScript. Мы также на связи: <a href="tel:+77073471974">+7 707 347 19 74</a>.</div></noscript>
+</body>
+</html>

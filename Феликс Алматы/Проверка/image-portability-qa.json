@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "date": "2026-10-31T10:33:41.431Z",
+  "browser": "Installed Microsoft Edge",
+  "root": "C:\\Users\\Asus2025\\Documents\\Работа\\Сайты\\Феликс Алматы — сайт\\dist",
+  "isolatedWithoutAssets": true,
+  "decodedPrimaryImages": 209,
+  "softFurnitureImages": 12,
+  "galleryImages": 8,
+  "viewports": [
+    390,
+    768,
+    1440
+  ],
+  "checks": [
+    "All 209 primary images decoded by Edge",
+    "12 soft-furniture cards work without assets directory",
+    "Photos survive sorting and adding to selection",
+    "Product gallery works without assets directory; last thumbnail decoded",
+    "Local server also loads all soft-furniture cards"
+  ],
+  "errors": [],
+  "failedRequests": []
+}

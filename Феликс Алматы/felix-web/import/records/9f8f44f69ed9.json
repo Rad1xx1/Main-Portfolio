@@ -1,0 +1,23 @@
+{
+  "id": "item-9f8f44f69ed9",
+  "title": "Сувенир \"Терцет\" (Скульптура)",
+  "source": "https://www.felix-almaty.kz/product-page/сувенир-терцет-скульптура",
+  "checked_at": "2026-10-31T10:07:38.315Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_2bcbf2223ad14be2af6c042c6985510f~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "width": 220,
+      "height": 220
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "accessories"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-9f8f44f69ed9.jpg"
+}

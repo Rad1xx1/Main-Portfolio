@@ -1,0 +1,65 @@
+{
+  "id": "item-7743891311bf",
+  "title": "Кресло CHAIRMAN 785",
+  "source": "https://www.felix-almaty.kz/product-page/кресло-chairman-785",
+  "checked_at": "2026-10-31T10:06:19.248Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_8b062fede1d6403eae30245c72b253af~mv2_d_1320_1806_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1320,
+      "height": 1806
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_bc0bf43028f24ee9a27a78500e35bb7b~mv2_d_1347_1803_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1347,
+      "height": 1803
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_2b4f698303ae442ba617e65579fca26c~mv2_d_1380_1856_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1380,
+      "height": 1856
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_85111a97e7244a9089f732ff1c6070b2~mv2_d_1320_1806_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1320,
+      "height": 1806
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_1d28c157bfd541a89754e4ca5c559e7f~mv2_d_1440_1280_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1440,
+      "height": 1280
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_ba2b634bf42d4967b3e6e53f0004ad9e~mv2_d_1320_1806_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1320,
+      "height": 1806
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_d860c4740d294aa095d5f2cbe48bea67~mv2_d_1320_1806_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1320,
+      "height": 1806
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "Обивка Ткань стандарт/Ткань TW",
+    "Подлокотники Пластиковые",
+    "Механизм качания Механизм качания с возможностью фиксации кресла в рабочем положении",
+    "Крестовина Пластиковая черная",
+    "Газпатрон 3 категории по стандарту Germany DIN 4550",
+    "Ролики Стандарт BIFMA 5,1 (США). Диаметр штока 11 мм. Материал - нейлон",
+    "Каркас Немонолитный",
+    "Набивка кресла Стандартный поролон плотности 25-40 кг/м3",
+    "Рекомендованная максимальная нагрузка 120 кг.",
+    "Срок гарантии 2 года"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "executive-chairs",
+    "staff-chairs"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-7743891311bf.jpg"
+}

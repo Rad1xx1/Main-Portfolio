@@ -1,0 +1,38 @@
+{
+  "id": "item-b6d16f97dd64",
+  "title": "Кресло руководителя \"Боттичелли\"",
+  "source": "https://www.felix-almaty.kz/product-page/кресло-руководителя-боттичелли",
+  "checked_at": "2026-10-31T10:07:28.733Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_3aae767953ac40649ba38b90e99204c8~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 900,
+      "height": 600
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_2f761486db9f4c8eb6d6ab500307638d~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 460,
+      "height": 567
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_b38a2fcf53b3402ab9a5e1baaeb29003~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 453,
+      "height": 600
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_73ae37d82c6d45b09d4dd52cdc9c70aa~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 900,
+      "height": 600
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "executive-chairs"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-b6d16f97dd64.jpg"
+}

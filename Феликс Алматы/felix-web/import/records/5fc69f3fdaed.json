@@ -1,0 +1,68 @@
+{
+  "id": "item-5fc69f3fdaed",
+  "title": "Кабинет \"FIRST\"",
+  "source": "https://www.felix-almaty.kz/product-page/кабинет-first",
+  "checked_at": "2026-10-31T10:07:19.929Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_454582edf9c644369e133895bdac1037~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 3900,
+      "height": 2925
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_311c57f54ddb49ffa72318e672c07d58~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 3900,
+      "height": 2925
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_955ec242830b45e990ac7dd4193cf9a1~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1061
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_f0b88c8bd8864bceb4653c846ab3b759~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1061
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_e39eea6201174dc5a3fd4216e0c38a2a~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1125
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_7f1016e42807494fb15c4a871083d402~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1125
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_dec583a80a9041eaa5be65ebe228a622~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1061
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_e303cd497a7f4d0286a0118530515bda~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1061
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_30e980b915a04fb295832ece47773f30~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1061
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_512fb5a10f4145f4b5dba4346032df66~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1061
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "executive"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-5fc69f3fdaed.jpg"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "item-2c156424c602",
+  "title": "CHAIRMAN 405 ЭКО",
+  "source": "https://www.felix-almaty.kz/product-page/chairman-405-эко",
+  "checked_at": "2026-10-31T10:04:32.668Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_1e51ca3b64a94638908dae945971b535~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_54bacf3210d042eea9d643d9ff4d0e58~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_1ec8e1786aff4da19956b2a4c5586a57~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_66a9c766f5fc448abf40cbb3e44df3a0~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_337549f24dad46659f6b0bbaae7891c5~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "Материалы: Экокожа",
+    "Подлокотники: Металлические хромированные с мягкими накладками, обитыми натуральной кожей или экокожей",
+    "Механизм качания: Усиленный с возможностью фиксации кресла в рабочем положении. Регулировка кресла по высоте",
+    "Крестовина: Металлическая хромированная, усиленная",
+    "Газ. патрон: 4 класс по стандарту Germany DIN 4550",
+    "Ролики: Стандарт BIFMA 5,1 (США), диаметр штока 11 мм, покрытие – нейлон",
+    "Каркас: Монолитный",
+    "Набивка: Вспененный полиуретан плотностью 22-25 кг/куб.м, опенформ, синтепон, синтепух",
+    "Максимальная рекомендованная нагрузка: до 250 кг",
+    "Гарантия производителя: 2 года"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "executive-chairs"
+  ],
+  "published_specs": [
+    "250 кг"
+  ],
+  "local_image": "images/item-2c156424c602.jpg"
+}

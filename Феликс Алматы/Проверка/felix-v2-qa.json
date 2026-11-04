@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-30T16:24:07.376Z",
+  "file": "C:\\Users\\Asus2025\\Documents\\ChatGPT\\веб разработка\\felix-site",
+  "standalone": true,
+  "images": "6 catalog photos + hero, planning, modal, selection loaded without assets folder",
+  "animationCount": 11,
+  "viewports": [
+    360,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "errors": [],
+  "checks": [
+    "Standalone HTML copied alone: no dependent file or network requests",
+    "Images remain visible after selection, filtering and dialogs",
+    "Reveal, product and modal animations run",
+    "Reduced motion disables animation",
+    "No overflow at 360/390/768/1024/1440 px",
+    "Source credits work within standalone",
+    "No console errors"
+  ],
+  "method": "Playwright + installed Chrome; Browser plugin not available"
+}

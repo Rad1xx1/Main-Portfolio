@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Концепция сайта Coffee Original: кофе, завтраки и выбор кофейни в Алматы.">
+  <meta name="theme-color" content="#f4f0e8">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Coffee Original — кофе в твоём ритме</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/manrope-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/coffee-morning.webp" as="image">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <svg class="svg-defs" aria-hidden="true"><defs>
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></symbol>
+    <symbol id="search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="7.5"/><path d="m16 16 5 5"/></symbol>
+    <symbol id="wifi" viewBox="0 0 24 24"><path d="M2 8a16 16 0 0 1 20 0M5.5 11.5a11 11 0 0 1 13 0M9 15a5 5 0 0 1 6 0"/><circle cx="12" cy="19" r=".8" fill="currentColor"/></symbol>
+    <symbol id="quiet" viewBox="0 0 24 24"><path d="m3 3 18 18M9 9v8.5a2.5 2.5 0 1 1-2.5-2.5H9M9 5V3l10-2v12M14 4l5-1M19 13.5a2.5 2.5 0 0 0-2.5-2.5"/></symbol>
+    <symbol id="close" viewBox="0 0 24 24"><path d="m5 5 14 14M19 5 5 19"/></symbol>
+  </defs></svg>
+  <a class="skip" href="#main">К содержимому</a>
+  <header class="header wrap">
+    <a class="brand" href="#" aria-label="Coffee Original — в начало">coffee original.</a>
+    <button class="nav-toggle" aria-label="Открыть меню" aria-controls="navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav id="navigation" aria-label="Основная навигация"><a href="#menu">Меню</a><a href="#atmosphere">Атмосфера</a><a href="#cafes">Кофейни</a></nav>
+    <a class="header-cta link" href="#cafes">Выбрать кофейню <svg><use href="#arrow"/></svg></a>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy"><h1 id="hero-title"><span>Твой день.</span><span>Твой кофе.</span><span>Твой Original.</span></h1>
+        <p>Для неспешных завтраков, рабочих идей<br class="desktop-break"> и встреч в Алматы.</p>
+        <div class="hero-actions"><a class="button" href="#cafes">Найти свою кофейню <svg><use href="#arrow"/></svg></a><a class="link" href="#menu">Смотреть меню</a></div>
+      </div>
+      <figure class="hero-photo"><img src="assets/coffee-morning.webp" width="1448" height="1086" alt="Иллюстрация концепции: чашка капучино и круассан на залитом солнцем столе" fetchpriority="high"><figcaption>Маленькая пауза. Большое удовольствие.</figcaption></figure>
+    </section>
+    <div class="rituals wrap"><span>Кофе и завтраки</span><span>Пространство без фоновой музыки</span><span>Встречи в твоём ритме</span></div>
+    <section id="menu" class="menu-section wrap" aria-labelledby="menu-title">
+      <div class="section-heading"><h2 id="menu-title">С чего начнётся<br>твой день?</h2><p>От первого глотка до последней крошки.</p></div>
+      <div class="menu-columns">
+        <article><span class="index">01</span><h3>Кофе</h3><p>Классика, которую хочется<br>повторить.</p></article>
+        <article><span class="index">02</span><h3>Завтраки</h3><p>Для бодрого начала<br>и неспешного утра.</p></article>
+        <article><span class="index">03</span><h3>Десерты</h3><p>Небольшое удовольствие<br>к любимому напитку.</p></article>
+      </div>
+      <div class="menu-bottom"><button class="link accent" data-open="menu-dialog">Перейти в меню <svg><use href="#arrow"/></svg></button><p class="fine">Ассортимент и цены уточняйте в меню выбранной кофейни.</p></div>
+    </section>
+    <section id="atmosphere" class="atmosphere" aria-labelledby="atmosphere-title"><div class="atmosphere-inner wrap">
+      <img src="assets/quiet-interior.webp" width="1448" height="1086" loading="lazy" alt="Иллюстративная концепция интерьера: светлая кофейня с деревянными столами и растениями">
+      <div class="atmosphere-copy"><h2 id="atmosphere-title">Место для<br>твоего ритма.</h2><p>Рабочие идеи за чашкой кофе. Завтрак без спешки. Встречи, которые хочется продлить.</p>
+        <ul class="amenities"><li><svg><use href="#quiet"/></svg>Без фоновой музыки</li><li><svg><use href="#wifi"/></svg>Wi-Fi для твоих планов</li></ul>
+        <a class="link accent" href="#cafes">Выбрать кофейню <svg><use href="#arrow"/></svg></a>
+      </div>
+    </div></section>
+    <section id="cafes" class="cafes wrap" aria-labelledby="cafes-title">
+      <div class="section-heading"><h2 id="cafes-title">Твой Original —<br>рядом.</h2><p>Выбери адрес, а мы поможем<br>спланировать встречу.</p></div>
+      <div class="filters"><div class="filter-group" role="group" aria-label="Формат кофейни"><button class="filter active" data-filter="all" aria-pressed="true">Все кофейни</button><button class="filter" data-filter="women" aria-pressed="false">Only for Women</button></div><label class="search"><svg><use href="#search"/></svg><span class="sr-only">Поиск по улице или району</span><input id="branch-search" type="search" placeholder="Поиск по улице или району" autocomplete="off"></label></div>
+      <div class="branch-grid"><div class="branch-list-container"><p id="results-status" class="sr-only" role="status" aria-live="polite"></p><div id="branch-list" class="branch-list"></div><button id="more-branches" class="link accent">Ещё адреса <svg><use href="#arrow"/></svg></button></div>
+        <aside class="branch-detail" aria-label="Выбранная кофейня"><p class="detail-label">Твоя кофейня</p><h3 id="detail-address">Сейфуллина,<br>416 к2</h3><div id="detail-features" class="detail-features"></div><p class="detail-description">Уточните свободные места и часы работы у администратора.</p><button class="button" id="booking-open">Запросить бронь <svg><use href="#arrow"/></svg></button><a class="link" id="map-link" href="https://2gis.kz/almaty/search/Coffee%20Original%20Сейфуллина%20416%20к2" target="_blank" rel="noopener noreferrer">Построить маршрут <svg><use href="#arrow"/></svg></a><p class="fine">Запрос не является подтверждённой бронью.</p></aside>
+      </div>
+      <p class="branch-note fine">Актуальность адресов и условий уточняйте у кофейни. <a href="https://coffeeoriginal.taplink.ws/" target="_blank" rel="noopener noreferrer">Исходная страница сети <svg><use href="#arrow"/></svg></a></p>
+    </section>
+  </main>
+  <footer class="footer"><div class="wrap"><div class="footer-top"><a class="brand" href="#">coffee original.</a><div><a class="link" href="https://www.instagram.com/coffee.original/" target="_blank" rel="noopener noreferrer">Instagram <svg><use href="#arrow"/></svg></a><button class="link" data-open="app-dialog">Приложение <svg><use href="#arrow"/></svg></button></div></div><div class="footer-bottom"><p>Алматы. Кофе. Твой ритм.</p><p>Демонстрационный проект. Неофициальный сайт.<br>Изображения созданы для концепции и не являются фото кофеен.</p></div></div></footer>
+  <dialog id="menu-dialog" aria-labelledby="menu-dialog-title"><button class="dialog-close" data-close aria-label="Закрыть"><svg><use href="#close"/></svg></button><h2 id="menu-dialog-title">Что будем<br>пробовать?</h2><p>У филиалов могут отличаться ассортимент и цены. Выберите доступное меню или уточните его у администратора.</p><div class="dialog-links"><a class="option-link" href="https://wolt.com/ru/kaz/almaty/restaurant/coffee-original-bt" target="_blank" rel="noopener noreferrer"><span>Байтурсынова, 67<small>Меню и доставка на Wolt</small></span><svg><use href="#arrow"/></svg></a><a class="option-link" href="https://coffee-orig.kamiqr.com/menu/basic" target="_blank" rel="noopener noreferrer"><span>Рынок Алатау, ул. Алатау, 2д<small>QR-меню на KamiQR</small></span><svg><use href="#arrow"/></svg></a></div><button class="button" id="menu-to-branches">Выбрать другой филиал <svg><use href="#arrow"/></svg></button></dialog>
+  <dialog id="app-dialog" aria-labelledby="app-dialog-title"><button class="dialog-close" data-close aria-label="Закрыть"><svg><use href="#close"/></svg></button><h2 id="app-dialog-title">Original<br>под рукой.</h2><p>Приложение Coffee Original Shukr. Выберите магазин приложений для своего телефона.</p><div class="dialog-links"><a class="option-link" href="https://apps.apple.com/kz/app/coffee-original-shukr/id6547848616" target="_blank" rel="noopener noreferrer">App Store <svg><use href="#arrow"/></svg></a><a class="option-link" href="https://play.google.com/store/apps/details?id=com.coffeeoriginalnativeapp" target="_blank" rel="noopener noreferrer">Google Play <svg><use href="#arrow"/></svg></a></div></dialog>
+  <dialog id="booking-dialog" aria-labelledby="booking-title"><button class="dialog-close" data-close aria-label="Закрыть"><svg><use href="#close"/></svg></button><h2 id="booking-title">Планы<br>на кофе?</h2><p id="booking-address"></p><form id="booking-form"><div class="form-row"><label>Дата<input id="booking-date" type="date" required></label><label>Время<input id="booking-time" type="time" value="12:00" required></label></div><label>Количество гостей<select id="booking-guests"><option value="1">1 гость</option><option value="2" selected>2 гостя</option><option value="3">3 гостя</option><option value="4">4 гостя</option><option value="5">5 гостей</option><option value="6">6 гостей</option><option value="7">7 гостей</option><option value="8">8 гостей</option><option value="9">9 гостей</option><option value="10">10 гостей</option></select></label><button class="button" type="submit">Посмотреть запрос <svg><use href="#arrow"/></svg></button></form><div id="booking-preview" hidden><p class="detail-label">Сообщение администратору</p><p id="message-preview" class="message-preview"></p><a id="whatsapp-link" class="button" href="https://wa.me/77075407236" target="_blank" rel="noopener noreferrer">Открыть WhatsApp <svg><use href="#arrow"/></svg></a><button id="booking-edit" class="link">Изменить запрос</button></div><p class="fine booking-note">Бронь подтвердит администратор. На этом сайте ничего не отправляется: сообщение вы отправляете самостоятельно в WhatsApp.</p></dialog>
+  <noscript><div class="noscript">Для поиска филиалов включите JavaScript или перейдите на <a href="https://coffeeoriginal.taplink.ws/">страницу Coffee Original</a>.</div></noscript>
+</body>
+</html>

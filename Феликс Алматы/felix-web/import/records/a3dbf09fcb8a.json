@@ -1,0 +1,82 @@
+{
+  "id": "item-a3dbf09fcb8a",
+  "title": "Серия офисной мебели \"Технофорвард\" - стол рабочий прямой",
+  "source": "https://www.felix-almaty.kz/product-page/серия-офисной-мебели-технофорвард",
+  "checked_at": "2026-10-31T10:07:33.700Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_c9f7c1db7ad749d18cc2f4853fa443ff~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 600,
+      "height": 326
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_b31402b482f24d01ae6c48913a38bb9b~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 860,
+      "height": 602
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_0effab77ba1f4a7d99818f455f10f150~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 600,
+      "height": 378
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_cd592d02071c4509b6b72253fa695877~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 600,
+      "height": 427
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_9492d56026464f98823cf0d17b507e4e~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1557,
+      "height": 967
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_0eab0252b2d548019fd95d8691ce16af~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 600,
+      "height": 473
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_f18116aca98c4555a8025070f4f137d0~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 600,
+      "height": 438
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_08f724a89dd543eb8838708764885db4~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 600,
+      "height": 450
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_1317c6453ee14e02847eb4bdeaf293db~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 600,
+      "height": 409
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_2c90962ac155435b80afd0a00c6fddc8~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 600,
+      "height": 382
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "размеры (см.): 120х80х75 РАБОЧИЕ ПОВЕРХНОСТИ (СТОЛЕШНИЦЫ,ПОЛКИ ВЕРХНИЕ ШКАФОВ И ТУМБ) МДФ шлифованная толщиной 25 мм, покрытая пленкой ПВХ",
+    "КРОМКА РАБОЧИХ ПОВЕРХНОСТЕЙ Профильная фрезерованная, покрытая пленкой ПВХ по технологии «постформинг».",
+    "КАРКАСЫ СТОЛОВ ЛДСП толщиной 18 мм с тиснением поверхности типа «шагреневая кожа»",
+    "КРОМКА КАРКАСОВ СТОЛОВ Кромка ПВХ толщиной 2 мм, 0,45 мм",
+    "КАРКАСЫ ШКАФОВ И ТУМБ ЛДСП толщиной 18 мм с тиснением поверхности типа «шагреневая кожа»",
+    "КРОМКА КАРКАСОВ И ФАСАДОВ ШКАФОВ Кромка ПВХ 0,45",
+    "ЗАДНИЕ СТЕНКИ ШКАФОВ ДВП толщиной 3,2 мм",
+    "СТЕКЛЯННЫЕ ФАСАДЫ Рама МДФ в цвете «металлик» с тонированным стеклом под «бронзу» толщиной 4 мм",
+    "ГЛУХИЕ ФАСАДЫ ЛДСП 18 мм с тиснением поверхности типа «шагреневая кожа»",
+    "ЗАМКИ Замок верхнего ящика, центральный замок, замок в гардеробе",
+    "РУЧКИ Алюминиевые с межцентровым расстоянием 96 мм, цвет «металлик»",
+    "НАПРАВЛЯЮЩИЕ ЯЩИКОВ Роликовые",
+    "СОЕДИНИТЕЛЬНАЯ ФУРНИТУРА Двухкомпонентная эксцентриковая стяжка"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "work"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-a3dbf09fcb8a.jpg"
+}

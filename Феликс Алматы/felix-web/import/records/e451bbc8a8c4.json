@@ -1,0 +1,54 @@
+{
+  "id": "item-e451bbc8a8c4",
+  "title": "CHAIRMAN KIDS 105",
+  "source": "https://www.felix-almaty.kz/product-page/chairman-kids-105",
+  "checked_at": "2026-10-31T10:05:32.287Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_4b73c80db5ca4f94b6272191983f5e14~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_73ec56c54c9e4d7b9116ec6bd3192903~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_463858a8bd6048409f8a5e3695f8db8b~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_807b066a86e64e48ab4f4d4ae5885bb7~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_789e7276a9b34df0acf43fff6454117b~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "Материалы: Ткань",
+    "Подлокотники: Нет",
+    "Механизм качания: Регулировка кресла по высоте",
+    "Крестовина: Пластиковая",
+    "Газ. патрон: 3 класс по стандарту Germany DIN 4550",
+    "Ролики: Стандарт BIFMA 5,1 (США), диаметр штока 11 мм, покрытие – полиуретан",
+    "Каркас: Немонолитный",
+    "Набивка: Вспененный полиуретан плотностью 22-25 кг/куб.м",
+    "Максимальная рекомендованная нагрузка: до 60 кг",
+    "Гарантия производителя: 2 года"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "kids"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-e451bbc8a8c4.jpg"
+}

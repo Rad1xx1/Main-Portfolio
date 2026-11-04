@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "date": "2026-10-31T09:46:28.749Z",
+  "pages": [
+    "index.html",
+    "catalog.html",
+    "planning.html",
+    "about.html",
+    "contacts.html",
+    "selection.html",
+    "collection-a4.html",
+    "collection-loft.html",
+    "collection-metal.html",
+    "collection-onix.html",
+    "collection-yalta.html",
+    "collection-reception.html",
+    "404.html"
+  ],
+  "viewports": [
+    390,
+    768,
+    1440
+  ],
+  "journey": "Главная → каталог → YALTA → добавить → контакты → подборка → текст задачи; фильтр по ссылке; FAQ; мобильная навигация",
+  "errors": [],
+  "externalRequests": [],
+  "server": "404 for unknown paths; 405 for writes",
+  "method": "Playwright + installed Chrome. Browser plugin not available."
+}

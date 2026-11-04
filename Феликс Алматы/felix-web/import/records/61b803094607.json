@@ -1,0 +1,68 @@
+{
+  "id": "item-61b803094607",
+  "title": "Мебель для гостиниц \"Кредо\"",
+  "source": "https://www.felix-almaty.kz/product-page/мебель-для-гостиниц-кредо",
+  "checked_at": "2026-10-31T10:06:46.737Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_9eaab86a4b5147f289959b03e4c97498~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_2fbb72871d3a4b4fa368cf9af54bfd39~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_1fe60ba2988b406d98ccf0a9d2835d5f~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_d76a91a99741435ca305e9f619367d74~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_5b758a4704834b249a75c90259f804ba~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_e67c0bfe1a0746e5a53a903c5a32340f~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_c71ca7f787e54f2a90d2acb68cb01349~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_de4f10455548409eba6bc85903b089ee~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_4d827bf440cc48bdaffe656c92bb986c~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_32784eadf61e4b05b81c246bfc4f7958~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 681,
+      "height": 423
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "hotel"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-61b803094607.jpg"
+}

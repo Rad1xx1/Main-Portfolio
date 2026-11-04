@@ -1,0 +1,33 @@
+{
+  "id": "item-464bdc1bc282",
+  "title": "Мебель для приемных (ресепшен) Тандем - прямая секция (80x70x114)",
+  "source": "https://www.felix-almaty.kz/product-page/мебель-для-приемных-ресепшен-тандем-прямая-секция",
+  "checked_at": "2026-10-31T10:05:57.267Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_80ab3c42a30945d1b0eff59658f430ec~mv2_d_2000_1428_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2000,
+      "height": 1428
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_6338b0b56688413cbe1d257058906c83~mv2_d_2000_1428_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2000,
+      "height": 1428
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_175c353d00e74f4786ea5fd8f4658551~mv2_d_2000_1428_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2000,
+      "height": 1428
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "reception"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-464bdc1bc282.jpg"
+}

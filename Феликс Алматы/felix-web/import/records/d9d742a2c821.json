@@ -1,0 +1,43 @@
+{
+  "id": "item-d9d742a2c821",
+  "title": "Кабинет \"ONIX DIRECT\"",
+  "source": "https://www.felix-almaty.kz/product-page/кабинет-onix-direct",
+  "checked_at": "2026-10-31T10:06:00.929Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_1ad54825baa14795bd378aacf0687fbc~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1050,
+      "height": 714
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_3fc07b40cec24c94abb13941548ed245~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1062
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_9be49477ba9546c7978eb0283db47612~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1062
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_1ec42c357b484916a9f4ccc7c11a00f7~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1062
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_37336178e8f041018213e14b45f6f3aa~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 998,
+      "height": 608
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "executive"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-d9d742a2c821.jpg"
+}

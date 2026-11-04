@@ -1,0 +1,44 @@
+{
+  "id": "item-300d0d6324bd",
+  "title": "CHAIRMAN KIDS 103 BLACK",
+  "source": "https://www.felix-almaty.kz/product-page/chairman-kids-103-black",
+  "checked_at": "2026-10-31T10:04:52.148Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_bcc44ef9e5544b7da4147694242e0d3e~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_c14d4d8fd7be4657878264056a85c0c4~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_6b5a6523d43d49acb2e18134465906c1~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "Материалы: Ткань",
+    "Подлокотники: Пластиковые",
+    "Механизм качания: С возможностью фиксации кресла в рабочем положении. Регулировка кресла по высоте",
+    "Крестовина: Пластиковая",
+    "Газ. патрон: 3 класс по стандарту Germany DIN 4550",
+    "Ролики: Стандарт BIFMA 5,1 (США), диаметр штока 11 мм, покрытие – полиуретан",
+    "Каркас: Немонолитный",
+    "Набивка: Вспененный полиуретан плотностью 22-25 кг/куб.м",
+    "Максимальная рекомендованная нагрузка: до 120 кг",
+    "Гарантия производителя: 2 года"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [],
+  "published_specs": [
+    "120 кг постоянной нагрузки"
+  ],
+  "local_image": "images/item-300d0d6324bd.jpg"
+}

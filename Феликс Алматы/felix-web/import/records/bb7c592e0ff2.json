@@ -1,0 +1,64 @@
+{
+  "id": "item-bb7c592e0ff2",
+  "title": "CHAIRMAN Vista",
+  "source": "https://www.felix-almaty.kz/product-page/chairman-vista",
+  "checked_at": "2026-10-31T10:05:53.697Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_571658a58c3f4ca6bcf90bdf03a3ff88~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_1c213b72bd624c62815c06180a474f32~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_0f924b9a8ff845c992da916361bb416c~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_8cc3468d423b46cc83557a071ee9abee~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_81f5a0c737f54585a1c8bed6134dd019~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_8a9ab28b75a14600b0635cbe2d167478~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_aa05772ab7ab41728da94cb75a2a06d6~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "Обивка Экокожа премиум (цвет: черный, серый, коричневый)",
+    "Подлокотники Металлические с накладками из пластика",
+    "Механизм качания Механизм качания с синхронным отклонением сидения и спинки 1:3, с фиксацией кресла в нескольких положениях",
+    "Крестовина Хромированный металл",
+    "Газпатрон 3 класса по стандарту Germany DIN 4550",
+    "Ролики Стандарт BIFMA 5,1 (США). Диаметр штока 11 мм.",
+    "Каркас Немонолитный",
+    "Набивка кресла Стандартный поролон плотности 25-40 кг/м3",
+    "Рекомендованная максимальная нагрузка 120 кг.",
+    "Срок гарантии 2 года"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "executive-chairs"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-bb7c592e0ff2.jpg"
+}

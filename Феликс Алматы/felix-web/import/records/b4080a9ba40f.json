@@ -1,0 +1,60 @@
+{
+  "id": "item-b4080a9ba40f",
+  "title": "CHAIRMAN NEXX - стул складной",
+  "source": "https://www.felix-almaty.kz/product-page/chairman-nexx-стул-складной",
+  "checked_at": "2026-10-31T10:05:56.173Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_cda2238c949c4683a9fa7a28743de02f~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_4469c1eb3d9343c0a24b20b1ffb150b0~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 754,
+      "height": 531
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_bd38f29349604072889670bb8ec508b0~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_69407cc5ed664ca386c4304aad4df4e7~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_88537a71682940de83e3936d6e1b1871~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_780d6860752e4c479552d8882d04e6c8~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "Материалы: Сетка Ткань",
+    "Подлокотники: Пластиковые",
+    "Механизм качания: Нет",
+    "Крестовина: Нет",
+    "Газ. патрон: Нет",
+    "Ролики: Нет",
+    "Каркас: Немонолитный",
+    "Набивка: Вспененный полиуретан плотностью 22-25 кг/куб.м, Синтепон",
+    "Максимальная рекомендованная нагрузка: до 120 кг",
+    "Гарантия производителя: 2 года"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "staff-chairs",
+    "chairs"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-b4080a9ba40f.jpg"
+}

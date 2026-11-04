@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#164d42">
+  <meta name="description" content="Дизайн-концепция сайта DentalPark в Алматы: услуги, ориентиры стоимости, знакомство с клиникой и запись на консультацию.">
+  <meta name="robots" content="noindex, nofollow">
+  <title>DentalPark — забота о вашей улыбке</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/manrope-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/clinic-main.jpg" as="image">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="m7 3 3 5-2 2a14 14 0 0 0 6 6l2-2 5 3-1 4C11 22 2 13 3 4Z"/></symbol>
+    <symbol id="i-tooth" viewBox="0 0 24 24"><path d="M12 4C7 0 2 4 4 10c1 3 1 11 4 11 2 0 1-8 4-8s2 8 4 8c3 0 3-8 4-11 2-6-3-10-8-6Z"/></symbol>
+    <symbol id="i-people" viewBox="0 0 24 24"><circle cx="9" cy="7" r="4"/><path d="M2 22v-3a7 7 0 0 1 14 0v3m0-19a4 4 0 0 1 0 8m3 3a6 6 0 0 1 3 5v3"/></symbol>
+    <symbol id="i-card" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="15" rx="2"/><path d="M2 10h20M6 15h4"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m3 5 9 8 9-8"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a9 9 0 0 1-9 9 10 10 0 0 1-4-1L3 21l1.5-5a9 9 0 1 1 16.5-4.5Z"/><path d="M8 8c0 4 2 6 6 7l2-2-3-1-1 1-2-3 1-1-2-2Z"/></symbol>
+  </svg>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <div class="utility"><div class="container utility-inner">
+    <a href="#contacts"><svg class="icon"><use href="#i-pin"/></svg>Алматы, проспект Достык, 132</a>
+    <span><svg class="icon"><use href="#i-clock"/></svg>Пн–Сб 09:00–20:00</span>
+  </div></div>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="wordmark" href="#" aria-label="DentalPark — главная">Dental<span>Park</span></a>
+      <nav class="desktop-nav" aria-label="Основная навигация"><a href="#services">Услуги</a><a href="#clinic">О клинике</a><a href="#contacts">Контакты</a></nav>
+      <a class="header-phone" href="tel:+77019628080"><svg class="icon"><use href="#i-phone"/></svg>+7 701 962 80 80</a>
+      <button class="button button-outline header-book" data-book>Записаться</button>
+      <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-nav"><svg class="icon"><use href="#i-menu"/></svg></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Мобильная навигация" hidden>
+      <a href="#services">Услуги и цены<svg class="icon"><use href="#i-arrow"/></svg></a><a href="#clinic">О клинике<svg class="icon"><use href="#i-arrow"/></svg></a><a href="#contacts">Контакты<svg class="icon"><use href="#i-arrow"/></svg></a>
+      <a class="mobile-phone" href="tel:+77019628080">+7 701 962 80 80</a>
+      <p>Алматы, проспект Достык, 132<br>Пн–Сб 09:00–20:00</p>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title">Забота о вашей<br><span>улыбке.</span><br>Спокойно<br class="desktop-break"> и понятно.</h1>
+        <p class="hero-description">Стоматология для взрослых и детей в Алматы. Начните с консультации — обсудим ваши вопросы и дальнейшие шаги.</p>
+        <div class="hero-actions"><a class="button" href="#services">Выбрать услугу<svg class="icon"><use href="#i-arrow"/></svg></a><a class="text-link" href="#clinic">О клинике<svg class="icon"><use href="#i-arrow"/></svg></a></div>
+        <p class="consult-note">Первичная консультация — бесплатно</p>
+      </div>
+      <figure class="hero-photo"><img src="assets/clinic-main.jpg" alt="Ресепшен DentalPark: светлая зона ожидания и стойка администратора" width="1280" height="854" fetchpriority="high"><figcaption>Добро пожаловать в DentalPark</figcaption></figure>
+    </section>
+    <div class="benefit-band"><div class="container benefits">
+      <div><svg class="icon"><use href="#i-people"/></svg><span>Для взрослых и детей</span></div>
+      <div><svg class="icon"><use href="#i-tooth"/></svg><span>Диагностика в клинике</span></div>
+      <div><svg class="icon"><use href="#i-card"/></svg><span>Оплата и рассрочка</span></div>
+    </div></div>
+    <section class="services container section" id="services" aria-labelledby="services-title">
+      <div class="section-heading"><h2 id="services-title">Всё для здоровья<br>улыбки.</h2><p>Выберите направление, чтобы посмотреть услуги и ориентир по стоимости.</p></div>
+      <div class="service-grid">
+        <button class="service-row is-active" data-category="therapy"><span class="service-number">01</span><span>Лечение зубов</span><svg class="icon"><use href="#i-arrow"/></svg></button>
+        <button class="service-row" data-category="implants"><span class="service-number">02</span><span>Имплантация</span><svg class="icon"><use href="#i-arrow"/></svg></button>
+        <button class="service-row" data-category="aesthetic"><span class="service-number">03</span><span>Эстетика улыбки</span><svg class="icon"><use href="#i-arrow"/></svg></button>
+        <button class="service-row" data-category="ortho"><span class="service-number">04</span><span>Ортодонтия</span><svg class="icon"><use href="#i-arrow"/></svg></button>
+        <button class="service-row" data-category="kids"><span class="service-number">05</span><span>Детская стоматология</span><svg class="icon"><use href="#i-arrow"/></svg></button>
+        <button class="service-row" data-category="diagnostics"><span class="service-number">06</span><span>Диагностика</span><svg class="icon"><use href="#i-arrow"/></svg></button>
+      </div>
+    </section>
+    <section class="prices-section" id="prices" aria-labelledby="prices-title"><div class="container">
+      <h2 id="prices-title">Понятно о стоимости.</h2>
+      <div class="price-layout">
+        <div class="price-tabs" role="tablist" aria-label="Направление лечения" aria-orientation="vertical">
+          <button role="tab" id="tab-therapy" aria-controls="price-panel" aria-selected="true" data-tab="therapy">Лечение зубов</button>
+          <button role="tab" id="tab-implants" aria-controls="price-panel" aria-selected="false" tabindex="-1" data-tab="implants">Имплантация</button>
+          <button role="tab" id="tab-aesthetic" aria-controls="price-panel" aria-selected="false" tabindex="-1" data-tab="aesthetic">Эстетика улыбки</button>
+          <button role="tab" id="tab-ortho" aria-controls="price-panel" aria-selected="false" tabindex="-1" data-tab="ortho">Ортодонтия</button>
+          <button role="tab" id="tab-kids" aria-controls="price-panel" aria-selected="false" tabindex="-1" data-tab="kids">Детская стоматология</button>
+          <button role="tab" id="tab-diagnostics" aria-controls="price-panel" aria-selected="false" tabindex="-1" data-tab="diagnostics">Диагностика</button>
+        </div>
+        <div class="price-panel" id="price-panel" role="tabpanel" aria-labelledby="tab-therapy" tabindex="0">
+          <h3 id="price-category">Лечение зубов</h3>
+          <p class="price-intro" id="price-intro">Лечение кариеса и корневых каналов. Объём лечения определяет врач после осмотра.</p>
+          <div class="price-list" id="price-list">
+            <div class="price-row"><span>Лечение кариеса</span><strong>от 25 000 ₸</strong><button data-book="Лечение кариеса">Записаться<svg class="icon"><use href="#i-arrow"/></svg></button></div>
+            <div class="price-row"><span>Лечение пульпита</span><strong>от 35 000 ₸</strong><button data-book="Лечение пульпита">Записаться<svg class="icon"><use href="#i-arrow"/></svg></button></div>
+            <div class="price-row"><span>Лечение периодонтита</span><strong>от 45 000 ₸</strong><button data-book="Лечение периодонтита">Записаться<svg class="icon"><use href="#i-arrow"/></svg></button></div>
+          </div>
+          <p class="price-disclaimer">Ориентиры по опубликованному прайсу клиники. Точную стоимость, состав лечения и актуальность цен уточняйте на консультации.</p>
+        </div>
+      </div>
+      <p class="noscript-note">Не знаете, что выбрать? <button class="inline-button" data-book>Начните с консультации<svg class="icon"><use href="#i-arrow"/></svg></button></p>
+    </div></section>
+    <section class="doctors container section" id="doctors" aria-labelledby="doctors-title">
+      <div class="section-heading"><h2 id="doctors-title">Познакомьтесь<br>с врачами.</h2><div class="doctors-heading-note"><p>Выберите специалиста. Время приёма уточнит администратор.</p><a class="text-link" href="https://dentalpark.kz/sotrudniki" target="_blank" rel="noopener noreferrer">Все специалисты<svg class="icon"><use href="#i-arrow"/></svg></a></div></div>
+      <div class="doctors-grid">
+        <article class="doctor"><div class="doctor-photo"><img src="assets/doctor-murat.jpg" alt="Мурат Джанполат" loading="lazy" width="853" height="1280"></div><h3>Мурат Джанполат</h3><p>Главный врач · хирург, имплантолог, ортопед</p><button class="text-link" data-book="Консультация: Мурат Джанполат">Записаться к врачу<svg class="icon"><use href="#i-arrow"/></svg></button></article>
+        <article class="doctor"><div class="doctor-photo"><img class="doctor-alexandra" src="assets/doctor-alexandra.jpg" alt="Александра Сташевская" loading="lazy" width="1280" height="853"></div><h3>Александра Сташевская</h3><p>Врач-стоматолог</p><button class="text-link" data-book="Консультация: Александра Сташевская">Записаться к врачу<svg class="icon"><use href="#i-arrow"/></svg></button></article>
+        <article class="doctor"><div class="doctor-photo"><img src="assets/doctor-aidana.jpg" alt="Айдана Амангалиева" loading="lazy" width="853" height="1280"></div><h3>Айдана Амангалиева</h3><p>Детский стоматолог</p><button class="text-link" data-book="Консультация: Айдана Амангалиева">Записаться к врачу<svg class="icon"><use href="#i-arrow"/></svg></button></article>
+      </div><p class="doctors-note">Состав команды и расписание уточняйте в клинике.</p>
+    </section>
+    <section class="clinic container section" id="clinic" aria-labelledby="clinic-title">
+      <figure class="clinic-photo"><img src="assets/clinic-room.jpg" alt="Зона ожидания клиники DentalPark на проспекте Достык" loading="lazy" width="1280" height="854"><figcaption>Реальная фотография клиники</figcaption></figure>
+      <div class="clinic-copy"><h2 id="clinic-title">Место, где можно выдохнуть.</h2><p class="clinic-lead">Познакомьтесь с клиникой до первого визита.</p>
+        <div class="clinic-feature"><span class="feature-icon"><svg class="icon"><use href="#i-people"/></svg></span><div><h3>Взрослые и дети</h3><p>Лечение зубов, исправление прикуса и забота о детской улыбке.</p></div></div>
+        <div class="clinic-feature"><span class="feature-icon"><svg class="icon"><use href="#i-tooth"/></svg></span><div><h3>Диагностика и лечение</h3><p>Прицельные и панорамные снимки, компьютерная томография в клинике.</p></div></div>
+        <div class="clinic-feature"><span class="feature-icon"><svg class="icon"><use href="#i-card"/></svg></span><div><h3>Удобная оплата</h3><p>Наличные, карта и безналичный расчёт. Условия рассрочки уточнит администратор.</p></div></div>
+      </div>
+    </section>
+    <section class="contact-section" id="contacts" aria-labelledby="contact-title"><div class="container contact-layout">
+      <div><h2 id="contact-title">Первый шаг —<br>просто поговорить.</h2><div class="contact-actions"><button class="button button-white" data-book><svg class="icon"><use href="#i-chat"/></svg>Записаться в WhatsApp</button><a class="button button-light-outline" href="tel:+77019628080"><svg class="icon"><use href="#i-phone"/></svg>Позвонить</a></div></div>
+      <div class="contact-details">
+        <div><svg class="icon"><use href="#i-pin"/></svg><p>Алматы, проспект Достык, 132<small>Угол улицы Жолдасбекова, 1 этаж</small></p></div>
+        <div><svg class="icon"><use href="#i-clock"/></svg><p>Пн–Сб 09:00–20:00</p></div>
+        <a class="map-link" href="https://2gis.kz/almaty/geo/9430047375079432" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-arrow"/></svg><span>Построить маршрут</span></a>
+      </div>
+    </div></section>
+  </main>
+  <footer class="footer container"><div class="footer-main">
+    <a class="wordmark" href="#">Dental<span>Park</span></a>
+    <a href="mailto:reception@dentalpark.kz"><svg class="icon"><use href="#i-mail"/></svg>reception@dentalpark.kz</a>
+    <a href="tel:+77272200050">+7 727 220 00 50</a><a href="https://www.instagram.com/dental.park/" target="_blank" rel="noopener noreferrer">Instagram<svg class="icon"><use href="#i-arrow"/></svg></a>
+  </div><div class="footer-bottom"><p>Дизайн-концепция для DentalPark · 2026</p><p>Есть противопоказания. Необходима консультация специалиста.</p><a href="https://dentalpark.kz/" target="_blank" rel="noopener noreferrer">Данные с сайта клиники<svg class="icon"><use href="#i-arrow"/></svg></a></div></footer>
+  <div class="mobile-bottom"><a href="tel:+77019628080" aria-label="Позвонить в DentalPark"><svg class="icon"><use href="#i-phone"/></svg></a><button class="button" data-book>Записаться на консультацию<svg class="icon"><use href="#i-arrow"/></svg></button></div>
+  <dialog id="booking-dialog" aria-labelledby="booking-title" aria-describedby="booking-description">
+    <button class="dialog-close" aria-label="Закрыть окно записи"><svg class="icon"><use href="#i-close"/></svg></button>
+    <span class="dialog-mark"><svg class="icon"><use href="#i-chat"/></svg></span>
+    <h2 id="booking-title">Начнём со знакомства.</h2>
+    <p id="booking-description">Выберите, что вас интересует. В WhatsApp администратор уточнит детали и удобное время приёма.</p>
+    <label for="booking-service">Направление</label><select id="booking-service"><option>Первичная консультация</option><option>Лечение зубов</option><option>Имплантация</option><option>Эстетика улыбки</option><option>Ортодонтия</option><option>Детская стоматология</option><option>Диагностика</option></select>
+    <p class="booking-selection" aria-live="polite"></p>
+    <a class="button booking-whatsapp" href="https://wa.me/77019628080" target="_blank" rel="noopener noreferrer">Открыть WhatsApp<svg class="icon"><use href="#i-arrow"/></svg></a>
+    <a class="dialog-call" href="tel:+77019628080">Или позвоните: +7 701 962 80 80</a>
+    <small class="dialog-note">Сообщение откроется в WhatsApp. Запись подтверждает администратор клиники.</small>
+  </dialog>
+  <noscript><div class="no-js">Для выбора направления включите JavaScript. Запись по телефону <a href="tel:+77019628080">+7 701 962 80 80</a> или <a href="https://wa.me/77019628080">в WhatsApp</a>.</div></noscript>
+</body>
+</html>

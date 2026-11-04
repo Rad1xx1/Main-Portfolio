@@ -1,0 +1,50 @@
+{
+  "id": "item-c7fbdebe6da3",
+  "title": "Кабинет руководителя \"COSMO\" - стол письменный",
+  "source": "https://www.felix-almaty.kz/product-page/кабинет-руководителя-cosmo-стол-письменный",
+  "checked_at": "2026-10-31T10:06:18.584Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_1903fab41fa14b40b115591e2dfaec84~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_5747db3a57b443a3b31522bddacf5414~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_5e1365ac6cb74a6fa211942cb466dd85~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_f15b425c032d4f18b771af2ef9d64ef6~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_a0473271dff7413085b3d9323e8c0743~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_bc4b0ecc9e634183b36bf06d693306f4~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 428,
+      "height": 428
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "executive"
+  ],
+  "published_specs": [
+    "75мм, выполненные с использованием МДФ профилей в цвет мебели, которые придают статус и фундам"
+  ],
+  "local_image": "images/item-c7fbdebe6da3.jpg"
+}

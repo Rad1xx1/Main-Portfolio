@@ -1,0 +1,1233 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        @font-face {
+            font-family: 'SF Pro Display', sans-serif;
+            src: url("/public/font/sf-pro-display/SF-Pro-Display-Semibold.otf");
+            src: url("/public/font/sf-pro-display/SF-Pro-Display-SemiboldItalic.otf");
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: 'SF Pro Display', sans-serif;
+            background-color: rgb(243, 244, 245);
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        .App {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            -webkit-tap-highlight-color: transparent;
+            user-select: none;
+        }
+
+        .column {
+            width: calc(100% / 2);
+            min-height: 100vh;
+            z-index: 999;
+        }
+
+        .content {
+            width: 1000px;
+            min-height: 100vh;
+            z-index: 1000;
+        }
+
+        .main {
+            position: relative;
+            width: 1000px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 20px;
+        }
+
+        .preview {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            background-color: #414141;
+        }
+
+        .background__preview {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .logo {
+            width: 64px;
+            height: 64px;
+            position: absolute;
+            top: 24px;
+            left: 24px;
+        }
+
+        .logo__img {
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+            object-fit: contain;
+        }
+
+        .dropdown {
+            position: absolute;
+            top: 24px;
+            right: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .textBox {
+            border: none;
+            outline: none;
+            width: 50px;
+            border-radius: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #F3F4F5;
+            padding: 4px 8px;
+            user-select: none;
+            cursor: pointer;
+        }
+
+        .dropdown::before {
+            content: '';
+            position: absolute;
+            right: 8px;
+            top: 4px;
+            z-index: 10000;
+            width: 5px;
+            height: 5px;
+            border: 2px solid #333;
+            border-top: 2px solid transparent;
+            border-right: 2px solid transparent;
+            transform: rotate(-45deg);
+            transition: .1s linear;
+        }
+
+        .dropdown.active::before {
+            top: 9px;
+            transform: rotate(-225deg);
+        }
+
+        .options {
+            display: none;
+            flex-direction: column;
+            background-color: #F3F4F5;
+            margin-top: 5px;
+        }
+
+        .dropdown.active .options {
+            display: flex;
+        }
+
+        .option {
+            padding: 5px 10px;
+            border-bottom: 1px solid #E7E7E7;
+            cursor: pointer;
+        }
+
+        .title {
+            margin-top: 18px;
+            display: flex;
+            align-items: center;
+            padding: 0 24px;
+            gap: 8px;
+        }
+
+        .title__text {
+            width: calc(100% - 24px - 8px);
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 28.64px;
+            color: #202022;
+        }
+
+        .desc {
+            margin-top: 8px;
+            display: flex;
+            align-items: center;
+            padding: 0 24px;
+        }
+
+        .desc__text {
+            width: 100%;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 21.76px;
+            color: #202022CC;
+            white-space: pre-line;
+        }
+
+        .block {
+            width: 100%;
+            background-color: #FFFFFF;
+            border-radius: 24px;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 24px;
+        }
+
+        .blockItem {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 18px;
+            background-color: #202022;
+            border-radius: 14px;
+            text-decoration: none;
+            cursor: pointer;
+            color: #FFFFFF;
+        }
+
+        .blockItemLeftTeam {
+            width: 80%;
+            display: flex;
+            align-items: center;
+        }
+
+        .blockItemText {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 21.48px;
+            color: rgba(255, 255, 255, 0.9);
+            margin-left: 12px;
+        }
+
+        .blockTeam {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+
+        .blockTeam:last-child {
+            margin-bottom: 0;
+        }
+
+        .blockLink {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 18px;
+            background-color: #F3F4F5;
+            border-radius: 14px;
+            margin-bottom: 12px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .blockLink:last-child {
+            margin-bottom: 0;
+        }
+
+        .blockItemLeftTeam {
+            width: 80%;
+            display: flex;
+            align-items: center;
+        }
+
+        .blockLinkItemText {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 21.48px;
+            color: rgba(0, 0, 0, 0.8);
+            margin-left: 12px;
+        }
+
+        .blockTitle {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 16.71px;
+            margin-bottom: 16px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #313131;
+        }
+
+        .divider {
+            all: unset;
+            width: 100%;
+            height: 1px;
+            background-color: #E7E7E7;
+            margin: 16px 0;
+        }
+
+        .blockInfoSocials {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .blockInfo {
+            display: flex;
+            align-items: center;
+        }
+
+        .blockInfoIcon {
+            width: 52px;
+            height: 52px;
+            margin-right: 12px;
+        }
+
+        .blockInfoText {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blockInfoTextUpper {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 24.48px;
+            color: #202022;
+        }
+
+        .blockInfoTextLower {
+            width: 260px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 21.76px;
+            color: rgba(33, 33, 33, 0.76);
+            margin-top: 10px;
+            white-space: pre-line;
+            text-decoration: none;
+        }
+
+        .blockInfoSocialsItem {
+            display: flex;
+            align-items: center;
+            padding: 6px 12px 6px 6px;
+            background: #F3F4F5;
+            border-radius: 50px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .blockInfoSocialsItemText {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 26px;
+            color: rgba(0, 0, 0, 0.8);
+            margin-left: 6px;
+        }
+
+        .home__section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 14px;
+        }
+
+        .home__section:last-child {
+            margin-bottom: 0;
+        }
+
+        .home__section__wrapper {
+            width: 100%;
+            height: 90px;
+        }
+
+        .section {
+            position: relative;
+            width: 100%;
+            height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            cursor: pointer;
+        }
+
+        .section span {
+            max-width: 100%;
+            min-width: 100%;
+            max-height: 90px;
+            min-height: 90px;
+        }
+
+        .img {
+            width: 100%;
+            height: 90px;
+            border-radius: 12px;
+            object-fit: cover;
+            z-index: 1;
+        }
+
+        .text {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            border-radius: 12px;
+            background-color: rgba(0, 0, 0, 0.55);
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            z-index: 3;
+        }
+
+        .org {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;          
+            pointer-events: none;
+        }
+
+        .org__block {
+            margin-top: 24px;
+            width: 230px;
+            height: 42px;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+            background-color: #FFFFFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            pointer-events: auto;
+            text-decoration: none;
+        }
+
+        .org__text {
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 15px;
+            letter-spacing: -0.02em;
+            color: #878787;
+            margin-right: 7px;
+        }
+
+        .links {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 24px 24px 0 24px;
+        }
+
+        .link__item {
+            width: 50%;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19px;
+            text-decoration: none;
+            color: #202022CC;
+            pointer-events: auto;
+        }
+
+        @media only screen and (max-width: 1000px) {
+            .main {
+                width: 100%;
+            }
+
+            .column {
+                display: none;
+            }
+
+            .content {
+                width: 100%;
+            }
+
+            .links {
+                width: 100%;
+                padding: 24px 24px 0 24px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                row-gap: 8px;
+            }
+
+            .link__item {
+                width: 50%;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 19px;
+                color: #202022CC;
+            }
+        }
+    </style>
+    
+        <!-- Meta Pixel Code -->
+        <script>
+            !function (f, b, e, v, n, t, s) {
+                if (f.fbq) return;
+                n = f.fbq = function () {
+                    n.callMethod ?
+                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                };
+                if (!f._fbq) f._fbq = n;
+                n.push = n;
+                n.loaded = !0;
+                n.version = '2.0';
+                n.queue = [];
+                t = b.createElement(e);
+                t.async = !0;
+                t.src = v;
+                s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s)
+            }(window, document, 'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '921081609498116');
+            fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+                       src="https://www.facebook.com/tr?id=921081609498116&ev=PageView&noscript=1"/></noscript>
+        <!-- End Meta Pixel Code -->
+    
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YRD2XDF75V"></script>
+    <script src="https://cdn.tds.bid/bid.js" type="text/javascript" async></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag("js", new Date());
+        gtag("config", "G-YRD2XDF75V");
+    </script>
+    
+    
+    <title>Lati Cafe</title>
+</head>
+<body>
+<div class="App">
+    <div class="column"></div>
+    <div class="content">
+        <main class="main" style="background-color:" id="main">
+            <section class="preview">
+                
+                    <img
+                            id="background-preview"
+                            class="background__preview"
+                            src="https://kamigroup.fra1.cdn.digitaloceanspaces.com/kami/prod/menuOrgAttrsBackgrounds/ebb0b8761df14e028aee6dad075f7887.png"
+                            alt="Organization background preview"
+                    />
+                
+
+                
+
+                
+                    <div class="dropdown" id="lang-dropdown">
+                        <input type="text" class="textBox" readonly value="RU"/>
+                        <div class="options">
+                            
+                                <div class="option" onclick="show('RU')">
+                                    RU
+                                </div>
+                            
+                                <div class="option" onclick="show('KZ')">
+                                    KZ
+                                </div>
+                            
+                                <div class="option" onclick="show('EN')">
+                                    EN
+                                </div>
+                            
+                        </div>
+                    </div>
+                
+            </section>
+
+            
+                <section class="title">
+                    <h1 class="title__text" style="color:rgb(32, 32, 34);">Lati Cafe</h1>
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                                d="M12 2.89999C6.69842 2.89999 2.40002 7.19839 2.40002 12.5C2.40002 17.8016 6.69842 22.1 12 22.1C17.3016 22.1 21.6 17.8016 21.6 12.5C21.6 7.19839 17.3016 2.89999 12 2.89999ZM12.8 17.3H11.2V11.7H12.8V17.3ZM12 9.69999C11.3376 9.69999 10.8 9.16239 10.8 8.49999C10.8 7.83759 11.3376 7.29999 12 7.29999C12.6624 7.29999 13.2 7.83759 13.2 8.49999C13.2 9.16239 12.6624 9.69999 12 9.69999Z"
+                                fill="rgb(32, 32, 34)"
+                        />
+                    </svg>
+                </section>
+            
+
+            
+                <section class="desc">
+                    <p id="desc-text" class="desc__text"
+                       style="color:rgba(32, 32, 34, .8)">Lati Cafe | Кофейня в Алматы
+☕️ Уютная кофейня в творческой студии. @lati.creative.space
+завтраки | вкусный кофе | натуральный бар | десерты</p>
+                    <span id="desc-text-variable" hidden>{&#34;EN&#34;:&#34;Lati Cafe | Coffee shop in Almaty\n☕️ Cozy coffee shop in a creative studio. @lati.creative.space\nbreakfasts | delicious coffee | natural bar | desserts&#34;,&#34;KZ&#34;:&#34;Lati Cafe | Алматыдағы кофехана\n☕️ Шығармашылық студиядағы жайлы кофехана. @lati.creative.space\nтаңғы ас | дәмді кофе | табиғи бар | десерттер&#34;,&#34;RU&#34;:&#34;Lati Cafe | Кофейня в Алматы\n☕️ Уютная кофейня в творческой студии. @lati.creative.space\nзавтраки | вкусный кофе | натуральный бар | десерты&#34;}</span>
+                </section>
+            
+
+            <section class="block" style="background-color:rgb(255, 255, 255);gap:14px">
+                
+                    <a href="/menu/delivery/list?" class="blockItem" target="_self"
+                       style="background-color:rgb(32, 32, 34)" id="home-btn">
+                        <div class="blockItemLeftTeam">
+                            
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.0002 2.3999C10.6842 2.3999 9.60016 3.48389 9.60016 4.7999C9.60016 5.17698 9.69847 5.5294 9.85641 5.84834C5.58825 6.82353 2.40016 10.6363 2.40016 15.1999V16.7999H21.6002V15.1999C21.6002 10.6363 18.4121 6.82353 14.1439 5.84834C14.3019 5.5294 14.4002 5.17698 14.4002 4.7999C14.4002 3.48389 13.3162 2.3999 12.0002 2.3999ZM12.0002 3.9999C12.4515 3.9999 12.8002 4.3486 12.8002 4.7999C12.8002 5.25121 12.4515 5.5999 12.0002 5.5999C11.5489 5.5999 11.2002 5.25121 11.2002 4.7999C11.2002 4.3486 11.5489 3.9999 12.0002 3.9999ZM2.39391 18.3999C2.2879 18.3984 2.18265 18.418 2.08428 18.4575C1.9859 18.4971 1.89637 18.5557 1.82087 18.6302C1.74538 18.7046 1.68543 18.7933 1.64451 18.8911C1.60359 18.9889 1.58252 19.0939 1.58252 19.1999C1.58252 19.3059 1.60359 19.4109 1.64451 19.5087C1.68543 19.6065 1.74538 19.6952 1.82087 19.7696C1.89637 19.8441 1.9859 19.9028 2.08428 19.9423C2.18265 19.9818 2.2879 20.0014 2.39391 19.9999H21.5939C21.6999 20.0014 21.8052 19.9818 21.9035 19.9423C22.0019 19.9028 22.0915 19.8441 22.167 19.7696C22.2425 19.6952 22.3024 19.6065 22.3433 19.5087C22.3842 19.4109 22.4053 19.3059 22.4053 19.1999C22.4053 19.0939 22.3842 18.9889 22.3433 18.8911C22.3024 18.7933 22.2425 18.7046 22.167 18.6302C22.0915 18.5557 22.0019 18.4971 21.9035 18.4575C21.8052 18.418 21.6999 18.3984 21.5939 18.3999H2.39391Z"
+                                          fill="rgb(243, 244, 245)"/>
+                                </svg>
+                            
+
+                            
+                                <div id="menu-btn-text" class="blockItemText"
+                                     style="color:rgb(243, 244, 245)">Смотреть меню</div>
+                                <span id="menu-btn-text-variable" hidden>{&#34;key&#34;:&#34;view_menu&#34;,&#34;RU&#34;:&#34;Смотреть меню&#34;,&#34;KZ&#34;:&#34;Мәзірді қарау&#34;,&#34;EN&#34;:&#34;View menu&#34;,&#34;TR&#34;:&#34;&#34;,&#34;AZ&#34;:&#34;&#34;,&#34;CH&#34;:&#34;查看菜单&#34;,&#34;JP&#34;:&#34;&#34;,&#34;AR&#34;:&#34;عرض القائمة&#34;,&#34;UZ&#34;:&#34;&#34;,&#34;ID&#34;:&#34;Lihat menu&#34;,&#34;KY&#34;:&#34;&#34;,&#34;UK&#34;:&#34;Дивитися меню&#34;}</span>
+                            
+                        </div>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.0004 2.3999C6.69879 2.3999 2.40039 6.6983 2.40039 11.9999C2.40039 17.3015 6.69879 21.5999 12.0004 21.5999C17.302 21.5999 21.6004 17.3015 21.6004 11.9999C21.6004 6.6983 17.302 2.3999 12.0004 2.3999ZM15.766 12.5655L10.966 17.3655C10.81 17.5215 10.6052 17.5999 10.4004 17.5999C10.1956 17.5999 9.99079 17.5215 9.83479 17.3655C9.52199 17.0527 9.52199 16.5471 9.83479 16.2343L14.0692 11.9999L9.83479 7.7655C9.52199 7.4527 9.52199 6.9471 9.83479 6.6343C10.1476 6.3215 10.6532 6.3215 10.966 6.6343L15.766 11.4343C16.0788 11.7471 16.0788 12.2527 15.766 12.5655Z"
+                                  fill="rgb(243, 244, 245)"/>
+                        </svg>
+                    </a>
+                
+            </section>
+
+            
+
+            
+                <section class="block" id="link-groups"
+                         style="background-color:rgb(255, 255, 255)">
+                    
+                        <div class="blockTeam">
+                            
+                            
+                                <a class="blockLink"
+                                   style="background-color: rgb(243, 244, 245)"
+                                   href="https://2gis.kz/almaty/geo/70000001086767217" target="_blank">
+                                    <div class="blockItemLeftTeam">
+                                        
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                        d="M6 7C3.239 7 1 9.239 1 12C1 14.761 3.239 17 6 17H10V15H6C4.343 15 3 13.657 3 12C3 10.343 4.343 9 6 9H10V7H6ZM14 7V9H18C19.657 9 21 10.343 21 12C21 13.657 19.657 15 18 15H14V17H18C20.761 17 23 14.761 23 12C23 9.239 20.761 7 18 7H14ZM7 11V13H17V11H7Z"
+                                                        fill="rgb(32, 32, 34)"
+                                                />
+                                            </svg>
+                                        
+                                        <div id="link-caption-text-0-0"
+                                             class="blockLinkItemText"
+                                             style="color:rgba(32, 32, 34, .8)">Как добраться:</div>
+                                        <span id="link-caption-text-variable-0-0"
+                                              hidden>{&#34;EN&#34;:&#34;How to get there:&#34;,&#34;KZ&#34;:&#34;Қалай жету:&#34;,&#34;RU&#34;:&#34;Как добраться:&#34;}</span>
+                                    </div>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                                d="M12.0004 2.3999C6.69879 2.3999 2.40039 6.6983 2.40039 11.9999C2.40039 17.3015 6.69879 21.5999 12.0004 21.5999C17.302 21.5999 21.6004 17.3015 21.6004 11.9999C21.6004 6.6983 17.302 2.3999 12.0004 2.3999ZM15.766 12.5655L10.966 17.3655C10.81 17.5215 10.6052 17.5999 10.4004 17.5999C10.1956 17.5999 9.99079 17.5215 9.83479 17.3655C9.52199 17.0527 9.52199 16.5471 9.83479 16.2343L14.0692 11.9999L9.83479 7.7655C9.52199 7.4527 9.52199 6.9471 9.83479 6.6343C10.1476 6.3215 10.6532 6.3215 10.966 6.6343L15.766 11.4343C16.0788 11.7471 16.0788 12.2527 15.766 12.5655Z"
+                                                fill="rgb(32, 32, 34)"
+                                        />
+                                    </svg>
+                                </a>
+                            
+                                <a class="blockLink"
+                                   style="background-color: rgb(243, 244, 245)"
+                                   href="https://lati-cafe-almaty.kamiqr.com/feedback/6ZCZRI" target="_self">
+                                    <div class="blockItemLeftTeam">
+                                        
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                        d="M6 7C3.239 7 1 9.239 1 12C1 14.761 3.239 17 6 17H10V15H6C4.343 15 3 13.657 3 12C3 10.343 4.343 9 6 9H10V7H6ZM14 7V9H18C19.657 9 21 10.343 21 12C21 13.657 19.657 15 18 15H14V17H18C20.761 17 23 14.761 23 12C23 9.239 20.761 7 18 7H14ZM7 11V13H17V11H7Z"
+                                                        fill="rgb(32, 32, 34)"
+                                                />
+                                            </svg>
+                                        
+                                        <div id="link-caption-text-0-1"
+                                             class="blockLinkItemText"
+                                             style="color:rgba(32, 32, 34, .8)">Оставить отзыв:</div>
+                                        <span id="link-caption-text-variable-0-1"
+                                              hidden>{&#34;EN&#34;:&#34;Leave feedback:&#34;,&#34;KZ&#34;:&#34;Пікір қалдыру:&#34;,&#34;RU&#34;:&#34;Оставить отзыв:&#34;}</span>
+                                    </div>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                                d="M12.0004 2.3999C6.69879 2.3999 2.40039 6.6983 2.40039 11.9999C2.40039 17.3015 6.69879 21.5999 12.0004 21.5999C17.302 21.5999 21.6004 17.3015 21.6004 11.9999C21.6004 6.6983 17.302 2.3999 12.0004 2.3999ZM15.766 12.5655L10.966 17.3655C10.81 17.5215 10.6052 17.5999 10.4004 17.5999C10.1956 17.5999 9.99079 17.5215 9.83479 17.3655C9.52199 17.0527 9.52199 16.5471 9.83479 16.2343L14.0692 11.9999L9.83479 7.7655C9.52199 7.4527 9.52199 6.9471 9.83479 6.6343C10.1476 6.3215 10.6532 6.3215 10.966 6.6343L15.766 11.4343C16.0788 11.7471 16.0788 12.2527 15.766 12.5655Z"
+                                                fill="rgb(32, 32, 34)"
+                                        />
+                                    </svg>
+                                </a>
+                            
+                        </div>
+                    
+                </section>
+            
+
+            
+                <section class="block" id="contact-info"
+                         style="background-color:rgb(255, 255, 255)">
+                    
+                        <div class="blockInfo">
+                            <div class="blockInfoIcon">
+                                <svg width="52" height="52" viewBox="0 0 52 52" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <rect
+                                            width="52"
+                                            height="52"
+                                            rx="26"
+                                            fill="rgb(32, 32, 34)"
+                                    />
+                                    <path
+                                            d="M26.0001 15.6001C22.4657 15.6001 19.6001 18.4657 19.6001 22.0001C19.6001 26.8001 25.2001 28.4001 25.2001 31.6001C25.2001 32.0417 25.5585 32.4001 26.0001 32.4001C26.4417 32.4001 26.8001 32.0417 26.8001 31.6001C26.8001 28.4001 32.4001 26.8001 32.4001 22.0001C32.4001 18.4657 29.5345 15.6001 26.0001 15.6001ZM26.0001 23.6001C25.1161 23.6001 24.4001 22.8841 24.4001 22.0001C24.4001 21.1161 25.1161 20.4001 26.0001 20.4001C26.8841 20.4001 27.6001 21.1161 27.6001 22.0001C27.6001 22.8841 26.8841 23.6001 26.0001 23.6001Z"
+                                            fill="rgb(243, 244, 245)"
+                                    />
+                                    <path
+                                            d="M36.3496 34.5185L33.9496 28.1185C33.832 27.8073 33.5336 27.6001 33.2 27.6001H31.6192C31.1808 28.0897 30.7272 28.5377 30.3008 28.9585C30.2168 29.0401 30.1368 29.1201 30.056 29.2001H32.6456L34.4456 34.0001H17.5544L19.3544 29.2001H21.944C21.8632 29.1201 21.7832 29.0401 21.7 28.9585C21.2728 28.5377 20.82 28.0897 20.3816 27.6001H18.8C18.4664 27.6001 18.168 27.8073 18.0504 28.1185L15.6504 34.5185C15.5584 34.7649 15.5928 35.0393 15.7416 35.2553C15.892 35.4713 16.1376 35.6001 16.4 35.6001H35.6C35.8624 35.6001 36.108 35.4713 36.2576 35.2553C36.4072 35.0401 36.4416 34.7649 36.3496 34.5185Z"
+                                            fill="rgb(243, 244, 245)"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="blockInfoText">
+                                <div id="address-label-text" class="blockInfoTextUpper"
+                                     style="color:rgb(32, 32, 34)">Адрес заведения</div>
+                                <span id="address-label-text-variable"
+                                      hidden>{&#34;key&#34;:&#34;org_address&#34;,&#34;RU&#34;:&#34;Адрес заведения&#34;,&#34;KZ&#34;:&#34;Мекеме мекенжайы&#34;,&#34;EN&#34;:&#34;Organization address&#34;,&#34;TR&#34;:&#34;Kurumun adresi&#34;,&#34;AZ&#34;:&#34;Müəssisənin ünvanı&#34;,&#34;CH&#34;:&#34;餐厅地址&#34;,&#34;JP&#34;:&#34;&#34;,&#34;AR&#34;:&#34;عنوان المطعم&#34;,&#34;UZ&#34;:&#34;Muassasa manzili&#34;,&#34;ID&#34;:&#34;Alamat organisasi&#34;,&#34;KY&#34;:&#34;Мекеменин дареги&#34;,&#34;UK&#34;:&#34;Адреса закладу&#34;}</span>
+                                <div id="address-value-text" class="blockInfoTextLower"
+                                     style="color:rgba(32, 32, 34, .8)">Алматы, Ади Шарипова 145к1</div>
+                                <span id="address-value-text-variable"
+                                      hidden>{&#34;EN&#34;:&#34;Алматы, Ади Шарипова 145к1&#34;,&#34;KZ&#34;:&#34;Алматы, Ади Шарипова 145к1&#34;,&#34;RU&#34;:&#34;Алматы, Ади Шарипова 145к1&#34;}</span>
+                            </div>
+                        </div>
+                    
+
+                    
+                        <hr class="divider" style="background-color:rgb(231, 231, 231)"/>
+                    
+
+                    
+                        <div class="blockInfo">
+                            <div class="blockInfoIcon">
+                                <svg width="52" height="52" viewBox="0 0 52 52" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <rect
+                                            width="52"
+                                            height="52"
+                                            rx="26"
+                                            fill="rgb(32, 32, 34)"
+                                    />
+                                    <path
+                                            d="M25.9999 16.3999C20.6983 16.3999 16.3999 20.6983 16.3999 25.9999C16.3999 31.3015 20.6983 35.5999 25.9999 35.5999C31.3015 35.5999 35.5999 31.3015 35.5999 25.9999C35.5999 20.6983 31.3015 16.3999 25.9999 16.3999ZM26.7999 26.7999H20.3959C19.9559 26.7999 19.5999 26.4439 19.5999 26.0039V25.9951C19.5999 25.5559 19.9559 25.1999 20.3959 25.1999H25.1999V18.7959C25.1999 18.3559 25.5559 17.9999 25.9959 17.9999H26.0047C26.4439 17.9999 26.7999 18.3559 26.7999 18.7959V26.7999Z"
+                                            fill="rgb(243, 244, 245)"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="blockInfoText">
+                                <div id="schedule-label-text" class="blockInfoTextUpper"
+                                     style="color:rgb(32, 32, 34)">Режим работы</div>
+                                <span id="schedule-label-text-variable"
+                                      hidden>{&#34;key&#34;:&#34;work_schedule&#34;,&#34;RU&#34;:&#34;Режим работы&#34;,&#34;KZ&#34;:&#34;Жұмыс режимі&#34;,&#34;EN&#34;:&#34;Work schedule&#34;,&#34;TR&#34;:&#34;&#34;,&#34;AZ&#34;:&#34;&#34;,&#34;CH&#34;:&#34;营业时间&#34;,&#34;JP&#34;:&#34;&#34;,&#34;AR&#34;:&#34;ساعات العمل&#34;,&#34;UZ&#34;:&#34;&#34;,&#34;ID&#34;:&#34;Jadwal kerja&#34;,&#34;KY&#34;:&#34;&#34;,&#34;UK&#34;:&#34;Режим роботи&#34;}</span>
+                                <div id="schedule-value-text" class="blockInfoTextLower"
+                                     style="color:rgba(32, 32, 34, .8)">Ежедневно с 09:00 до 21:00</div>
+                                <span id="schedule-value-text-variable"
+                                      hidden>{&#34;EN&#34;:&#34;Daily from 09:00 to 21:00&#34;,&#34;KZ&#34;:&#34;Күн сайын 09:00-ден 21:00-ге дейін&#34;,&#34;RU&#34;:&#34;Ежедневно с 09:00 до 21:00&#34;}</span>
+                            </div>
+                        </div>
+                    
+
+                    
+                        <hr class="divider" style="background-color:rgb(231, 231, 231)"/>
+                    
+
+                    
+                        <div class="blockInfo">
+                            <div class="blockInfoIcon">
+                                <svg width="52" height="52" viewBox="0 0 52 52" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <rect
+                                            width="52"
+                                            height="52"
+                                            rx="26"
+                                            fill="rgb(32, 32, 34)"
+                                    />
+                                    <path
+                                            d="M17.2001 16.3999H21.0945C21.6569 16.3999 22.1777 16.6951 22.4665 17.1767L24.4001 20.3999H15.6001V17.9999C15.6001 17.1159 16.3161 16.3999 17.2001 16.3999Z"
+                                            fill="rgb(243, 244, 245)"
+                                    />
+                                    <path
+                                            d="M34.8001 18H15.6001V32.4C15.6001 33.284 16.3161 34 17.2001 34H18.8001V33.6C18.8001 32.9376 19.3377 32.4 20.0001 32.4C20.6625 32.4 21.2001 32.9376 21.2001 33.6V34H30.8001V33.6C30.8001 32.9376 31.3377 32.4 32.0001 32.4C32.6625 32.4 33.2001 32.9376 33.2001 33.6V34H34.8001C35.6841 34 36.4001 33.284 36.4001 32.4V19.6C36.4001 18.716 35.6841 18 34.8001 18ZM18.8001 29.2C19.2401 27.4744 20.7009 27.9512 21.0001 26.9776V26.2552C20.8497 26.1752 20.4209 25.6216 20.3761 25.1896C20.2585 25.18 20.0729 25.0624 20.0185 24.5992C19.9889 24.3504 20.1057 24.2104 20.1769 24.1664C20.1769 24.1664 20.0009 23.7656 20.0009 23.3664C20.0001 22.1824 20.5865 21.2 22.0001 21.2C22.7633 21.2 23.0001 21.7416 23.0001 21.7416C23.6825 21.7416 24.0001 22.4896 24.0001 23.3664C24.0001 23.804 23.8241 24.1664 23.8241 24.1664C23.8945 24.2104 24.0113 24.3504 23.9825 24.5992C23.9281 25.0624 23.7425 25.18 23.6249 25.1896C23.5801 25.6216 23.1513 26.1752 23.0009 26.2552V26.9776C23.3001 27.9512 24.7609 27.4744 25.2009 29.2H18.8001ZM32.4001 28.4H27.6001C27.1585 28.4 26.8001 28.0416 26.8001 27.6C26.8001 27.1584 27.1585 26.8 27.6001 26.8H32.4001C32.8417 26.8 33.2001 27.1584 33.2001 27.6C33.2001 28.0416 32.8417 28.4 32.4001 28.4ZM32.4001 25.2H27.6001C27.1585 25.2 26.8001 24.8416 26.8001 24.4C26.8001 23.9584 27.1585 23.6 27.6001 23.6H32.4001C32.8417 23.6 33.2001 23.9584 33.2001 24.4C33.2001 24.8416 32.8417 25.2 32.4001 25.2Z"
+                                            fill="rgb(243, 244, 245)"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="blockInfoText">
+                                <div id="phone-label-text" class="blockInfoTextUpper"
+                                     style="color:rgb(32, 32, 34)">Контакты</div>
+                                <span id="phone-label-text-variable"
+                                      hidden>{&#34;key&#34;:&#34;contacts&#34;,&#34;RU&#34;:&#34;Контакты&#34;,&#34;KZ&#34;:&#34;Байланыстар&#34;,&#34;EN&#34;:&#34;Contacts&#34;,&#34;TR&#34;:&#34;&#34;,&#34;AZ&#34;:&#34;Kontaktlar&#34;,&#34;CH&#34;:&#34;联系方式&#34;,&#34;JP&#34;:&#34;&#34;,&#34;AR&#34;:&#34;معلومات التواصل&#34;,&#34;UZ&#34;:&#34;Kontaktlar&#34;,&#34;ID&#34;:&#34;Kontak&#34;,&#34;KY&#34;:&#34;Байланыштар&#34;,&#34;UK&#34;:&#34;Контакти&#34;}</span>
+                                
+                                    <div class="phoneContactItem" style="margin-top:0px; display:flex; flex-direction:column;">
+                                        <a id="phone-value-text-0" class="blockInfoTextLower"
+                                           style="color:rgba(32, 32, 34, .8)"
+                                           href="tel:+77003504101">+77003504101</a>
+                                        
+                                    </div>
+                                
+                            </div>
+                        </div>
+                    
+
+                    
+                        
+                            <hr class="divider"
+                                style="background-color:rgb(231, 231, 231)"/>
+                        
+
+                        <div class="blockInfoSocials">
+                            
+                                <a
+                                        class="blockInfoSocialsItem"
+                                        target="_blank"
+                                        href="https://www.instagram.com/lati.cafe.almaty"
+                                        style="background-color:rgb(243, 244, 245)"
+                                >
+                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <rect
+                                                width="26"
+                                                height="26"
+                                                rx="13"
+                                                fill="rgb(32, 32, 34)"
+                                        />
+                                        <path
+                                                d="M13 11C12.4696 11 11.9609 11.2107 11.5858 11.5858C11.2107 11.9609 11 12.4696 11 13C11 13.5304 11.2107 14.0391 11.5858 14.4142C11.9609 14.7893 12.4696 15 13 15C13.5304 15 14.0391 14.7893 14.4142 14.4142C14.7893 14.0391 15 13.5304 15 13C15 12.4696 14.7893 11.9609 14.4142 11.5858C14.0391 11.2107 13.5304 11 13 11Z"
+                                                fill="rgb(243, 244, 245)"
+                                        />
+                                        <path
+                                                d="M15.9161 6H10.0827C7.83167 6 6 7.83225 6 10.0839V15.9172C6 18.1683 7.83225 20 10.0839 20H15.9172C18.1683 20 20 18.1677 20 15.9161V10.0827C20 7.83167 18.1677 6 15.9161 6ZM13 16.5C11.0697 16.5 9.5 14.9303 9.5 13C9.5 11.0697 11.0697 9.5 13 9.5C14.9303 9.5 16.5 11.0697 16.5 13C16.5 14.9303 14.9303 16.5 13 16.5ZM17.0833 9.5C16.7613 9.5 16.5 9.23867 16.5 8.91667C16.5 8.59467 16.7613 8.33333 17.0833 8.33333C17.4053 8.33333 17.6667 8.59467 17.6667 8.91667C17.6667 9.23867 17.4053 9.5 17.0833 9.5Z"
+                                                fill="rgb(243, 244, 245)"
+                                        />
+                                    </svg>
+                                    <div class="blockInfoSocialsItemText"
+                                         style="color:rgb(32, 32, 34)">Instagram
+                                    </div>
+                                </a>
+                            
+                            
+                                <a
+                                        class="blockInfoSocialsItem"
+                                        target="_blank"
+                                        href="https://api.whatsapp.com/send?phone=77003504101"
+                                        style="background-color:rgb(243, 244, 245)"
+                                >
+                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <rect
+                                                width="26"
+                                                height="26"
+                                                rx="13"
+                                                fill="rgb(32, 32, 34)"
+                                        />
+                                        <path
+                                                d="M6.87766 16.5017L5.86426 20.2001L9.64906 19.2065L6.87766 16.5017Z"
+                                                fill="rgb(243, 244, 245)"
+                                        />
+                                        <path
+                                                d="M12.9998 5.80005C9.0236 5.80005 5.7998 9.02385 5.7998 13C5.7998 16.9762 9.0236 20.2 12.9998 20.2C16.976 20.2 20.1998 16.9762 20.1998 13C20.1998 9.02385 16.976 5.80005 12.9998 5.80005ZM16.5542 15.4858C16.406 15.9016 15.6776 16.3036 15.3512 16.3318C15.0218 16.3624 14.7146 16.48 13.2104 15.8878C11.396 15.1732 10.2518 13.3144 10.1624 13.1944C10.073 13.0774 9.4364 12.2284 9.4364 11.3524C9.4364 10.4734 9.8972 10.0432 10.0586 9.86445C10.223 9.68565 10.4156 9.64125 10.5356 9.64125C10.6526 9.64125 10.7726 9.64125 10.8764 9.64665C11.0048 9.64965 11.1446 9.65805 11.2784 9.95385C11.4374 10.3054 11.7836 11.1874 11.828 11.2768C11.8724 11.3662 11.9036 11.4724 11.8418 11.5894C11.783 11.7094 11.7524 11.782 11.666 11.8882C11.5766 11.9914 11.4788 12.1198 11.3978 12.1978C11.3084 12.2872 11.2166 12.385 11.3198 12.5632C11.423 12.7414 11.7806 13.3252 12.3104 13.7968C12.9914 14.4052 13.5662 14.5924 13.745 14.6818C13.9238 14.7712 14.027 14.7574 14.1302 14.6374C14.2364 14.5204 14.5766 14.1184 14.6966 13.9396C14.8136 13.7608 14.9336 13.7914 15.0956 13.8502C15.26 13.909 16.1366 14.3416 16.3154 14.431C16.4942 14.5204 16.6112 14.5648 16.6562 14.6374C16.7024 14.7124 16.7024 15.0694 16.5542 15.4858Z"
+                                                fill="rgb(243, 244, 245)"
+                                        />
+                                    </svg>
+                                    <div class="blockInfoSocialsItemText"
+                                         style="color:rgb(32, 32, 34)">WhatsApp
+                                    </div>
+                                </a>
+                            
+                            
+                            
+                            
+                        </div>
+                    
+                </section>
+            
+
+            <div class="org" id="org-footer">
+
+              
+                <div class="links">
+                    
+
+                    
+                </div>
+               
+                
+                    <a class="org__block">
+                        <div class="org__text">Powered by</div>
+                        <svg width="50" height="16" viewBox="0 0 50 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_900_7364)">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.97656V14.9998H12.0714V12.0223H15.0606V2.97656H12.0714V12.0226H2.98918V2.97656H0Z" fill="#1C1C1C"/>
+                                <path d="M9.02523 6.011H6.03606V8.98825H9.02523V6.011ZM12.0715 0H2.98926V2.97675H12.0713V0H12.0715Z" fill="#1C1C1C"/>
+                                <path d="M46.1797 11.8891H47.6631V5.44388H46.1797V11.8891ZM34.4502 11.8891H35.9331V8.26338C35.9331 7.26213 36.4973 6.65213 37.318 6.65213C38.139 6.65213 38.6293 7.21363 38.6293 8.21463V11.8891H40.1122V8.25238C40.1122 7.21488 40.6889 6.65313 41.4974 6.65313C42.3306 6.65313 42.8086 7.20238 42.8086 8.22763V11.8901H44.292V7.77538C44.292 6.20063 43.4328 5.30938 42.0241 5.30938C41.5927 5.30632 41.1672 5.40819 40.7858 5.60588C40.4022 5.80484 40.0742 6.0929 39.8304 6.44488C39.6573 6.0904 39.3822 5.7933 39.039 5.59013C38.6981 5.38865 38.3038 5.29094 37.9062 5.30938C37.5088 5.31093 37.1185 5.41389 36.7739 5.60813C36.4272 5.80368 36.1375 6.08339 35.9328 6.42038V5.44413H34.4512L34.4502 11.8894V11.8891ZM31.2509 9.55738C31.2509 10.3631 30.5149 10.9124 29.5348 10.9124C28.8365 10.9124 28.2842 10.5709 28.2842 9.95988C28.2842 9.31313 28.8362 8.93438 29.7676 8.93438C30.2738 8.93112 30.7764 9.01812 31.2509 9.19113V9.55738ZM32.6828 11.8891V8.06838C32.6828 6.34688 31.7522 5.34588 29.8397 5.34588C28.987 5.33447 28.1434 5.51844 27.376 5.88313L27.7801 7.06763C28.3605 6.8042 28.9919 6.66673 29.6314 6.66463C30.661 6.66463 31.2249 7.15263 31.2249 8.04413V8.16663C30.6481 7.97823 30.0428 7.88735 29.4349 7.89788C27.927 7.89788 26.8115 8.58138 26.8115 10.0099C26.8115 11.3289 27.8903 12.0244 29.1156 12.0244C29.5131 12.0385 29.9086 11.9624 30.2711 11.8019C30.6355 11.6405 30.9573 11.3994 31.2119 11.0971V11.8909L32.6828 11.8891ZM20.2422 11.8891H21.725V10.0454L22.6319 9.10538L24.5809 11.8889H26.297L23.6403 8.06838L26.2142 5.44338H24.4124L21.7276 8.30038V2.97788H20.2447L20.2422 11.8894V11.8891ZM47.6779 2.97363H46.2004V4.44438H47.6779V2.97363Z" fill="#1C1C1C"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_900_7364">
+                                    <rect width="50" height="15" fill="white" transform="translate(0 0.5)"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                
+            </div>
+        </main>
+    </div>
+    <div class="column"></div>
+</div>
+<script>
+    var mode = 'PROD';
+    var apiUrlNltx = 'https://events-writer.kamiqr.com/add-customer-events';
+    var buildId = '40475844686_110625e';
+    var isPreview = 'false' === "true";
+    var isFromQR = 'false' === "true";
+    var customerTokenId = '04369372-dee3-4c10-bfa8-7c3d775b0ba0';
+    var customerSessionId = 'b72ec579-ca54-4137-9cfc-9676e1bcb37b';
+    var customerGlobalToken = 'b4f4b97b-a7ea-4331-b556-77d19d887f1f';
+    var splitGroups = JSON.parse('{"recommendation-system-version":"v1"}');
+    var isNewUser = 'true' === "true";
+    var menuId = 'e367154f-fcc0-4d6a-a9d7-dbd237b21444';
+    var defaultLang = 'RU'
+    var sysCurrentLang = ''
+    var otherLangs = JSON.parse('["KZ","EN"]');
+    var sections = `{}`;
+    var footerHeight = document.getElementById('org-footer')?.clientHeight;
+
+    var mainBlock = document.getElementById("main");
+    if (mainBlock) {
+        mainBlock.style.paddingBottom = `calc(20px + ${document.getElementById('org-footer')?.clientHeight || 0}px)`;
+    }
+
+    function removeUtmMedia (search) {
+        if (search.includes('utm_media')) {
+            const params = new URLSearchParams(search);
+            params.delete('utm_media');
+            return '?' + params.toString()
+        }
+        return search
+    }
+
+    function findFromOtherLangs(word, otherLangs) {
+        otherLangs = [...otherLangs] || [];
+
+        if (otherLangs.length === 0) {
+            return "";
+        }
+
+        const isMultipleLangs = otherLangs.filter(lang => !!word?.[lang]).length > 1;
+
+        if (isMultipleLangs) {
+            return "";
+        }
+
+        const lang = otherLangs.find(lang => !!word?.[lang]);
+
+        if (!lang) {
+            return "";
+        }
+
+        return word[lang];
+    }
+
+    function translate(word, currentLang) {
+        if (!word) {
+            return "";
+        }
+
+        if (!currentLang || !defaultLang) {
+            return "";
+        }
+
+        let result = "";
+
+        if (word?.[currentLang]) {
+            result = word[currentLang];
+        } else if (word?.[defaultLang]) {
+            result = word[defaultLang];
+        } else {
+            result = findFromOtherLangs(word, otherLangs);
+        }
+
+        return result.trim() || "";
+    }
+
+    function translateAll(lang) {
+        var desc = JSON.parse(document.getElementById('desc-text-variable')?.innerText || "{}");
+        if (Object.keys(desc).length > 0) {
+            document.getElementById('desc-text').innerText = translate(desc, lang);
+        }
+
+        if ('false' === 'true') {
+            var sectionNames = JSON.parse('null');
+            sectionNames.forEach((section, index) => {
+                var sectionName = JSON.parse(document.getElementById('section-name-text-variable-' + section.sectionId)?.innerText || "{}");
+                if (Object.keys(sectionName).length > 0) {
+                    document.getElementById('section-name-text-' + section.sectionId).innerText = translate(sectionName, lang);
+                }
+            });
+        } else {
+            var menuBtnText = JSON.parse(document.getElementById('menu-btn-text-variable')?.innerText || "{}");
+            if (Object.keys(menuBtnText).length > 0) {
+                document.getElementById('menu-btn-text').innerText = translate(menuBtnText, lang);
+            }
+        }
+
+        var customPageLinks = JSON.parse('[]');
+        if (!!customPageLinks?.length) {
+            customPageLinks.forEach((_, index) => {
+                var customPageLinkName = JSON.parse(document.getElementById('custom-page-link-text-variable-' + index)?.innerText || "{}");
+                if (Object.keys(customPageLinkName).length > 0) {
+                    document.getElementById('custom-page-link-text-' + index).innerText = translate(customPageLinkName, lang);
+                }
+            });
+        }
+
+        var linkGroups = JSON.parse('[{"groupName":{"RU":" "},"links":[{"caption":{"EN":"How to get there:","KZ":"Қалай жету:","RU":"Как добраться:"},"url":"https://2gis.kz/almaty/geo/70000001086767217"},{"caption":{"EN":"Leave feedback:","KZ":"Пікір қалдыру:","RU":"Оставить отзыв:"},"url":"https://lati-cafe-almaty.kamiqr.com/feedback/6ZCZRI"}]}]');
+        if (!!linkGroups?.length) {
+            linkGroups.forEach((linkGroup, groupIndex) => {
+                var linkGroupName = JSON.parse(document.getElementById('group-name-text-variable-' + groupIndex)?.innerText || "{}");
+                if (Object.keys(linkGroupName).length > 0) {
+                    document.getElementById('group-name-text-' + groupIndex).innerText = translate(linkGroupName, lang);
+                }
+                linkGroup?.links?.forEach((_, linkIndex) => {
+                    var linkCaption = JSON.parse(document.getElementById('link-caption-text-variable-' + groupIndex + '-' + linkIndex)?.innerText || "{}");
+                    if (Object.keys(linkCaption).length > 0) {
+                        document.getElementById('link-caption-text-' + groupIndex + '-' + linkIndex).innerText = translate(linkCaption, lang);
+                    }
+                })
+            });
+        }
+
+        var addressLabel = JSON.parse(document.getElementById('address-label-text-variable')?.innerText || "{}");
+        if (Object.keys(addressLabel).length > 0) {
+            document.getElementById('address-label-text').innerHTML = translate(addressLabel, lang);
+        }
+        var addressValue = JSON.parse(document.getElementById('address-value-text-variable')?.innerText || "{}");
+        if (Object.keys(addressValue).length > 0) {
+            document.getElementById('address-value-text').innerHTML = translate(addressValue, lang);
+        }
+        var scheduleLabel = JSON.parse(document.getElementById('schedule-label-text-variable')?.innerText || "{}");
+        if (Object.keys(scheduleLabel).length > 0) {
+            document.getElementById('schedule-label-text').innerHTML = translate(scheduleLabel, lang);
+        }
+        var scheduleValue = JSON.parse(document.getElementById('schedule-value-text-variable')?.innerText || "{}");
+        if (Object.keys(scheduleValue).length > 0) {
+            document.getElementById('schedule-value-text').innerHTML = translate(scheduleValue, lang);
+        }
+        var phoneLabel = JSON.parse(document.getElementById('phone-label-text-variable')?.innerText || "{}");
+        if (Object.keys(phoneLabel).length > 0) {
+            document.getElementById('phone-label-text').innerHTML = translate(phoneLabel, lang);
+        }
+        var phoneContactLabelVars = document.querySelectorAll('[id^="phone-contact-label-variable-"]');
+        phoneContactLabelVars.forEach(function(varEl) {
+            var idx = varEl.id.replace('phone-contact-label-variable-', '');
+            var labelObj = JSON.parse(varEl.innerText || "{}");
+            var labelEl = document.getElementById('phone-contact-label-' + idx);
+            if (labelEl && Object.keys(labelObj).length > 0) {
+                labelEl.innerHTML = translate(labelObj, lang);
+            }
+        });
+        localStorage.setItem('kami-menus-current-lang', lang);
+    }
+
+    translateAll(localStorage.getItem('kami-menus-current-lang') || defaultLang);
+    var langInput = document.getElementsByClassName('textBox')[0];
+    if (langInput) {
+        langInput.value = localStorage.getItem('kami-menus-current-lang') || defaultLang;
+    }
+
+    function setCookie(key, value, options = {}) {
+        options = {
+            path: '/',
+            ...options
+        };
+
+        let updatedCookie = encodeURIComponent(key) + "=" + encodeURIComponent(value);
+
+        for (let optionKey in options) {
+            updatedCookie += "; " + optionKey;
+            let optionValue = options[optionKey];
+            if (optionValue !== true) {
+                updatedCookie += "=" + optionValue;
+            }
+        }
+
+        document.cookie = updatedCookie;
+    }
+
+    function getCookie(key) {
+        let name = key + "=";
+        let decodedCookie = decodeURIComponent(document.cookie);
+        let ca = decodedCookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) === ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) === 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+
+    function show(anything) {
+        document.querySelector('.textBox').value = anything;
+        translateAll(anything);
+    }
+
+    let langDropdown = document.getElementById('lang-dropdown');
+    if (langDropdown) {
+        langDropdown.onclick = function () {
+            langDropdown.classList.toggle("active");
+        }
+    }
+
+    var backgroundPreview = document.getElementById('background-preview');
+    if (backgroundPreview) {
+        backgroundPreview.onerror = function () {
+            backgroundPreview.hidden = true;
+        }
+    }
+
+    var logoPreview = document.getElementById('logo-preview');
+    if (logoPreview) {
+        logoPreview.onerror = function () {
+            logoPreview.hidden = false;
+        }
+    }
+
+    Object.keys(sections).forEach((sectionId) => {
+        var sectionPreview = document.getElementById('section-img-' + sectionId);
+        if (sectionPreview) {
+            sectionPreview.onerror = function () {
+                sectionPreview.hidden = true;
+            }
+        }
+    });
+
+    var sendNltx = (function () {
+        if (isPreview) {
+            return function () {
+            };
+        }
+
+        if (sessionStorage.getItem(`visited-${menuId}`) === "true") {
+            return function () {
+            };
+        }
+
+        var executed = false;
+        return function () {
+            if (!executed) {
+                executed = true;
+                sessionStorage.setItem(`visited-${menuId}`, "true");
+                setCookie("customer-token-id", customerTokenId, {
+                    expires: new Date(new Date().setFullYear(new Date().getFullYear() + 1)),
+                });
+                setCookie("customer-session-id", customerSessionId, {
+                    expires: new Date(new Date().setHours(new Date().getHours() + 1)),
+                });
+                setCookie("customer-global-token", customerGlobalToken, {
+                    domain: window?.location?.hostname?.includes?.("kami") ? mode === "PROD" ? ".kamiqr.com" : ".kamidemo.com" : undefined,
+                    expires: new Date(new Date().setFullYear(new Date().getFullYear() + 1)),
+                });
+
+                const blob = new Blob([JSON.stringify({
+                    customerToken: customerTokenId,
+                    customerSession: customerSessionId,
+                    customerGlobalToken: customerGlobalToken,
+                    menuId: 'e367154f-fcc0-4d6a-a9d7-dbd237b21444',
+                    url: window.location.href,
+                    eventType: "user-visited-page",
+                    data: {
+                        clientTimeMark: new Date(),
+                        buildId: buildId,
+                        isFromQR: isFromQR,
+                        isNewUser: isNewUser,
+                        splitGroups: splitGroups,
+                    },
+                })], {type: 'application/json'});
+                navigator.sendBeacon(apiUrlNltx, blob);
+            }
+        }
+    })();
+    sendNltx();
+
+    window.localLinkClicked = false;
+    if ('false' === 'true') {
+        document.getElementById('home-btn')?.addEventListener('click', function () {
+            window.localLinkClicked = true;
+        });
+    } else {
+        Object.keys(sections).forEach((sectionId) => {
+            document.getElementById(`home-btn-${sectionId}`)?.addEventListener('click', function () {
+                window.localLinkClicked = true;
+            });
+        });
+    }
+
+    window.addEventListener("beforeunload", () => {
+        if (sessionStorage.getItem(`left-${menuId}`) !== "true") {
+            sessionStorage.setItem(`left-${menuId}`, "true");
+            setCookie("customer-token-id", customerTokenId, {
+                expires: new Date(new Date().setFullYear(new Date().getFullYear() + 1)),
+            });
+            setCookie("customer-session-id", customerSessionId, {
+                expires: new Date(new Date().setHours(new Date().getHours() + 1)),
+            });
+            setCookie("customer-global-token", customerGlobalToken, {
+                domain: window?.location?.hostname?.includes?.("kami") ? mode === "PROD" ? ".kamiqr.com" : ".kamidemo.com" : undefined,
+                expires: new Date(new Date().setFullYear(new Date().getFullYear() + 1)),
+            });
+
+            const blob = new Blob([JSON.stringify({
+                menuId: 'e367154f-fcc0-4d6a-a9d7-dbd237b21444',
+                eventType: "user-left-page",
+                customerToken: customerTokenId,
+                customerSession: customerSessionId,
+                customerGlobalToken: customerGlobalToken,
+                url: window.location.href,
+                data: {
+                    clientTimeMark: new Date(),
+                    buildId: buildId,
+                    isNewUser: isNewUser,
+                    splitGroups: splitGroups,
+                },
+            })], {type: 'application/json'});
+            navigator.sendBeacon(apiUrlNltx, blob);
+        }
+    });
+
+
+    <!--window?.analytics?.page("main", {-->
+    <!--    "orgId": '5d648ec5-87be-4f19-ba66-1ec495815ca7',-->
+    <!--    "orgName": 'Lati Cafe' || "",-->
+    <!--    "orgFoodChannel": '' || "",-->
+    <!--    "orgAddress": '',-->
+    <!--    "orgCity": '',-->
+    <!--    "customerToken": getCookie("customer-token-id"),-->
+    <!--    "customerSession": getCookie("customer-session-id")-->
+    <!--});-->
+</script>
+
+</body>
+</html>

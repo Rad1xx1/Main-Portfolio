@@ -1,0 +1,45 @@
+const fs=require('fs'),path=require('path'),assert=require('node:assert/strict');
+const {pathToFileURL}=require('url');
+let playwright;try{playwright=require('playwright')}catch{playwright=require('C:/Users/Asus2025/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright')}
+const root=process.argv[2]||path.join(__dirname,'felix-site');
+const out='C:/Users/Asus2025/.codex/visualizations/2026/10/30/01a18d65-fd7a-7cd2-833c-296a3dab394b';
+(async()=>{
+ const browser=await playwright.chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
+ const context=await browser.newContext({viewport:{width:1440,height:1000},acceptDownloads:true});
+ const page=await context.newPage();const errors=[],external=[];const checks=[];
+ page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text())});
+ page.on('request',r=>{if(/^https?:/.test(r.url()))external.push(r.url())});
+ await page.goto(pathToFileURL(path.join(root,'index.html')).href);await page.waitForLoadState('load');
+ assert.match(await page.title(),/Феликс Алматы/);assert.equal(await page.locator('.product-card').count(),6);checks.push('Page title and six sourced collections');
+ await page.screenshot({path:path.join(out,'felix-desktop.png')});
+ await page.locator('#collections').scrollIntoViewIfNeeded();await page.waitForTimeout(250);
+ await page.screenshot({path:path.join(out,'felix-catalog.png')});
+ await page.locator('#planning').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(out,'felix-closing.png')});
+ await page.locator('[data-filter=executive]').click();assert.equal(await page.locator('.product-card').count(),1);assert.equal(await page.locator('.product-title').innerText(),'YALTA');
+ await page.locator('[data-filter=reception]').click();assert.equal(await page.locator('.product-card').count(),1);
+ await page.locator('[data-filter=all]').click();await page.locator('#search').fill('loft');assert.equal(await page.locator('.product-card').count(),1);
+ await page.locator('#search').fill('неизвестная коллекция');assert.equal(await page.locator('#no-results').isVisible(),true);
+ await page.locator('#reset-search').click();assert.equal(await page.locator('.product-card').count(),6);checks.push('Filters, case-insensitive search, empty state and reset');
+ await page.locator('[data-view=a4]').first().click();assert.equal(await page.locator('#product-dialog').isVisible(),true);
+ await page.locator('[data-detail-add=a4]').click();assert.equal(await page.locator('[data-detail-add=a4]').getAttribute('aria-pressed'),'true');
+ await page.keyboard.press('Escape');assert.equal(await page.locator('#product-dialog').isVisible(),false);
+ await page.reload();assert.equal(await page.locator('.header .selection-count').innerText(),'1');checks.push('Product dialog, selection, Escape and persistence after reload');
+ await page.locator('.selection-toggle').click();await page.locator('#seats').fill('0');await page.locator('#brief-form button[type=submit]').click();assert.equal(await page.locator('#brief-form').isVisible(),true);
+ await page.locator('#seats').fill('12');await page.locator('#notes').fill('Офис 80 м². Светлая мебель. <script>не выполнять</script>');
+ await page.locator('#brief-form button[type=submit]').click();assert.equal(await page.locator('#request-result').isVisible(),true);assert.match(await page.locator('#request-text').inputValue(),/Рабочих мест: 12/);
+ assert.match(await page.locator('#request-text').inputValue(),/А4/);
+ const downloadEvent=page.waitForEvent('download');await page.locator('#download-request').click();const download=await downloadEvent;assert.match(download.suggestedFilename(),/подборка мебели.txt/);await download.saveAs(path.join(out,'felix-qa-request.txt'));
+ assert.match(fs.readFileSync(path.join(out,'felix-qa-request.txt'),'utf8'),/Рабочих мест: 12/);checks.push('Native form validation and local TXT export; no transmission');
+ await page.screenshot({path:path.join(out,'felix-selection.png')});
+ await page.locator('#edit-brief').click();await page.locator('[data-remove=a4]').click();assert.equal(await page.locator('.header .selection-count').innerText(),'0');await page.locator('#selection-dialog .close-dialog').click();
+ await page.evaluate(()=>localStorage.clear());await page.reload();
+ const sizes=[{width:360,height:800},{width:390,height:844},{width:768,height:1024},{width:1440,height:1000}];
+ for(const size of sizes){await page.setViewportSize(size);await page.evaluate(()=>scrollTo(0,0));await page.waitForTimeout(150);const w=await page.evaluate(()=>({viewport:innerWidth,document:document.documentElement.scrollWidth}));assert.ok(w.document<=w.viewport+1,JSON.stringify(w));if(size.width===390)await page.screenshot({path:path.join(out,'felix-mobile.png')});}
+ checks.push('No horizontal overflow at widths 360, 390, 768, 1440');
+ await page.setViewportSize({width:390,height:844});await page.locator('.menu-toggle').click();assert.equal(await page.locator('#mobile-nav').isVisible(),true);await page.locator('#mobile-nav a[href="#contacts"]').click();assert.equal(await page.locator('#mobile-nav').isVisible(),false);checks.push('Mobile navigation opens, navigates and closes');
+ await page.evaluate(async()=>{for(const i of document.images)i.loading='eager';await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})))});
+ assert.deepEqual(await page.locator('img').evaluateAll(imgs=>imgs.filter(i=>!i.complete||i.naturalWidth===0).map(i=>i.src)),[]);
+ assert.equal(await page.locator('a[href="https://wa.me/77770177805"]').count(),1);assert.deepEqual(errors,[]);assert.deepEqual(external,[]);checks.push('All local images load; correct WhatsApp target; no console errors or external requests');
+ const report={date:new Date().toISOString(),root,method:'Playwright + installed Chrome. Browser plugin not available.',checks,errors,external,viewports:sizes,status:'passed'};
+ fs.writeFileSync(path.join(out,'felix-qa.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

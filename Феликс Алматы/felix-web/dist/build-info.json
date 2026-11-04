@@ -1,0 +1,1002 @@
+{
+  "built": "2026-10-31T10:30:54.211Z",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Мебель и решения для пространств"
+    },
+    {
+      "file": "catalog.html",
+      "title": "Весь каталог"
+    },
+    {
+      "file": "about.html",
+      "title": "О компании"
+    },
+    {
+      "file": "contacts.html",
+      "title": "Контакты"
+    },
+    {
+      "file": "planning.html",
+      "title": "Комплектация"
+    },
+    {
+      "file": "selection.html",
+      "title": "Подборка"
+    },
+    {
+      "file": "category-executive.html",
+      "title": "Кабинеты руководителя"
+    },
+    {
+      "file": "category-work.html",
+      "title": "Мебель для персонала"
+    },
+    {
+      "file": "category-executive-chairs.html",
+      "title": "Кресла руководителя"
+    },
+    {
+      "file": "category-staff-chairs.html",
+      "title": "Кресла персонала"
+    },
+    {
+      "file": "category-soft.html",
+      "title": "Мягкая мебель"
+    },
+    {
+      "file": "category-partitions.html",
+      "title": "Офисные перегородки"
+    },
+    {
+      "file": "category-reception.html",
+      "title": "Мебель для приёмных"
+    },
+    {
+      "file": "category-chairs.html",
+      "title": "Стулья"
+    },
+    {
+      "file": "category-kids.html",
+      "title": "Детская мебель"
+    },
+    {
+      "file": "category-hotel.html",
+      "title": "Мебель для гостиниц"
+    },
+    {
+      "file": "category-acoustic.html",
+      "title": "Акустические кабины"
+    },
+    {
+      "file": "category-accessories.html",
+      "title": "Аксессуары"
+    },
+    {
+      "file": "collection-item-f0307094f480.html",
+      "title": "«Кабинет руководителя \"Президент\" - стол письменный эргономичный \"трапеция\""
+    },
+    {
+      "file": "collection-item-0e428030f0c4.html",
+      "title": "«Кабинет руководителя TORR - стол письменный с 2-мя тумбами"
+    },
+    {
+      "file": "collection-item-5be5f7cfb281.html",
+      "title": "«Перегородки офисные мобильные \"РИТМ\" - экран"
+    },
+    {
+      "file": "collection-item-1653ef8fd584.html",
+      "title": "Аксессуары \"Конь\""
+    },
+    {
+      "file": "collection-item-680ec4c84f88.html",
+      "title": "Аксессуары \"Тигр\""
+    },
+    {
+      "file": "collection-item-a5318479aaae.html",
+      "title": "БЮРОКРАТ 771/BLACK"
+    },
+    {
+      "file": "collection-item-e8161e187bb1.html",
+      "title": "БЮРОКРАТ 771/GREY"
+    },
+    {
+      "file": "collection-item-87040bbe869e.html",
+      "title": "Диван \"Боттичелли 2\" (двойка) - в эко коже"
+    },
+    {
+      "file": "collection-item-0dbaa7219b3b.html",
+      "title": "Диван \"ДЮНА\" - 2-х местный"
+    },
+    {
+      "file": "collection-item-d98680e5eb31.html",
+      "title": "Диван \"СИМПЛ\" - 2-х местный"
+    },
+    {
+      "file": "collection-item-c7a84ad83979.html",
+      "title": "Диван \"ЧЕСТЕР лайт\" - 2-х местный"
+    },
+    {
+      "file": "collection-item-dea7ac5731bb.html",
+      "title": "Диван кожаный \"Боттичелли 2\" (двойка) - в натуральной коже \"Madras\""
+    },
+    {
+      "file": "collection-item-941cf79088e6.html",
+      "title": "Диван кожаный \"Вермер 2\" - двойка"
+    },
+    {
+      "file": "collection-item-30d71320a032.html",
+      "title": "Диван кожаный \"Шагал\" - двойка"
+    },
+    {
+      "file": "collection-item-29123fa9b409.html",
+      "title": "Диван угловой \"Боттичелли Энгл\" - в натуральной коже \"Madras\""
+    },
+    {
+      "file": "collection-item-50d2c688ad6a.html",
+      "title": "Диван угловой \"Боттичелли Энгл\" - в эко коже"
+    },
+    {
+      "file": "collection-item-2190740b2a60.html",
+      "title": "Зонтница \"Венеция\" - 1"
+    },
+    {
+      "file": "collection-item-5fc69f3fdaed.html",
+      "title": "Кабинет \"FIRST\""
+    },
+    {
+      "file": "collection-item-d9d742a2c821.html",
+      "title": "Кабинет \"ONIX DIRECT\""
+    },
+    {
+      "file": "collection-item-2622c906b6e0.html",
+      "title": "Кабинет \"ONIX WOOD DIRECT \""
+    },
+    {
+      "file": "collection-item-25e4d7d073ce.html",
+      "title": "Кабинет \"SHIFT\""
+    },
+    {
+      "file": "collection-yalta.html",
+      "title": "Кабинет \"YALTA\""
+    },
+    {
+      "file": "collection-item-a998b256a5f4.html",
+      "title": "Кабинет премиум класса \"Версаль\" - стол письменный"
+    },
+    {
+      "file": "collection-item-afb7398f45b3.html",
+      "title": "Кабинет Премиум-класса \"PRIVILEGE\" - стол письменный"
+    },
+    {
+      "file": "collection-item-b734eb9b3256.html",
+      "title": "Кабинет руководителя \"Атташе-М\" - стол письменный"
+    },
+    {
+      "file": "collection-item-23cb3cf98810.html",
+      "title": "Кабинет руководителя \"БОРН\" - стол письменный"
+    },
+    {
+      "file": "collection-item-1f4797cbf988.html",
+      "title": "Кабинет руководителя \"Гамильтон\" - стол письменный"
+    },
+    {
+      "file": "collection-item-39f97ea7dc8d.html",
+      "title": "Кабинет руководителя \"Дуглас\" - стол письменный"
+    },
+    {
+      "file": "collection-item-55d4d2693ede.html",
+      "title": "Кабинет руководителя \"Лидер\" - стол письменный"
+    },
+    {
+      "file": "collection-item-cdbf03a5c20e.html",
+      "title": "Кабинет руководителя \"Патриот\" - стол письменный"
+    },
+    {
+      "file": "collection-item-5a4abbf274be.html",
+      "title": "Кабинет руководителя \"Президент\" - стол письменный"
+    },
+    {
+      "file": "collection-item-34ebda087edc.html",
+      "title": "кабинет руководителя \"Премьер\" - стол письменный"
+    },
+    {
+      "file": "collection-item-5097282661a1.html",
+      "title": "Кабинет руководителя \"Престиж\" - стол письменный"
+    },
+    {
+      "file": "collection-item-9054dc717185.html",
+      "title": "Кабинет руководителя \"Фаворит\" - стол письменный"
+    },
+    {
+      "file": "collection-item-5f19b4cc0d44.html",
+      "title": "Кабинет руководителя \"ALTO\" - стол письменный"
+    },
+    {
+      "file": "collection-item-c7fbdebe6da3.html",
+      "title": "Кабинет руководителя \"COSMO\" - стол письменный"
+    },
+    {
+      "file": "collection-item-a532f37bcc0a.html",
+      "title": "Кабинет руководителя \"MORRIS\" - стол письменный"
+    },
+    {
+      "file": "collection-item-45f3fc566dcb.html",
+      "title": "Кабинет руководителя \"Raut\" - стол письменный"
+    },
+    {
+      "file": "collection-item-bcdebb5eeef8.html",
+      "title": "Кабинет руководителя \"Reventon\" - стол письменный"
+    },
+    {
+      "file": "collection-item-bf3698c1066c.html",
+      "title": "Кабинет руководителя \"TORR-Z\" - письменный стол"
+    },
+    {
+      "file": "collection-item-80a2c2716a14.html",
+      "title": "Кабинет руководителя премиум класса \"DAO\" - стол писменный"
+    },
+    {
+      "file": "collection-item-3bfb008e34fc.html",
+      "title": "Кабинет руководителя Премиум-класса \"PRIVILEGE\" - стол письменный с 2-мя тумбами"
+    },
+    {
+      "file": "collection-item-37f9b358cbc8.html",
+      "title": "Кабинет руководителя эконом-класса \"Система МР\" - стол письменный"
+    },
+    {
+      "file": "collection-item-b9da59cf2b5f.html",
+      "title": "Кабинет руководителя TORR - стол письменный"
+    },
+    {
+      "file": "collection-item-cc49c2b6ab32.html",
+      "title": "Кресло \"Боттичелли 1\" в эко коже"
+    },
+    {
+      "file": "collection-item-33e5e3996437.html",
+      "title": "Кресло Детское Бюрократ \"KD-8\""
+    },
+    {
+      "file": "collection-item-8b4d97a1aaf1.html",
+      "title": "Кресло кожаное \"Боттичелли 1\" в натуральной коже Madras"
+    },
+    {
+      "file": "collection-item-b6d16f97dd64.html",
+      "title": "Кресло руководителя \"Боттичелли\""
+    },
+    {
+      "file": "collection-item-39820f92e8ae.html",
+      "title": "Кресло руководителя \"Дали\""
+    },
+    {
+      "file": "collection-item-6d0db55df7cc.html",
+      "title": "Кресло CHAIRMAN 429"
+    },
+    {
+      "file": "collection-item-76da7eafb074.html",
+      "title": "Кресло CHAIRMAN 661"
+    },
+    {
+      "file": "collection-item-88ee9e4bcab3.html",
+      "title": "Кресло CHAIRMAN 696"
+    },
+    {
+      "file": "collection-item-464062193c67.html",
+      "title": "Кресло CHAIRMAN 737"
+    },
+    {
+      "file": "collection-item-7743891311bf.html",
+      "title": "Кресло CHAIRMAN 785"
+    },
+    {
+      "file": "collection-item-61b803094607.html",
+      "title": "Мебель для гостиниц \"Кредо\""
+    },
+    {
+      "file": "collection-item-2dddcb633dc4.html",
+      "title": "Мебель для гостиниц \"Мадейра\""
+    },
+    {
+      "file": "collection-item-19eadf7722d7.html",
+      "title": "Мебель для гостиниц \"Рио Гранде\""
+    },
+    {
+      "file": "collection-item-a2717ff512f4.html",
+      "title": "Мебель для гостиниц \"Venezia New\""
+    },
+    {
+      "file": "collection-item-e5ee474ced9c.html",
+      "title": "Мебель для персонала \"Диалог\" стол рабочий"
+    },
+    {
+      "file": "collection-item-51557bbda571.html",
+      "title": "Мебель для персонала \"Дин-Р\" - стол рабочий прямой"
+    },
+    {
+      "file": "collection-item-0edec5129822.html",
+      "title": "Мебель для персонала \"Матрица\" - стол рабочий прямой"
+    },
+    {
+      "file": "collection-item-34720a70f01e.html",
+      "title": "Мебель для персонала \"Профи\" - стол рабочий прямой"
+    },
+    {
+      "file": "collection-item-b71a1bdb2eed.html",
+      "title": "Мебель для персонала \"Старт\" - стол рабочий прямой"
+    },
+    {
+      "file": "collection-item-167c04b75208.html",
+      "title": "Мебель для персонала \"Тандем\" - стол рабочий"
+    },
+    {
+      "file": "collection-item-799ef7ad18ca.html",
+      "title": "Мебель для персонала \"Формула\" - стол рабочий прямой (малый)"
+    },
+    {
+      "file": "collection-item-4846651ac2c2.html",
+      "title": "Мебель для персонала \"OGI\" - стол рабочий с опорами типа \"А\""
+    },
+    {
+      "file": "collection-item-af669951fa6f.html",
+      "title": "Мебель для приемной (Ресепшен) \"Формула\" - модуль прямой (80x76x110)"
+    },
+    {
+      "file": "collection-reception.html",
+      "title": "Мебель для приемных (ресепшен) \"А4\" - Стойка прямая (95x73x115)"
+    },
+    {
+      "file": "collection-item-c292adf042d0.html",
+      "title": "Мебель для приемных (ресепшен) \"Имидж\""
+    },
+    {
+      "file": "collection-item-4a210ac28075.html",
+      "title": "Мебель для приемных (ресепшен) \"imago\" - прямая секция на 94 см."
+    },
+    {
+      "file": "collection-item-3f32b23a1164.html",
+      "title": "Мебель для приемных (ресепшен) \"RAUT\" - прямая секция на 90 см."
+    },
+    {
+      "file": "collection-item-464bdc1bc282.html",
+      "title": "Мебель для приемных (ресепшен) Тандем - прямая секция (80x70x114)"
+    },
+    {
+      "file": "collection-item-b96c0e174979.html",
+      "title": "Мебель для сотрудников \"Комфорт\" - стол рабочий прямой 120 см."
+    },
+    {
+      "file": "collection-item-faed386497dc.html",
+      "title": "Мобильная система - складные столы на колесиках"
+    },
+    {
+      "file": "collection-item-89f299fca675.html",
+      "title": "Офисная мебель \"Статус\" стол рабочий"
+    },
+    {
+      "file": "collection-item-755e43beb267.html",
+      "title": "Офисная мебель \"Тандем А\" - стол рабочий"
+    },
+    {
+      "file": "collection-item-b1990cea2129.html",
+      "title": "Офисная мебель \"Тандем М\" - стол рабочий (140x80x75) - дуб альпийский"
+    },
+    {
+      "file": "collection-item-5ea2b36b6dd2.html",
+      "title": "Офисная мебель \"Тандем Т\" - стол рабочий"
+    },
+    {
+      "file": "collection-item-2f6cb96dda23.html",
+      "title": "Офисная мебель для персонала \"Система М\" - стол рабочий"
+    },
+    {
+      "file": "collection-item-a58c1a266b74.html",
+      "title": "Перегородки офисные \"Логика\" - модуль комбинированный"
+    },
+    {
+      "file": "collection-item-032253a4ead2.html",
+      "title": "Перегородки офисные \"Темп\" - модуль комбинированный"
+    },
+    {
+      "file": "collection-item-210dc9220a2a.html",
+      "title": "Перегородки офисные мобильные \"Матрица\""
+    },
+    {
+      "file": "collection-item-a6a1157a4f90.html",
+      "title": "Перегородки офисные мобильные \"РИТМ\" - комбинированный модуль"
+    },
+    {
+      "file": "collection-a4.html",
+      "title": "серия \"А4\""
+    },
+    {
+      "file": "collection-loft.html",
+      "title": "серия \"LOFT\""
+    },
+    {
+      "file": "collection-metal.html",
+      "title": "серия \"METAL SYSTEM\""
+    },
+    {
+      "file": "collection-item-acc1b5b519a9.html",
+      "title": "серия \"MOVE UP\""
+    },
+    {
+      "file": "collection-onix.html",
+      "title": "серия \"ONIX\""
+    },
+    {
+      "file": "collection-item-a3dbf09fcb8a.html",
+      "title": "Серия офисной мебели \"Технофорвард\" - стол рабочий прямой"
+    },
+    {
+      "file": "collection-item-8724d21429ff.html",
+      "title": "Скульптура \"Орел на волне\""
+    },
+    {
+      "file": "collection-item-7224813cb40d.html",
+      "title": "Статуэтка \"Знак зодиака Весы\""
+    },
+    {
+      "file": "collection-item-2381f351741b.html",
+      "title": "Статуэтка \"Знак зодиака Лев\""
+    },
+    {
+      "file": "collection-item-a3db90feb396.html",
+      "title": "Статуэтка \"Конь\""
+    },
+    {
+      "file": "collection-item-ef3c24ea75cb.html",
+      "title": "Статуэтка \"Ученый Филин\""
+    },
+    {
+      "file": "collection-item-fe6f61ed2989.html",
+      "title": "Статуэтка \"Филин\""
+    },
+    {
+      "file": "collection-item-1ae5ae7ba1ec.html",
+      "title": "Стул CHAIRMAN 658"
+    },
+    {
+      "file": "collection-item-9f8f44f69ed9.html",
+      "title": "Сувенир \"Терцет\" (Скульптура)"
+    },
+    {
+      "file": "collection-item-2f438936abfa.html",
+      "title": "CHAIRMAN 250"
+    },
+    {
+      "file": "collection-item-cc4d6a354f37.html",
+      "title": "CHAIRMAN 279"
+    },
+    {
+      "file": "collection-item-fce5770798bf.html",
+      "title": "CHAIRMAN 283"
+    },
+    {
+      "file": "collection-item-4b589a33a18e.html",
+      "title": "CHAIRMAN 289"
+    },
+    {
+      "file": "collection-item-34a3b7e128e4.html",
+      "title": "CHAIRMAN 380"
+    },
+    {
+      "file": "collection-item-375084faaad2.html",
+      "title": "CHAIRMAN 402"
+    },
+    {
+      "file": "collection-item-063b8e091bcd.html",
+      "title": "CHAIRMAN 404 - натуральная кожа"
+    },
+    {
+      "file": "collection-item-70e69e9a362b.html",
+      "title": "CHAIRMAN 405 - натуральная кожа. Усиленное до 250 кг."
+    },
+    {
+      "file": "collection-item-2c156424c602.html",
+      "title": "CHAIRMAN 405 ЭКО"
+    },
+    {
+      "file": "collection-item-5190dfb4b4a8.html",
+      "title": "CHAIRMAN 406"
+    },
+    {
+      "file": "collection-item-aee03f7a4903.html",
+      "title": "CHAIRMAN 408"
+    },
+    {
+      "file": "collection-item-d0e4d66c3291.html",
+      "title": "CHAIRMAN 410"
+    },
+    {
+      "file": "collection-item-37226a425519.html",
+      "title": "CHAIRMAN 411"
+    },
+    {
+      "file": "collection-item-f29f696f218f.html",
+      "title": "CHAIRMAN 416"
+    },
+    {
+      "file": "collection-item-0c052fc77d7f.html",
+      "title": "CHAIRMAN 416V - Стул"
+    },
+    {
+      "file": "collection-item-2e458d38a3f1.html",
+      "title": "CHAIRMAN 417"
+    },
+    {
+      "file": "collection-item-4540eaf61b6a.html",
+      "title": "CHAIRMAN 418"
+    },
+    {
+      "file": "collection-item-bfcded5d8a96.html",
+      "title": "CHAIRMAN 418 PU"
+    },
+    {
+      "file": "collection-item-7f4404d88829.html",
+      "title": "CHAIRMAN 418 V - стул"
+    },
+    {
+      "file": "collection-item-f9b0bd7cbcb8.html",
+      "title": "CHAIRMAN 420"
+    },
+    {
+      "file": "collection-item-cf2634c4615b.html",
+      "title": "CHAIRMAN 420 WD"
+    },
+    {
+      "file": "collection-item-2ad51bf7737c.html",
+      "title": "CHAIRMAN 421"
+    },
+    {
+      "file": "collection-item-d82b796c69dd.html",
+      "title": "CHAIRMAN 432"
+    },
+    {
+      "file": "collection-item-71f2a35497f1.html",
+      "title": "CHAIRMAN 433"
+    },
+    {
+      "file": "collection-item-a865d073fd4b.html",
+      "title": "CHAIRMAN 434"
+    },
+    {
+      "file": "collection-item-778a5fab0aad.html",
+      "title": "CHAIRMAN 436"
+    },
+    {
+      "file": "collection-item-c7796998c35a.html",
+      "title": "CHAIRMAN 436 LT"
+    },
+    {
+      "file": "collection-item-81c8d321dd75.html",
+      "title": "CHAIRMAN 442"
+    },
+    {
+      "file": "collection-item-ca72c2749514.html",
+      "title": "CHAIRMAN 445"
+    },
+    {
+      "file": "collection-item-62b4fcb6cde5.html",
+      "title": "CHAIRMAN 445 WD"
+    },
+    {
+      "file": "collection-item-f6f8cda9dcf1.html",
+      "title": "CHAIRMAN 450 LT"
+    },
+    {
+      "file": "collection-item-ee5acc27ffbd.html",
+      "title": "CHAIRMAN 451"
+    },
+    {
+      "file": "collection-item-55071e568c82.html",
+      "title": "CHAIRMAN 480"
+    },
+    {
+      "file": "collection-item-d29b9826f198.html",
+      "title": "CHAIRMAN 480 LT"
+    },
+    {
+      "file": "collection-item-377026dc3036.html",
+      "title": "CHAIRMAN 480 WD"
+    },
+    {
+      "file": "collection-item-752025133032.html",
+      "title": "CHAIRMAN 495"
+    },
+    {
+      "file": "collection-item-f2339cd99800.html",
+      "title": "CHAIRMAN 503 - натуральная кожа"
+    },
+    {
+      "file": "collection-item-2f572dcc6798.html",
+      "title": "CHAIRMAN 505"
+    },
+    {
+      "file": "collection-item-5e8a34df4cd2.html",
+      "title": "CHAIRMAN 610"
+    },
+    {
+      "file": "collection-item-996b7b8b03f4.html",
+      "title": "CHAIRMAN 610 LT"
+    },
+    {
+      "file": "collection-item-e8da30745624.html",
+      "title": "CHAIRMAN 615"
+    },
+    {
+      "file": "collection-item-e9a6c3641f55.html",
+      "title": "CHAIRMAN 627"
+    },
+    {
+      "file": "collection-item-024f676d9582.html",
+      "title": "CHAIRMAN 651"
+    },
+    {
+      "file": "collection-item-70a90d6beed1.html",
+      "title": "CHAIRMAN 653"
+    },
+    {
+      "file": "collection-item-0c183d86a6b8.html",
+      "title": "CHAIRMAN 653M"
+    },
+    {
+      "file": "collection-item-70a86841caa1.html",
+      "title": "CHAIRMAN 653V - кресло/стул на полозьях"
+    },
+    {
+      "file": "collection-item-afcb333b7885.html",
+      "title": "CHAIRMAN 659 - стул"
+    },
+    {
+      "file": "collection-item-0ac8663aad21.html",
+      "title": "CHAIRMAN 668"
+    },
+    {
+      "file": "collection-item-af540143d14b.html",
+      "title": "CHAIRMAN 668 LT"
+    },
+    {
+      "file": "collection-item-a5fe10fdcbaf.html",
+      "title": "CHAIRMAN 681"
+    },
+    {
+      "file": "collection-item-73c4b142b60c.html",
+      "title": "CHAIRMAN 685"
+    },
+    {
+      "file": "collection-item-dfe2cd393e78.html",
+      "title": "CHAIRMAN 696 CHROME"
+    },
+    {
+      "file": "collection-item-47f53e568c3f.html",
+      "title": "CHAIRMAN 696 V"
+    },
+    {
+      "file": "collection-item-6150cd9db078.html",
+      "title": "CHAIRMAN 696 white"
+    },
+    {
+      "file": "collection-item-bef625152331.html",
+      "title": "CHAIRMAN 698 black"
+    },
+    {
+      "file": "collection-item-bb94cbe7c4ee.html",
+      "title": "CHAIRMAN 700 сетка"
+    },
+    {
+      "file": "collection-item-2244e1714061.html",
+      "title": "CHAIRMAN 700 ECO"
+    },
+    {
+      "file": "collection-item-b1628c9fd0e3.html",
+      "title": "CHAIRMAN 701 СЕТКА"
+    },
+    {
+      "file": "collection-item-16587d1335ae.html",
+      "title": "CHAIRMAN 701 ЭКО"
+    },
+    {
+      "file": "collection-item-437e6227a2be.html",
+      "title": "CHAIRMAN 710"
+    },
+    {
+      "file": "collection-item-f3e1cecc9a78.html",
+      "title": "CHAIRMAN 727"
+    },
+    {
+      "file": "collection-item-1bbaf883bde8.html",
+      "title": "CHAIRMAN 750"
+    },
+    {
+      "file": "collection-item-040f75e722df.html",
+      "title": "CHAIRMAN 760M"
+    },
+    {
+      "file": "collection-item-7fdcb9726aea.html",
+      "title": "CHAIRMAN 769"
+    },
+    {
+      "file": "collection-item-da97477f37a7.html",
+      "title": "CHAIRMAN 795"
+    },
+    {
+      "file": "collection-item-d01afc45013e.html",
+      "title": "CHAIRMAN 795 LT"
+    },
+    {
+      "file": "collection-item-d19b96b87066.html",
+      "title": "CHAIRMAN 840 Black"
+    },
+    {
+      "file": "collection-item-0b5e69ce0073.html",
+      "title": "CHAIRMAN 840 White"
+    },
+    {
+      "file": "collection-item-a34b039ee6f7.html",
+      "title": "CHAIRMAN 850 - стул"
+    },
+    {
+      "file": "collection-item-80550a3624f1.html",
+      "title": "CHAIRMAN 901"
+    },
+    {
+      "file": "collection-item-fd69bc054d5b.html",
+      "title": "CHAIRMAN 920"
+    },
+    {
+      "file": "collection-item-e81a94742483.html",
+      "title": "CHAIRMAN 950"
+    },
+    {
+      "file": "collection-item-95cd3207ce60.html",
+      "title": "CHAIRMAN 969 black"
+    },
+    {
+      "file": "collection-item-6b8577d99169.html",
+      "title": "CHAIRMAN 969 V"
+    },
+    {
+      "file": "collection-item-6f418e6bf043.html",
+      "title": "CHAIRMAN 9801"
+    },
+    {
+      "file": "collection-item-568fbf4015fd.html",
+      "title": "CHAIRMAN 9801 Chrom"
+    },
+    {
+      "file": "collection-item-cac12b333fa0.html",
+      "title": "CHAIRMAN 9801 ERGO"
+    },
+    {
+      "file": "collection-item-517bbd4d9033.html",
+      "title": "CHAIRMAN Ergo 281 chrome"
+    },
+    {
+      "file": "collection-item-29b2e2a0c716.html",
+      "title": "CHAIRMAN GAME 12"
+    },
+    {
+      "file": "collection-item-9fad0368f893.html",
+      "title": "CHAIRMAN GAME 14"
+    },
+    {
+      "file": "collection-item-633f00dd03e2.html",
+      "title": "CHAIRMAN GAME 15"
+    },
+    {
+      "file": "collection-item-9bd900d640e8.html",
+      "title": "CHAIRMAN GAME 15 MIXCOLOR"
+    },
+    {
+      "file": "collection-item-e29fa347a331.html",
+      "title": "CHAIRMAN GAME 16"
+    },
+    {
+      "file": "collection-item-5a461d529836.html",
+      "title": "CHAIRMAN GAME 16 WHITE"
+    },
+    {
+      "file": "collection-item-527cf6b6a36d.html",
+      "title": "CHAIRMAN GAME 17"
+    },
+    {
+      "file": "collection-item-730f2df2b9d1.html",
+      "title": "CHAIRMAN GAME 18"
+    },
+    {
+      "file": "collection-item-3c94e13558d7.html",
+      "title": "CHAIRMAN GAME 20"
+    },
+    {
+      "file": "collection-item-352395c93bb1.html",
+      "title": "CHAIRMAN GAME 22"
+    },
+    {
+      "file": "collection-item-6d1c6eb793af.html",
+      "title": "CHAIRMAN GAME 23"
+    },
+    {
+      "file": "collection-item-e0a4345d2444.html",
+      "title": "CHAIRMAN GAME 26"
+    },
+    {
+      "file": "collection-item-a8fe402c4047.html",
+      "title": "CHAIRMAN GAME 8"
+    },
+    {
+      "file": "collection-item-98ae4cad991f.html",
+      "title": "CHAIRMAN KIDS 101"
+    },
+    {
+      "file": "collection-item-6b8b39f4602e.html",
+      "title": "CHAIRMAN KIDS 101 BLACK"
+    },
+    {
+      "file": "collection-item-b07e860e6264.html",
+      "title": "CHAIRMAN KIDS 102"
+    },
+    {
+      "file": "collection-item-af7b31aa4903.html",
+      "title": "CHAIRMAN KIDS 102 BLACK"
+    },
+    {
+      "file": "collection-item-33b3d9e0eb0a.html",
+      "title": "CHAIRMAN KIDS 103"
+    },
+    {
+      "file": "collection-item-300d0d6324bd.html",
+      "title": "CHAIRMAN KIDS 103 BLACK"
+    },
+    {
+      "file": "collection-item-3e1ba93afb43.html",
+      "title": "CHAIRMAN KIDS 104"
+    },
+    {
+      "file": "collection-item-477b34e27c46.html",
+      "title": "CHAIRMAN KIDS 104 BLACK"
+    },
+    {
+      "file": "collection-item-e451bbc8a8c4.html",
+      "title": "CHAIRMAN KIDS 105"
+    },
+    {
+      "file": "collection-item-1b20700b1b53.html",
+      "title": "CHAIRMAN KIDS 106"
+    },
+    {
+      "file": "collection-item-cad87a9c3265.html",
+      "title": "CHAIRMAN KIDS 106 BLACK"
+    },
+    {
+      "file": "collection-item-e184e042b6aa.html",
+      "title": "CHAIRMAN KIDS 108"
+    },
+    {
+      "file": "collection-item-7a16e9f4bebe.html",
+      "title": "CHAIRMAN KIDS 110"
+    },
+    {
+      "file": "collection-item-beb7dbfe44df.html",
+      "title": "CHAIRMAN KIDS 115"
+    },
+    {
+      "file": "collection-item-9f8705328e41.html",
+      "title": "CHAIRMAN KIDS 122"
+    },
+    {
+      "file": "collection-item-ce0e05d6591d.html",
+      "title": "CHAIRMAN KIDS 122 BLACK"
+    },
+    {
+      "file": "collection-item-b4080a9ba40f.html",
+      "title": "CHAIRMAN NEXX - стул складной"
+    },
+    {
+      "file": "collection-item-6c5be76403b6.html",
+      "title": "CHAIRMAN SPINELLY"
+    },
+    {
+      "file": "collection-item-bb7c592e0ff2.html",
+      "title": "CHAIRMAN Vista"
+    },
+    {
+      "file": "collection-item-0c2f421ed0fb.html",
+      "title": "CHAIRMAN Vista V (стул)"
+    },
+    {
+      "file": "collection-item-feb678980dc3.html",
+      "title": "PRESTIGE ERGO"
+    },
+    {
+      "file": "dealers.html",
+      "title": "Дилерам."
+    },
+    {
+      "file": "partners.html",
+      "title": "Партнёры и бренды."
+    },
+    {
+      "file": "offers.html",
+      "title": "Цены и предложения."
+    },
+    {
+      "file": "how-to-order.html",
+      "title": "Как оформить заявку"
+    },
+    {
+      "file": "sources.html",
+      "title": "Источники материалов"
+    },
+    {
+      "file": "404.html",
+      "title": "Страница не найдена"
+    }
+  ],
+  "products": 209,
+  "categories": [
+    {
+      "id": "executive",
+      "title": "Кабинеты руководителя",
+      "count": 29
+    },
+    {
+      "id": "work",
+      "title": "Мебель для персонала",
+      "count": 21
+    },
+    {
+      "id": "executive-chairs",
+      "title": "Кресла руководителя",
+      "count": 62
+    },
+    {
+      "id": "staff-chairs",
+      "title": "Кресла персонала",
+      "count": 70
+    },
+    {
+      "id": "soft",
+      "title": "Мягкая мебель",
+      "count": 12
+    },
+    {
+      "id": "partitions",
+      "title": "Офисные перегородки",
+      "count": 5
+    },
+    {
+      "id": "reception",
+      "title": "Мебель для приёмных",
+      "count": 6
+    },
+    {
+      "id": "chairs",
+      "title": "Стулья",
+      "count": 14
+    },
+    {
+      "id": "kids",
+      "title": "Детская мебель",
+      "count": 16
+    },
+    {
+      "id": "hotel",
+      "title": "Мебель для гостиниц",
+      "count": 4
+    },
+    {
+      "id": "acoustic",
+      "title": "Акустические кабины",
+      "count": 0
+    },
+    {
+      "id": "accessories",
+      "title": "Аксессуары",
+      "count": 10
+    }
+  ],
+  "mode": "local-demo",
+  "sending": false
+}

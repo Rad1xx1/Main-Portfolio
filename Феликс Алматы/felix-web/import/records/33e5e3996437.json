@@ -1,0 +1,53 @@
+{
+  "id": "item-33e5e3996437",
+  "title": "Кресло Детское Бюрократ \"KD-8\"",
+  "source": "https://www.felix-almaty.kz/product-page/кресло-детское-бюрократ-kd-8",
+  "checked_at": "2026-10-31T10:06:04.450Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_daf0ea48ba014c0b893b22b7ed192802~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 475,
+      "height": 800
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_303e96f63d814d56a39bcdc3b2a0e9ff~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 460,
+      "height": 800
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_94fe30fd42cc417d906bb955eeefe500~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 480,
+      "height": 800
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_6b09fd5b8aa6484da934f10fe0f81f9b~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 500,
+      "height": 252
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_140f6743f1b84bcdb62f5b75a0cb069c~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 467,
+      "height": 800
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_c70712dd12ed4b5eb60cf744f2a0eaff~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 526,
+      "height": 800
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_d8e505df0620465a85ee5f8ed47b06ab~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 800,
+      "height": 655
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "kids"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-33e5e3996437.jpg"
+}

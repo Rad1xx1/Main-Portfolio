@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Концепция нового сайта Феликс Алматы: коллекции офисной мебели, подборка и план комплектации офиса. Локальная демонстрация.">
+  <meta name="theme-color" content="#faf9f6">
+  <title>Феликс Алматы — пространство для работы · концепция</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="polish.css">
+  <script src="products.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <div class="demo-note">Концепция редизайна · локальная демонстрация</div>
+  <header class="header wrap">
+    <a class="brand" href="#" aria-label="Феликс Алматы — на главную"><span class="brand-symbol" aria-hidden="true">F</span><span>ФЕЛИКС<small>АЛМАТЫ</small></span></a>
+    <nav class="desktop-nav" aria-label="Основная навигация"><a href="#collections">Каталог</a><a href="#planning">Комплектация</a><a href="#contacts">Контакты</a></nav>
+    <div class="header-actions"><button class="button outline selection-toggle" type="button">Подборка <span class="selection-count">0</span></button><button class="menu-toggle icon-button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button></div>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Мобильная навигация" hidden><a href="#collections">Каталог</a><a href="#planning">Комплектация</a><a href="#contacts">Контакты</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy"><h1 id="hero-title">Пространство,<br>в котором хочется<br>работать.</h1><p>Офисная мебель в Алматы. Подберите отдельные предметы или соберите решение для всей команды.</p><div class="hero-actions"><a class="button primary" href="#collections">Смотреть коллекции <span aria-hidden="true">↗</span></a><button class="text-button open-planner" type="button">Подобрать для офиса <span aria-hidden="true">→</span></button></div></div>
+      <figure class="hero-photo"><img src="assets/interior-0.jpg" alt="Рабочие места с деревянными столами и светлыми креслами из каталога Феликс Алматы" width="938" height="438" fetchpriority="high"><figcaption><span>Мебель для рабочих пространств</span><span>Феликс Алматы</span></figcaption></figure>
+    </section>
+    <div class="category-strip wrap" aria-label="Подбор по назначению"><a href="#collections" data-shortcut="work">Рабочие места <span aria-hidden="true">↗</span></a><a href="#collections" data-shortcut="executive">Кабинеты руководителей <span aria-hidden="true">↗</span></a><button class="open-planner" data-purpose="meeting" type="button">Переговорные <span aria-hidden="true">↗</span></button></div>
+
+    <section class="catalog wrap section" id="collections" aria-labelledby="catalog-title">
+      <div class="section-heading"><h2 id="catalog-title">У каждого офиса<br>свой характер.</h2><p>Выберите серию. Добавьте понравившееся в подборку — детали уточним вместе.</p></div>
+      <div class="catalog-tools"><div class="filters" role="group" aria-label="Назначение мебели"><button class="filter active" data-filter="all" aria-pressed="true">Все коллекции</button><button class="filter" data-filter="work" aria-pressed="false">Рабочие места</button><button class="filter" data-filter="executive" aria-pressed="false">Кабинеты</button><button class="filter" data-filter="reception" aria-pressed="false">Приёмные</button></div><label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span class="sr-only">Поиск коллекций</span><input id="search" type="search" placeholder="Поиск по названию" autocomplete="off"></label></div>
+      <p class="catalog-count" id="catalog-count" role="status"></p>
+      <div class="product-grid" id="products"></div>
+      <div class="empty-state" id="no-results" hidden><h3>Пока ничего не нашлось</h3><p>Попробуйте другое название или посмотрите все коллекции.</p><button class="button outline" id="reset-search">Сбросить поиск</button></div>
+      <p class="catalog-footnote">Подборка из открытого каталога. Состав серий, наличие и актуальную стоимость необходимо подтвердить у компании.</p>
+    </section>
+
+    <section class="planning wrap section" id="planning" aria-labelledby="planning-title"><figure class="planning-photo"><img src="assets/interior-1.jpg" alt="Офисная мебель серии А4 из официального каталога" width="938" height="438" loading="lazy"><figcaption>Серия А4 · фото из каталога компании</figcaption></figure><div class="planning-copy"><h2 id="planning-title">Соберём офис<br>под вашу задачу.</h2><p>Рабочие места, кабинет руководителя или зона приёма — начните с того, что нужно вашей команде.</p><ol class="steps"><li><span>01</span>Расскажите о пространстве</li><li><span>02</span>Выберите коллекции</li><li><span>03</span>Сохраните список для обсуждения</li></ol><button class="button primary open-planner">Составить подборку <span aria-hidden="true">→</span></button></div></section>
+
+    <section class="contacts" id="contacts" aria-labelledby="contacts-title"><div class="wrap"><div class="contact-top"><h2 id="contacts-title">Давайте начнём<br>с вашего офиса.</h2><div class="contact-details"><div><span class="contact-label">Встретимся в Алматы</span><p>Проспект Райымбека, 251Г</p><a href="https://www.felix-almaty.kz/contact" target="_blank" rel="noopener noreferrer">Контакты на официальном сайте <span aria-hidden="true">↗</span></a></div><div><span class="contact-label">Обсудим вашу задачу</span><a class="contact-phone" href="tel:+77273902005">+7 727 390 20 05</a><a href="mailto:felix-almaty@mail.ru">felix-almaty@mail.ru</a><a href="https://wa.me/77770177805" target="_blank" rel="noopener noreferrer">WhatsApp <span aria-hidden="true">↗</span></a></div></div></div><footer><a class="brand footer-brand" href="#">ФЕЛИКС<small>АЛМАТЫ</small></a><button class="open-credits footer-link" type="button">Материалы и источники ↗</button><span>Локальная демонстрация · 2026</span></footer></div></section>
+  </main>
+
+  <dialog id="product-dialog" class="product-dialog"><div class="dialog-top"><span>Коллекция</span><button class="icon-button close-dialog" aria-label="Закрыть карточку">×</button></div><div id="product-detail"></div></dialog>
+
+  <dialog id="selection-dialog" class="selection-dialog" aria-labelledby="selection-title"><div class="dialog-top"><span>Ваше пространство</span><button class="icon-button close-dialog" aria-label="Закрыть подборку">×</button></div><div class="selection-content"><h2 id="selection-title">Ваша подборка<span class="selection-count">0</span></h2><p class="muted">Сохраните понравившиеся коллекции и опишите задачу. Это основа для обсуждения, не заказ.</p><div id="selection-items"></div><form id="brief-form"><div class="form-row"><label>Что обустраиваем<select id="purpose" name="purpose"><option value="office">Офис целиком</option><option value="work">Рабочие места</option><option value="executive">Кабинет руководителя</option><option value="meeting">Переговорную</option><option value="reception">Приёмную</option></select></label><label>Рабочих мест<input id="seats" name="seats" type="number" min="1" max="10000" step="1" placeholder="Например, 12"></label></div><label>Расскажите о задаче<textarea id="notes" name="notes" rows="3" maxlength="2000" placeholder="Размеры помещения, нужные предметы, пожелания к отделке…"></textarea></label><button class="button primary" type="submit">Подготовить список <span aria-hidden="true">→</span></button><p class="privacy-note">Данные сохраняются только в этом браузере. Демоверсия не отправляет заявки компании.</p></form><section id="request-result" hidden aria-labelledby="result-title"><h3 id="result-title">Список готов к обсуждению</h3><p class="muted">Ничего не отправлено. Скопируйте текст или сохраните файл.</p><label><span class="sr-only">Текст подборки</span><textarea id="request-text" rows="9" readonly></textarea></label><div class="result-actions"><button class="button primary" id="copy-request">Скопировать</button><button class="button outline" id="download-request">Сохранить .txt <span aria-hidden="true">↓</span></button></div><button class="text-button" id="edit-brief">Изменить задачу ←</button></section></div></dialog>
+  <dialog id="credits-dialog" class="selection-dialog" aria-labelledby="credits-title"><div class="dialog-top"><span>О демонстрации</span><button class="icon-button close-dialog" aria-label="Закрыть источники">×</button></div><div class="selection-content"><h2 id="credits-title">Материалы и источники</h2><p class="muted">Независимая концепция редизайна. Фотографии и названия коллекций — из открытого каталога компании. Публичное использование материалов и коммерческие условия нужно согласовать с владельцем.</p><p><a href="https://www.felix-almaty.kz/" target="_blank" rel="noopener noreferrer">Официальный каталог ↗</a></p><p><a href="https://www.felix-almaty.kz/contact" target="_blank" rel="noopener noreferrer">Источник контактов ↗</a></p><p class="muted">Это главная страница для обсуждения дизайна, не официальный магазин. Данные подборки остаются в браузере; заявки не отправляются.</p></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript><div class="no-js">Для подбора коллекций включите JavaScript. Контакты и информация о компании доступны ниже.</div></noscript>
+</body>
+</html>

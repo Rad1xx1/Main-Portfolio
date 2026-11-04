@@ -1,0 +1,69 @@
+{
+  "id": "item-5190dfb4b4a8",
+  "title": "CHAIRMAN 406",
+  "source": "https://www.felix-almaty.kz/product-page/chairman-406",
+  "checked_at": "2026-10-31T10:04:37.957Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_2c9eb972d07142629435efbe0757825d~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_1075565750884a6d900ae3fa8d37ea92~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_f3dccfe062144a759e8e09fe09033ea6~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "width": 700,
+      "height": 350
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_54894884e4714aef920ee440cb1a332e~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "width": 700,
+      "height": 350
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_b7dd97f07f9a45abb07b58f9db6460d8~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_6cbb1bc518c143e39bab45c86771c7a4~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_601cef5592cc46f0b1dd588967ed5e58~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_8078be99dd9248c2a1a502f65d9b1284~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "Обивка Экопремиум",
+    "Подлокотники Деревянные с мягкими накладками обитыми экокожей",
+    "Механизм качания Механизм качания повышенной комфортности с возможностью фиксации кресла в любом положении",
+    "Крестовина Металлическая крестовина, деревянные накладки, защитные пластиковые элементы.",
+    "Газпатрон 3 класса по стандарту Germany DIN 4550",
+    "Ролики Стандарт BIFMA 5,1 (США). Диаметр штока 11 мм.",
+    "Каркас Немонолитный",
+    "Набивка кресла Стандартный поролон плотности 22-40 кг/м3",
+    "Рекомендованная максимальная нагрузка 150 кг.",
+    "Срок гарантии 2 года"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "executive-chairs"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-5190dfb4b4a8.jpg"
+}

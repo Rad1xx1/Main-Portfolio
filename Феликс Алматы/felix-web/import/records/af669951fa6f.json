@@ -1,0 +1,43 @@
+{
+  "id": "item-af669951fa6f",
+  "title": "Мебель для приемной (Ресепшен) \"Формула\" - модуль прямой (80x76x110)",
+  "source": "https://www.felix-almaty.kz/product-page/ресепшн-серии-формула",
+  "checked_at": "2026-10-31T10:07:31.518Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_320ba754f26d4cc4af6d115761b73777~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 802,
+      "height": 590
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_69610c998e8041acbd650d7896fedd59~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 650
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_aacc0de58c2345bb8bdbe643f1d72dde~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 813,
+      "height": 614
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_9c1e29a766a04a7e9ffff2040002c968~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 816,
+      "height": 563
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_631ca792b4e3475b815ffa672e7845e3~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 179,
+      "height": 203
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "reception"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-af669951fa6f.jpg"
+}

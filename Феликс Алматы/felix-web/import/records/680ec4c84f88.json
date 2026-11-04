@@ -1,0 +1,23 @@
+{
+  "id": "item-680ec4c84f88",
+  "title": "Аксессуары \"Тигр\"",
+  "source": "https://www.felix-almaty.kz/product-page/аксессуары-тигр",
+  "checked_at": "2026-10-31T10:07:20.964Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_b623714f90524eb4ae62c2993723bc91~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 400,
+      "height": 600
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "accessories"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-680ec4c84f88.jpg"
+}

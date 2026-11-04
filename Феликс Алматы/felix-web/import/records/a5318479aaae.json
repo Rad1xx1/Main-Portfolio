@@ -1,0 +1,44 @@
+{
+  "id": "item-a5318479aaae",
+  "title": "БЮРОКРАТ 771/BLACK",
+  "source": "https://www.felix-almaty.kz/product-page/бюрократ-771-black",
+  "checked_at": "2026-10-31T10:05:59.009Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_b1aa1d2cb52347398db7fe0dffc3f5d6~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 358,
+      "height": 514
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_1b90cb02d21c4657ab189e4397e0bef5~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 380,
+      "height": 552
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_22bbe200cbb1469ea3c1cf8fa15d18b5~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 380,
+      "height": 552
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_4eaef9103a4b45819ce0cf78369d3f34~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 380,
+      "height": 552
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_c457553396174c369418ec16b57bf867~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 622,
+      "height": 557
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "executive-chairs",
+    "staff-chairs"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-a5318479aaae.jpg"
+}

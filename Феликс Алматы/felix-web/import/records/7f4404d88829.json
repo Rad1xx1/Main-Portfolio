@@ -1,0 +1,50 @@
+{
+  "id": "item-7f4404d88829",
+  "title": "CHAIRMAN 418 V - стул",
+  "source": "https://www.felix-almaty.kz/product-page/chairman-418-v-стул",
+  "checked_at": "2026-10-31T10:04:56.878Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_ea779e3f754f4d9fa47fc6d89bd178ae~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_f0250f52e4c540018f3f05c86424da0e~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_5d4517c2204a4946a05abe99ea7738fb~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_d44e55a0b06040d6b2d319a68c1803f8~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_6df8bce8e23542fc816d990f77fc959e~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "Обивка Экокожа премиум",
+    "Подлокотники Пластиковые с накладками из экокожи",
+    "Каркас Немонолитный",
+    "Набивка кресла Стандартный поролон плотности 25-40 кг/м3",
+    "Рекомендованная максимальная нагрузка 100 кг.",
+    "Срок гарантии 2 года"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "chairs"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-7f4404d88829.jpg"
+}

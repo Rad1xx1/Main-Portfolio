@@ -1,0 +1,49 @@
+{
+  "id": "item-e8161e187bb1",
+  "title": "БЮРОКРАТ 771/GREY",
+  "source": "https://www.felix-almaty.kz/product-page/бюрократ-771-grey",
+  "checked_at": "2026-10-31T10:06:08.112Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_4d10ba9eedab4d248fcfcbcc57c78bac~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 830,
+      "height": 1118
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_6240713ee54e4516b3f5cf00b762fc3d~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 830,
+      "height": 1118
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_07fc9aba6f2948de89bc0ea3e23e5d46~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 830,
+      "height": 1118
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_db82328fd2f147cca0dfac2cf495f15e~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 830,
+      "height": 1118
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_07d9b5cb46c14c2892a222ff3379701e~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 830,
+      "height": 1118
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_c457553396174c369418ec16b57bf867~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 622,
+      "height": 557
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "executive-chairs",
+    "staff-chairs"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-e8161e187bb1.jpg"
+}

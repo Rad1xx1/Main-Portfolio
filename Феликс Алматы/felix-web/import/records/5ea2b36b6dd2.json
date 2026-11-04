@@ -1,0 +1,38 @@
+{
+  "id": "item-5ea2b36b6dd2",
+  "title": "Офисная мебель \"Тандем Т\" - стол рабочий",
+  "source": "https://www.felix-almaty.kz/product-page/офисная-мебель-тандем-т-стол-рабочий",
+  "checked_at": "2026-10-31T10:06:42.713Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_4906f302e2e946cbae3cf02c617ec64d~mv2_d_2000_1428_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2000,
+      "height": 1428
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_9fe782ef4c4c4aa4bb6f72167b58c6fc~mv2_d_2000_1429_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2000,
+      "height": 1429
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_bca3a531e2004186ac094c77dbfdfcc9~mv2_d_2000_1428_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2000,
+      "height": 1428
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "ОПОРЫ СТОЛОВ МЕТАЛЛОКАРКАС «Юнифлекс+» НА МЕТАЛООПОРАХ СЕРОГО ИЛИ БЕЛОГО ЦВЕТА СЕЧЕНИЕМ 40х40",
+    "РАБОЧИЕ ПОВЕРХНОСТИ СТОЛОВ ЛДСП толщиной 18 мм",
+    "КРОМКА РАБОЧИХ ПОВЕРХНОСТЕЙ (СТОЛЕШНИЦ) ПВХ 2мм",
+    "СОЕДИНИТЕЛЬНАЯ ФУРНИТУРА Саморезы, крепежная фурнитура"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "work"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-5ea2b36b6dd2.jpg"
+}

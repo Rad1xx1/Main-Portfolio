@@ -1,0 +1,53 @@
+{
+  "id": "item-5f19b4cc0d44",
+  "title": "Кабинет руководителя \"ALTO\" - стол письменный",
+  "source": "https://www.felix-almaty.kz/product-page/кабинет-руководителя-alto-стол-письменный",
+  "checked_at": "2026-10-31T10:06:56.785Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_87ca82e358e04bdc8f9b0bc1fb00de88~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 950,
+      "height": 600
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_ecb72ff484614e7b8549725a6d89b0cc~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 950,
+      "height": 600
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_a042544ef6854c5abec45b7387037894~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 950,
+      "height": 600
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_ee3078a8ca324d54bfff809d64b5456d~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 950,
+      "height": 600
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_9d33e05ba981460e9545af0fdd860f21~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 950,
+      "height": 600
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_3b2bcc8c20094a0e9748200e40d8b010~mv2_d_1600_1600_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_600f8583181e45ccaaa99a3424cfe4d9~mv2_d_1600_1600_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1600,
+      "height": 1600
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "executive"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-5f19b4cc0d44.jpg"
+}

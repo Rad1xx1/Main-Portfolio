@@ -1,0 +1,43 @@
+{
+  "id": "item-25e4d7d073ce",
+  "title": "Кабинет \"SHIFT\"",
+  "source": "https://www.felix-almaty.kz/product-page/кабинет-shift",
+  "checked_at": "2026-10-31T10:06:16.086Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_3832a41a68a6424a9ac6539b343bb477~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1062
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_411b37a411da4a1e9f7187cc67c1e261~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1062
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_cb41b2da3b3c44eab9aaadf400444b48~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1062
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_2ea1cea5cf49422089535744a6410da9~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1062
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_de5a7425dd07407a9a47c87284f98400~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1062
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "executive"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-25e4d7d073ce.jpg"
+}

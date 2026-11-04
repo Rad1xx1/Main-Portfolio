@@ -1,0 +1,69 @@
+{
+  "id": "item-feb678980dc3",
+  "title": "PRESTIGE ERGO",
+  "source": "https://www.felix-almaty.kz/product-page/prestige-ergo",
+  "checked_at": "2026-10-31T10:06:42.007Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_97e29a33867a4e769c855a7ee0f75408~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1158,
+      "height": 1677
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_f5c1c629c918461795464d95af0bc90d~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 900,
+      "height": 1349
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_268389c00e6f4a2f8b27cad2539bc47e~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 900,
+      "height": 1349
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_173ee7ab27bd44af895a41259d46a8ac~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1158,
+      "height": 1677
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_4b5e5e498eae4996ba9726fcaac74c78~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1158,
+      "height": 1677
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_e1fd9c67d47c48469e799c8db2289ce5~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 900,
+      "height": 1349
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_b3abc56a3b2145d4abd434c88cb33712~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 900,
+      "height": 1349
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_a4723384142a40b48373eaa5b685bbdf~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 900,
+      "height": 1350
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "Обивка Ткань стандарт",
+    "Подлокотники Пластиковые",
+    "Механизм качания Механизм наклона спинки с возможностью фиксации в нескольких положениях",
+    "Крестовина Пластиковая",
+    "Газпатрон 2 класса по стандарту Germany DIN 4550",
+    "Ролики Стандарт BIFMA 5,1 (США). Диаметр штока 11 мм.",
+    "Каркас Немонолитный",
+    "Набивка кресла Стандартный поролон плотности 25-40 кг/м3",
+    "Рекомендованная максимальная нагрузка 80 кг.",
+    "Срок гарантии 1 год"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "staff-chairs"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-feb678980dc3.jpg"
+}

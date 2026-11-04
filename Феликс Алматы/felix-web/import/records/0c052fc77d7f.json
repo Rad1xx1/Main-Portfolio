@@ -1,0 +1,50 @@
+{
+  "id": "item-0c052fc77d7f",
+  "title": "CHAIRMAN 416V - Стул",
+  "source": "https://www.felix-almaty.kz/product-page/chairman-416v-стул",
+  "checked_at": "2026-10-31T10:04:02.405Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_34a6a4a69e194e8db9e038297ee305f7~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_0e6d6ebd3016456b85a9c6db7f7894f4~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_6e8e0661ce654b74bd4b8a6a68984239~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_15a59517f46f49ef80a3f77a05dce313~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_98817c896748486f8dd6a1576b193d24~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "Обивка Экокожа (глянцевая/матовая)",
+    "Подлокотники Пластиковые",
+    "Каркас Немонолитный",
+    "Набивка кресла Стандартный поролон плотности 25-40 кг/м3",
+    "Рекомендованная максимальная нагрузка 100 кг.",
+    "Срок гарантии 2 года"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "chairs"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-0c052fc77d7f.jpg"
+}

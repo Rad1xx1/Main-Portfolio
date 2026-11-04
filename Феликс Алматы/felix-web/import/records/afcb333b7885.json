@@ -1,0 +1,55 @@
+{
+  "id": "item-afcb333b7885",
+  "title": "CHAIRMAN 659 - стул",
+  "source": "https://www.felix-almaty.kz/product-page/chairman-659-стул",
+  "checked_at": "2026-10-31T10:05:39.254Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_b1fd6bf3356b4a1ba256a5689a26ef99~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_7e5f9f6ea690410c9413a4b0ed4d0ad0~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_0c7976f4f0274e48aac74038aaba84d1~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_e7e7009fd1884fd98de8e83b0467b6c0~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_59437f25bfa4426080eef47131c069ee~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_2a64e3a9cfd74b64a407819aabb17064~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "Обивка Экокожа премиум, экокожа",
+    "Подлокотники Деревянные",
+    "Каркас Немонолитный",
+    "Набивка кресла Стандартный поролон плотности 25-40 кг/м3",
+    "Рекомендованная максимальная нагрузка 100 кг.",
+    "Срок гарантии 2 года"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "chairs"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-afcb333b7885.jpg"
+}

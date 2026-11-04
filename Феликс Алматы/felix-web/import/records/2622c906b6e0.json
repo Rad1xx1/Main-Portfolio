@@ -1,0 +1,53 @@
+{
+  "id": "item-2622c906b6e0",
+  "title": "Кабинет \"ONIX WOOD DIRECT \"",
+  "source": "https://www.felix-almaty.kz/product-page/кабинет-onix-wood-direct",
+  "checked_at": "2026-10-31T10:07:23.473Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_a55ab4a373ca4c4d89c0164f7f9ec489~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1056
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_ff597007f45a4fa887e2251b11e492e6~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1058,
+      "height": 748
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_0cb61e8f0dda4daab9727e76b73773ae~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1062
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_1e48596e41554570aff95678449a3cb5~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1056
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_12f284147ae141fea050daa35177d8fc~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1056
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_a50c6587e54d4b00a7c0ea7fa6183527~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1056
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_3d8cf05b3256462bb70bf39b532bd40a~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1056
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "executive"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-2622c906b6e0.jpg"
+}

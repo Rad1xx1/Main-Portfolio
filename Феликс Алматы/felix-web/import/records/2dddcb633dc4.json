@@ -1,0 +1,48 @@
+{
+  "id": "item-2dddcb633dc4",
+  "title": "Мебель для гостиниц \"Мадейра\"",
+  "source": "https://www.felix-almaty.kz/product-page/мебель-для-гостиниц-мадейра",
+  "checked_at": "2026-10-31T10:06:05.557Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_03253c64b97d4ebd9fbe9cbf389398d3~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_5fe02acd91ce4281a4d0a958a1647974~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 679,
+      "height": 424
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_770059f826b74f3ebde76a607a6e7d08~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_033e4991cb354cf3a69850bc847e109f~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_8a66987ba71246279b310c040ed8da4f~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_ca57e248da6547e7b8fc39d4489e1894~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "hotel"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-2dddcb633dc4.jpg"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "item-b1628c9fd0e3",
+  "title": "CHAIRMAN 701 СЕТКА",
+  "source": "https://www.felix-almaty.kz/product-page/chairman-701-сетка",
+  "checked_at": "2026-10-31T10:04:59.963Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_9a43097451704cebb63a0e98a98bef2f~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2230,
+      "height": 3345
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_7103a651b78b4b2a964c7215bd9100bd~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2230,
+      "height": 3345
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_9a307cfdc5124e68b96efa8a3486a6e2~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2230,
+      "height": 3345
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "Материалы: Сетка Экокожа",
+    "Подлокотники: Металлические хромированные с мягкими накладками, обитыми экокожей",
+    "Механизм качания: С синхронным отклонением сидения и спинки 1:3, с фиксацией кресла в любом положении. Регулировка кресла по высоте",
+    "Крестовина: Металлическая хромированная",
+    "Газ. патрон: 3 класс по стандарту Germany DIN 4550",
+    "Ролики: Стандарт BIFMA 5,1 (США), диаметр штока 11 мм, покрытие – полиуретан",
+    "Каркас: Немонолитный",
+    "Набивка: Вспененный полиуретан в составе триплированной обивки",
+    "Максимальная рекомендованная нагрузка: до 120 кг",
+    "Гарантия производителя: 2 года"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "executive-chairs",
+    "staff-chairs"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-b1628c9fd0e3.jpg"
+}

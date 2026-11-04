@@ -1,0 +1,21 @@
+{
+  "id": "item-a3db90feb396",
+  "title": "Статуэтка \"Конь\"",
+  "source": "https://www.felix-almaty.kz/product-page/статуэтка-конь",
+  "checked_at": "2026-10-31T10:07:35.093Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_92f6f9341fa5401db98268571fcb30ca~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "width": 220,
+      "height": 220
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [],
+  "published_specs": [],
+  "local_image": "images/item-a3db90feb396.jpg"
+}

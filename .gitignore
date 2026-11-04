@@ -1,0 +1,27 @@
+.venv/
+.env
+data/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+
+# Local tools, research and outreach drafts are not portfolio deliverables.
+/AGENTS.md
+/leads/
+/sources/
+/Кандидаты*.md
+/research-clients.cjs
+/prepare-shortlist.cjs
+/.env.example
+/requirements.txt
+*.zip
+*.log
+*.pem
+*.key
+*.pfx
+.env.*
+**/Предложение*.md
+**/Карточка*.md
+**/Карточка компании/
+**/Как предложить и передать.md

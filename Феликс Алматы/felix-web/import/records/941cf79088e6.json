@@ -1,0 +1,38 @@
+{
+  "id": "item-941cf79088e6",
+  "title": "Диван кожаный \"Вермер 2\" - двойка",
+  "source": "https://www.felix-almaty.kz/product-page/вермер",
+  "checked_at": "2026-10-31T10:07:24.549Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_581606b94e3448d0b615907dd2a6a1e7~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_887e6abd552e43f5b890882779fc1582~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 234,
+      "height": 153
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_254b06823e1d49f5b188c79de1d77478~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 234,
+      "height": 153
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_385403853b944a14b9c14feb236682e5~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 234,
+      "height": 153
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "soft"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-941cf79088e6.jpg"
+}

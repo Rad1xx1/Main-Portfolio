@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "date": "2026-10-31T10:53:45.245Z",
+  "browser": "Edge mobile emulation, touch enabled, DPR 2",
+  "widths": [
+    360,
+    390,
+    430
+  ],
+  "pages": [
+    "index.html",
+    "catalog.html",
+    "category-soft.html",
+    "collection-yalta.html",
+    "contacts.html",
+    "selection.html"
+  ],
+  "checks": [
+    "No horizontal overflow on 18 page/viewport combinations",
+    "Touch menu and category navigation",
+    "All 12 sofa photos decoded",
+    "Touch add and product-gallery thumbnail",
+    "Mobile selection form and draft generation",
+    "Close dialog by touch"
+  ],
+  "errors": [],
+  "limitation": "No physical Android or iPhone / Safari test"
+}

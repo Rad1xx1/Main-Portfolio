@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "date": "2026-10-31T10:33:47.928Z",
+  "products": 209,
+  "categories": 12,
+  "assetFiles": 1366,
+  "htmlPages": 233,
+  "browserSamples": 20,
+  "viewports": [
+    390,
+    768,
+    1440
+  ],
+  "checks": [
+    "All page routes HTTP 200",
+    "All image files exist with detected image formats",
+    "12 original categories included",
+    "209 unique products; no duplicate URLs",
+    "Accessories and kids search/filter; 12→24 pagination; sorting",
+    "Product gallery and selection persist between pages",
+    "Request text uses chosen product; no transmission",
+    "Acoustic section kept empty as in source",
+    "No overflow, console errors, or external requests"
+  ],
+  "errors": []
+}

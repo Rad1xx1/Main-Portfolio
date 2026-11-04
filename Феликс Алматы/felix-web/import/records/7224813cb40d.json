@@ -1,0 +1,27 @@
+{
+  "id": "item-7224813cb40d",
+  "title": "Статуэтка \"Знак зодиака Весы\"",
+  "source": "https://www.felix-almaty.kz/product-page/статуэтка-знак-зодиака-весы",
+  "checked_at": "2026-10-31T10:07:36.050Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_66915b06c2954883bc8d347acfc31e20~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "width": 220,
+      "height": 220
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "Размеры, см (В) 37",
+    "Вес, кг 1.9",
+    "Материал мрамор"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "accessories"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-7224813cb40d.jpg"
+}

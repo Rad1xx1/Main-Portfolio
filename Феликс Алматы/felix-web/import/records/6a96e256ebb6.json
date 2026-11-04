@@ -1,0 +1,53 @@
+{
+  "id": "item-6a96e256ebb6",
+  "title": "серия \"LOFT\"",
+  "source": "https://www.felix-almaty.kz/product-page/серия-loft",
+  "checked_at": "2026-10-31T10:06:25.343Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_f5f44966f61e40dbbc5a7296562c7928~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1062
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_bfd985049a9346c3a8bb56c16c810956~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1062
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_49af259c3302474f904e985bda5f659b~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1056
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_99fe26a760794450b0da578df1fd56c0~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1062
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_eed1dd075b354da98e95c523085a8453~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1067,
+      "height": 757
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_5d655b6e0a8a49d6bfc27f625ba9d262~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1062
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_448f794ca91d4e669238c9254b364b3b~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1063
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "work"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-6a96e256ebb6.jpg"
+}

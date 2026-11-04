@@ -1,0 +1,68 @@
+{
+  "id": "item-a2717ff512f4",
+  "title": "Мебель для гостиниц \"Venezia New\"",
+  "source": "https://www.felix-almaty.kz/product-page/мебель-для-гостиниц-venezia-new",
+  "checked_at": "2026-10-31T10:06:08.156Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_329f9f76fabf404e8e496a1a82ba0609~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_263d944a6e574f9c84e0f7eb4e52cb2b~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_43f3907ce0e74ecfa7928bb4a9036fbe~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_27fc07eca7d049c9a88ff667a03851dd~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_937c6539580c4401b5903b37d2417fc3~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_4ac9eef39f134a838ff345ef8e5c2573~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_f51e0f8086534230b3d355aa2913d7c2~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_53ea056359cf48ca98c81bf1f144adbe~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_2a90dbddb44a481eab2491c13f682897~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_5350a5162f1c408d88b63cee1e7eb954~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "hotel"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-a2717ff512f4.jpg"
+}

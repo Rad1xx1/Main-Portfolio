@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Демонстрационная концепция сайта Иматэк-Дент: направления стоматологии, специалисты и контакты в Алматы.">
+  <title>Иматэк-Дент — стоматология в Алматы · Концепция</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Перейти к содержимому</a>
+  <svg class="symbols" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><symbol id="arrow" viewBox="0 0 24 24"><path d="M3 12h17M13 5l7 7-7 7"/></symbol><symbol id="plus" viewBox="0 0 24 24"><path d="M3 12h18M12 3v18"/></symbol></svg>
+  <header class="header wrap">
+    <a class="brand" href="#" aria-label="Иматэк-Дент — главная">IMATEK<span>DENT</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation">Меню <span aria-hidden="true">☰</span></button>
+    <nav id="navigation" aria-label="Основная навигация">
+      <a href="#treatment">Лечение</a><a href="#about">О клинике</a><a href="#team">Специалисты</a><a href="#contacts">Контакты</a>
+    </nav>
+    <a class="header-phone" href="tel:+77012577161">+7 701 257-71-61</a>
+    <button class="button small header-book" data-book type="button">Записаться</button>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title">Здоровая улыбка.<br><em>Спокойная<br class="desktop-break"> уверенность.</em></h1>
+        <p>Стоматология в Алматы, где внимание к человеку сочетается с цифровыми технологиями.</p>
+        <div class="hero-actions"><a class="button" href="#treatment">Выбрать направление <svg><use href="#arrow"/></svg></a><a class="text-link" href="#about">Знакомство с клиникой</a></div>
+      </div>
+      <figure class="hero-media"><img src="assets/clinic-concept.webp" alt="Иллюстративный интерьер стоматологического кабинета в светлых и зелёных тонах" width="1024" height="1536" fetchpriority="high"><figcaption>Визуальная концепция интерьера · Image Gen</figcaption></figure>
+    </section>
+    <div class="intro-band">
+      <div class="wrap intro-grid">
+        <div><h2>Лечение и эстетика</h2><p>Внимание к здоровью<br>и красоте вашей улыбки.</p></div>
+        <div><h2>Цифровой подход</h2><p>Планирование лечения<br>с современными технологиями.</p></div>
+        <div><h2>Алматы, Ходжанова 78</h2><p>Блок 6, ЖК «Талисман».<br><a href="#contacts">Контакты и маршрут <span aria-hidden="true">↗</span></a></p></div>
+      </div>
+    </div>
+    <section class="treatment wrap section" id="treatment" aria-labelledby="treatment-title">
+      <h2 id="treatment-title">Лечение начинается<br class="mobile-break"> с понимания.</h2>
+      <p class="section-lead">Выберите направление — расскажем о подходе и поможем подготовиться к консультации.</p>
+      <div class="treatment-layout">
+        <figure class="tooth-media"><img src="assets/ceramic-tooth.webp" alt="Декоративная керамическая модель зуба на зелёном постаменте" width="1024" height="1024" loading="lazy"></figure>
+        <div class="service-list">
+          <details name="treatment" open><summary><span class="number">01</span><h3>Имплантация</h3><svg class="plus"><use href="#plus"/></svg></summary><div class="service-content"><p>Восстановление отсутствующих зубов. План лечения обсуждается после диагностики.</p><button class="button" type="button" data-book="Имплантация">Обсудить на консультации <svg><use href="#arrow"/></svg></button></div></details>
+          <details name="treatment"><summary><span class="number">02</span><h3>Ортопедия</h3><svg class="plus"><use href="#plus"/></svg></summary><div class="service-content"><p>Протезирование и восстановление зубов. Врач расскажет о подходящих конструкциях на очной консультации.</p><button class="button" type="button" data-book="Ортопедия">Обсудить на консультации <svg><use href="#arrow"/></svg></button></div></details>
+          <details name="treatment"><summary><span class="number">03</span><h3>Эстетическая стоматология</h3><svg class="plus"><use href="#plus"/></svg></summary><div class="service-content"><p>Обсудите с врачом цвет и форму улыбки. Возможные варианты и ограничения зависят от состояния зубов.</p><button class="button" type="button" data-book="Эстетическая стоматология">Обсудить на консультации <svg><use href="#arrow"/></svg></button></div></details>
+          <details name="treatment"><summary><span class="number">04</span><h3>Ортодонтия</h3><svg class="plus"><use href="#plus"/></svg></summary><div class="service-content"><p>Коррекция прикуса у детей и взрослых. На консультации можно обсудить брекет-системы и элайнеры.</p><button class="button" type="button" data-book="Ортодонтия">Обсудить на консультации <svg><use href="#arrow"/></svg></button></div></details>
+        </div>
+      </div>
+    </section>
+    <section class="about-band" id="about" aria-labelledby="about-title"><div class="wrap"><h2 id="about-title">Технологии важны.<br>Внимание — ещё важнее.</h2><p>Собственная зуботехническая лаборатория и цифровое моделирование помогают планировать лечение.</p><a class="text-link" href="https://imatek-dent.kz/onas" target="_blank" rel="noopener noreferrer">Больше о клинике на официальном сайте <svg><use href="#arrow"/></svg></a></div></section>
+    <section class="team wrap section" id="team" aria-labelledby="team-title"><h2 id="team-title">Люди, которым<br>доверяют улыбку.</h2><div class="team-grid">
+      <article><div class="team-number"><span>01</span></div><h3>Карлыгаш<br> Сунтаева</h3><p>Врач стоматолог-ортопед</p><button class="text-link" type="button" data-profile="karlygash">Профиль специалиста <svg><use href="#arrow"/></svg></button></article>
+      <article><div class="team-number"><span>02</span></div><h3>Роман<br> Ситник</h3><p>Врач стоматолог-терапевт</p><button class="text-link" type="button" data-profile="roman">Профиль специалиста <svg><use href="#arrow"/></svg></button></article>
+      <article><div class="team-number"><span>03</span></div><h3>Динара<br> Туякбаева</h3><p>Врач-ортодонт</p><button class="text-link" type="button" data-profile="dinara">Профиль специалиста <svg><use href="#arrow"/></svg></button></article>
+    </div></section>
+    <section class="contact-band" id="contacts" aria-labelledby="contact-title"><div class="wrap contact-grid"><div><h2 id="contact-title">Первый шаг —<br>просто поговорить.</h2><p>Расскажите, какое направление вас интересует.<br>Администратор поможет с записью.</p><button class="button light" data-book type="button">Подготовить запрос <svg><use href="#arrow"/></svg></button></div><div class="contact-info"><a class="contact-phone" href="tel:+77012577161">+7 701 257-71-61</a><address>Ходжанова 78, блок 6<br>ЖК «Талисман», Алматы</address><p>Пн–пт 09:00–21:30<br>Сб 09:00–18:00 · Вс — выходной</p><a class="text-link" href="https://www.google.com/maps/dir/?api=1&destination=Алматы,+Ходжанова+78,+ЖК+Талисман" target="_blank" rel="noopener noreferrer">Построить маршрут <svg><use href="#arrow"/></svg></a><a class="email" href="mailto:info@imatek-dent.kz">info@imatek-dent.kz</a></div></div></section>
+  </main>
+  <footer class="wrap footer"><a href="#" class="footer-brand">IMATEK DENT</a><div><p>Демонстрационная концепция · Неофициальный сайт</p><p>Интерьер и предметная иллюстрация созданы Image Gen.<br>Услуги, стоимость и время приёма уточняйте в клинике. <a href="https://imatek-dent.kz/" target="_blank" rel="noopener noreferrer">Официальный сайт</a></p></div></footer>
+  <dialog id="booking" aria-labelledby="booking-title"><button type="button" class="close" data-close aria-label="Закрыть окно записи">×</button><div id="booking-form-view"><p class="dialog-note">Запрос администратору</p><h2 id="booking-title">Начнём с консультации.</h2><p>Выберите направление. На следующем шаге вы увидите текст запроса.</p><form id="booking-form"><label for="direction">Направление</label><select id="direction" name="direction"><option>Нужна помощь с выбором</option><option>Имплантация</option><option>Ортопедия</option><option>Эстетическая стоматология</option><option>Ортодонтия</option></select><label for="preferred-date">Желаемая дата <span class="optional">— необязательно</span></label><input id="preferred-date" name="date" type="date"><p class="form-hint">Свободное время подтвердит администратор. По воскресеньям клиника не работает.</p><button class="button" type="submit">Посмотреть запрос <svg><use href="#arrow"/></svg></button></form></div><div id="booking-preview" hidden><p class="dialog-note">Предпросмотр</p><h2 id="preview-title" tabindex="-1">Ваш запрос готов.</h2><p id="request-text" class="request-text"></p><p class="form-hint">Ничего не отправлено. WhatsApp откроется только по кнопке ниже; сообщение отправляете вы. Это запрос, а не подтверждённая запись.</p><a class="button" id="whatsapp-link" href="https://wa.me/77012577161" target="_blank" rel="noopener noreferrer">Открыть WhatsApp <svg><use href="#arrow"/></svg></a><button class="text-link back-edit" id="edit-request" type="button">Изменить запрос</button></div></dialog>
+  <dialog id="profile" aria-labelledby="profile-title"><button type="button" class="close" data-close aria-label="Закрыть профиль">×</button><p class="dialog-note">Специалист клиники</p><h2 id="profile-title"></h2><p id="profile-role" class="profile-role"></p><p id="profile-description"></p><a class="text-link" id="profile-source" href="https://imatek-dent.kz/specialisty" target="_blank" rel="noopener noreferrer">Полный профиль на сайте клиники <svg><use href="#arrow"/></svg></a><button class="button profile-book" data-book type="button">Обсудить запись <svg><use href="#arrow"/></svg></button></dialog>
+</body>
+</html>
+
+

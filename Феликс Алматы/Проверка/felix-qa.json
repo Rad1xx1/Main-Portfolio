@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-30T16:26:00.596Z",
+  "root": "C:\\Users\\Asus2025\\Documents\\Работа\\Сайты\\Феликс Алматы",
+  "method": "Playwright + installed Chrome. Browser plugin not available.",
+  "checks": [
+    "Page title and six sourced collections",
+    "Filters, case-insensitive search, empty state and reset",
+    "Product dialog, selection, Escape and persistence after reload",
+    "Native form validation and local TXT export; no transmission",
+    "No horizontal overflow at widths 360, 390, 768, 1440",
+    "Mobile navigation opens, navigates and closes",
+    "All local images load; correct WhatsApp target; no console errors or external requests"
+  ],
+  "errors": [],
+  "external": [],
+  "viewports": [
+    {
+      "width": 360,
+      "height": 800
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "width": 1440,
+      "height": 1000
+    }
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "item-acc1b5b519a9",
+  "title": "серия \"MOVE UP\"",
+  "source": "https://www.felix-almaty.kz/product-page/серия-move-up",
+  "checked_at": "2026-10-31T10:07:25.598Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_cb6dfa8732f3467081dc5fbd6a2d77c2~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1062
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_f8eca350d3a742a381a9058d11569f92~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1062
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_7b7190f5a5e241c08bf24fe33f2551cd~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1062
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_0db89aba1c32423fa1b291324cea55fe~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1062
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_9fb43fa3971543e3aca85ea43d33c665~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1062
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_5ecdd816adee4513a3c0477c4d7900c1~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1062
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_64f6fd56041e4420a278d9f7eb92f71d~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1500,
+      "height": 1062
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "work"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-acc1b5b519a9.jpg"
+}

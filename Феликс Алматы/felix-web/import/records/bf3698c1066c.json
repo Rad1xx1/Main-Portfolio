@@ -1,0 +1,48 @@
+{
+  "id": "item-bf3698c1066c",
+  "title": "Кабинет руководителя \"TORR-Z\" - письменный стол",
+  "source": "https://www.felix-almaty.kz/product-page/кабинет-руководителя-torr-z-письменный-стол",
+  "checked_at": "2026-10-31T10:06:51.904Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_74be9895aaf84d4a873b6b59be5ad23c~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_ab81e12d5dd44b19b662140b4cca5e7f~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_5d6fa21bce084e2dbc692b413a6f31ce~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_041379e1873e48c59807e20f188e843a~mv2_d_1600_1600_s_2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_2e710300e4454a3b97eee532bebd4379~mv2_d_1600_1600_s_2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_43dbd71389dc4e23a95d0d0616cfe491~mv2_d_1600_1600_s_2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "width": 1600,
+      "height": 1600
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "executive"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-bf3698c1066c.jpg"
+}

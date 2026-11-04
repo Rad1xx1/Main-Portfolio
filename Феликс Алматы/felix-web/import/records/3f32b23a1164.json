@@ -1,0 +1,48 @@
+{
+  "id": "item-3f32b23a1164",
+  "title": "Мебель для приемных (ресепшен) \"RAUT\" - прямая секция на 90 см.",
+  "source": "https://www.felix-almaty.kz/product-page/мебель-для-приемных-ресепшен-raut-прямая-секция-на-90-см",
+  "checked_at": "2026-10-31T10:07:26.789Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_9764e95630624879936db55e904dfdc9~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 950,
+      "height": 600
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_e6660d7e7a344642a0b11376283c0248~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_4c83a98b483b45bcb24c9129260cb34e~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_1d885ac3d4184ed7a59b60a58a2216da~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 871,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_55b6a8bc9f154fc6a326326d0b813cff~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 878,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_21d27435956e4d16b257238ba45458e1~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 753,
+      "height": 918
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "reception"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-3f32b23a1164.jpg"
+}

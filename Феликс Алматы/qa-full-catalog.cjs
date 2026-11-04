@@ -1,0 +1,31 @@
+const fs=require('fs'),path=require('path'),vm=require('vm'),assert=require('node:assert/strict');
+const {chromium}=require('C:/Users/Asus2025/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const root=path.resolve('felix-web'),out=path.join(root,'dist');
+const visual='C:/Users/Asus2025/.codex/visualizations/2026/10/30/01a18d65-fd7a-7cd2-833c-296a3dab394b';
+const base='http://127.0.0.1:8770';
+(async()=>{
+ const manifest=JSON.parse(fs.readFileSync(path.join(out,'build-info.json')));const sandbox={window:{}};vm.runInNewContext(fs.readFileSync(path.join(out,'catalog-data.js'),'utf8'),sandbox);
+ const products=sandbox.window.FELIX_PRODUCTS,categories=sandbox.window.FELIX_CATEGORIES;
+ assert.equal(products.length,209);assert.equal(new Set(products.map(p=>p.source)).size,209);assert.equal(categories.filter(c=>c.id!=='other').length,12);
+ let assetCount=0;for(const image of new Set(products.flatMap(p=>p.images))){const file=path.join(out,image);assert.equal(fs.existsSync(file),true,image);const data=fs.readFileSync(file);assert.ok(data.length>100&&['.jpg','.png','.webp','.avif','.gif'].includes(path.extname(image)),image);assetCount++;}
+ for(const p of manifest.pages){const response=await fetch(base+'/'+p.file);assert.equal(response.status,200,p.file);await response.arrayBuffer();}
+ const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});const context=await browser.newContext({viewport:{width:1440,height:1000},reducedMotion:'reduce'});const page=await context.newPage();const errors=[],external=[];
+ page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text())});page.on('request',r=>{if(r.url().startsWith('http')&&!r.url().startsWith(base))external.push(r.url())});
+ const largestGallery=[...products].sort((a,b)=>b.images.length-a.images.length)[0];
+ const samples=['index.html','catalog.html',...categories.map(c=>'category-'+c.id+'.html'),'collection-a4.html','collection-yalta.html','collection-'+largestGallery.id+'.html','contacts.html','partners.html','how-to-order.html'];
+ for(const name of samples){await page.goto(base+'/'+name);assert.equal(await page.locator('h1').count(),1,name);for(const width of [390,768,1440]){await page.setViewportSize({width,height:1000});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false,name+' at '+width);}}
+ await page.goto(base+'/catalog.html');assert.equal(await page.locator('.product-card').count(),12);await page.locator('#load-more').click();assert.equal(await page.locator('.product-card').count(),24);
+ await page.locator('#search').fill('Зонтница');assert.ok(await page.locator('.product-card').count()>0);await page.locator('.product-title').first().click();await page.waitForSelector('#gallery-main');assert.match(await page.locator('h1').innerText(),/Зонтница/);
+ await page.waitForFunction(()=>document.querySelector('#gallery-main').naturalWidth>0);const galleryCount=await page.locator('[data-gallery]').count();if(galleryCount>1){await page.locator('[data-gallery="1"]').click();assert.equal(await page.locator('[data-gallery="1"]').getAttribute('aria-pressed'),'true');}
+ await page.locator('[data-detail-add]').click();await page.goto(base+'/category-kids.html');assert.ok(await page.locator('.product-card').count()>5);await page.goto(base+'/selection.html');await page.locator('.selection-toggle').first().click();assert.equal(await page.locator('.selection-item').count(),1);await page.locator('#notes').fill('Нужны аксессуары и детские кресла');await page.locator('#brief-form button[type=submit]').click();assert.match(await page.locator('#request-text').inputValue(),/Зонтница/);await page.keyboard.press('Escape');
+ await page.goto(base+'/category-acoustic.html');assert.equal(await page.locator('#no-results').isVisible(),true);assert.equal(await page.locator('.product-card').count(),0);
+ await page.goto(base+'/catalog.html');await page.locator('#search').fill('ZZZ-нет-такого');assert.equal(await page.locator('#no-results').isVisible(),true);await page.locator('#reset-search').click();assert.equal(await page.locator('.product-card').count(),12);await page.locator('#sort').selectOption('az');
+ await page.evaluate(async()=>{for(const i of document.images)i.loading='eager';await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})))});
+ assert.equal(await page.locator('#products img').evaluateAll(a=>a.every(i=>i.naturalWidth>0)),true);
+ await page.setViewportSize({width:1440,height:1050});await page.screenshot({path:path.join(visual,'full-catalog-desktop.jpg'),type:'jpeg',quality:92});
+ await page.goto(base+'/category-accessories.html');await page.evaluate(async()=>{for(const i of document.images)i.loading='eager';await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})))});await page.screenshot({path:path.join(visual,'full-accessories.jpg'),type:'jpeg',quality:92});
+ await page.goto(base+'/index.html');await page.waitForFunction(()=>document.querySelector('.hero-photo img').naturalWidth>0);await page.screenshot({path:path.join(visual,'full-home.jpg'),type:'jpeg',quality:92});await page.setViewportSize({width:390,height:844});await page.screenshot({path:path.join(visual,'full-home-mobile.jpg'),type:'jpeg',quality:92});
+ assert.deepEqual(errors,[]);assert.deepEqual(external,[]);
+ const report={status:'passed',date:new Date().toISOString(),products:products.length,categories:categories.length,assetFiles:assetCount,htmlPages:manifest.pages.length,browserSamples:samples.length,viewports:[390,768,1440],checks:['All page routes HTTP 200','All image files exist with detected image formats','12 original categories included','209 unique products; no duplicate URLs','Accessories and kids search/filter; 12→24 pagination; sorting','Product gallery and selection persist between pages','Request text uses chosen product; no transmission','Acoustic section kept empty as in source','No overflow, console errors, or external requests'],errors};
+ fs.writeFileSync(path.join(visual,'full-catalog-qa.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

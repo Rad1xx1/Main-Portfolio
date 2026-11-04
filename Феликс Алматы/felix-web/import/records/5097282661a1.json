@@ -1,0 +1,45 @@
+{
+  "id": "item-5097282661a1",
+  "title": "Кабинет руководителя \"Престиж\" - стол письменный",
+  "source": "https://www.felix-almaty.kz/product-page/кабинет-руководителя-престиж",
+  "checked_at": "2026-10-31T10:07:09.197Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_01461542470b4e7092ae7069ad6e3481~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 851,
+      "height": 604
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_767b734fa6d8419896cb697d9ad22cb0~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 648,
+      "height": 649
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_4102c22080a54be5aafab15a23b78c96~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 851,
+      "height": 647
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_14be95a4a2bc42188d078f420fe2e875~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 863,
+      "height": 577
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_a86fcac5756b42e8b36d50e4cba1c327~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 649,
+      "height": 618
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [],
+  "published_specs": [
+    "7 лет",
+    "170 см до 210 см",
+    "50 мм подчеркивает солидность кабинета"
+  ],
+  "local_image": "images/item-5097282661a1.jpg"
+}

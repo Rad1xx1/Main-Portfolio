@@ -1,0 +1,23 @@
+{
+  "id": "item-ef3c24ea75cb",
+  "title": "Статуэтка \"Ученый Филин\"",
+  "source": "https://www.felix-almaty.kz/product-page/статуэтка-ученый-филин",
+  "checked_at": "2026-10-31T10:07:41.263Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_83af997813664b70af3b6450f433d33b~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 506,
+      "height": 342
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "accessories"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-ef3c24ea75cb.jpg"
+}

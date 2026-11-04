@@ -1,0 +1,54 @@
+{
+  "id": "item-2244e1714061",
+  "title": "CHAIRMAN 700 ECO",
+  "source": "https://www.felix-almaty.kz/product-page/chairman-700-eco",
+  "checked_at": "2026-10-31T10:04:21.402Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_c40e84e3fc3c488cbd47f7e8f68d8b6d~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_b108883d44ef417aac50aa2530bd28cb~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_03de39dc66e44afa838d96e3c70bbaf2~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_9919d56109044133bc662203d49ef112~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_fc05c640ede6429e881f4fb53e0e5abc~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 850,
+      "height": 1000
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "Обивка Экопремиум",
+    "Подлокотники Металлические хромированные с накладкамииз экокожи",
+    "Механизм качания С синхронным отклонением сидения и спинки 1:3, с фиксацией кресла в рабочем положении",
+    "Крестовина Хромированный металл",
+    "Газпатрон 3 класса по стандарту Germany DIN 4550",
+    "Ролики Стандарт BIFMA 5,1 (США). Диаметр штока 11 мм.",
+    "Каркас Немонолитный",
+    "Набивка кресла Стандартный поролон плотности 22-40 кг/м3",
+    "Рекомендованная максимальная нагрузка 120 кг.",
+    "Срок гарантии 2 года"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "executive-chairs"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-2244e1714061.jpg"
+}

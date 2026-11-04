@@ -1,0 +1,54 @@
+{
+  "id": "item-2e458d38a3f1",
+  "title": "CHAIRMAN 417",
+  "source": "https://www.felix-almaty.kz/product-page/chairman-417",
+  "checked_at": "2026-10-31T10:05:18.355Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_ee4dd33643684918863be2fd432db84d~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_a7b7b54e2eca4b6a9edc0a90af473502~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_adb1b70ff35f4bdba78b069f2f94cfa3~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_cb521831c9394571bc08d73a64af9b24~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_2361f010e08e4e14b7ade60268083dc8~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "Обивка Натуральная кожа",
+    "Подлокотники Кожаные с накладками из натурального дерева",
+    "Механизм качания Механизм качания повышенной комфортности с возможностью фиксации кресла в рабочем положении",
+    "Крестовина Металлическая с накладками из натурального дерева",
+    "Газпатрон 3 класса по стандарту Germany DIN 4550",
+    "Ролики Стандарт BIFMA 5,1 (США). Диаметр штока 11 мм.",
+    "Каркас Монолитный",
+    "Набивка кресла Стандартный поролон плотности 25-40 кг/м3",
+    "Рекомендованная максимальная нагрузка 120 кг.",
+    "Срок гарантии 2 года"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "executive-chairs"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-2e458d38a3f1.jpg"
+}

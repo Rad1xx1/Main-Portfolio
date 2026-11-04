@@ -1,0 +1,53 @@
+{
+  "id": "item-c7a84ad83979",
+  "title": "Диван \"ЧЕСТЕР лайт\" - 2-х местный",
+  "source": "https://www.felix-almaty.kz/product-page/диван-честер-лайт-2-х-местный",
+  "checked_at": "2026-10-31T10:07:14.360Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_806fa23fb3b84505ab741b7c8df7eab2~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1917,
+      "height": 1114
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_d9ba9c81bbe04b668325b00c797f880f~mv2_d_2049_1506_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2049,
+      "height": 1506
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_9d866da3fdd148c3b21dd5aeb24ecbbc~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2054,
+      "height": 1069
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_ad88d6fd672240c1a1015349ca66b3f7~mv2_d_1955_1354_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1955,
+      "height": 1354
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_54c63974b9524190ba40a9c39f17c5c5~mv2_d_1621_1433_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1621,
+      "height": 1433
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_4b0a39b10a024081bf14c01247e14f4b~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2526,
+      "height": 1099
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_c8ccceab8f2547a08ae74d9456926c4a~mv2_d_2463_1249_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 2463,
+      "height": 1249
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "soft"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-c7a84ad83979.jpg"
+}

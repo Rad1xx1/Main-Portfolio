@@ -1,0 +1,60 @@
+{
+  "id": "item-1f4797cbf988",
+  "title": "Кабинет руководителя \"Гамильтон\" - стол письменный",
+  "source": "https://www.felix-almaty.kz/product-page/кабинет-руководителя-гамильтон-стол-письменный",
+  "checked_at": "2026-10-31T10:07:03.424Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_4cb66b58d7ca426cad875758b83fe0de~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_9f0f0750a7a143789f07260c6141eace~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_e03999806f63463d84fe35c727f961cc~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_7a804fc6db494cbfa3a1f3009b283c8a~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_1265fb76acf14b3a9562a1374237dcdd~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_afb8fd7ae4ab4713829451d464fc62ee~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_419d98e273004deb940f2e6331e9951b~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 428,
+      "height": 327
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_1c88ff65e2784d049f0dc2db41ef4e0d~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "executive"
+  ],
+  "published_specs": [
+    "1200 мм можно менять длину переговорных столов, увеличивая их до нужного размера"
+  ],
+  "local_image": "images/item-1f4797cbf988.jpg"
+}

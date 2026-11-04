@@ -1,0 +1,48 @@
+{
+  "id": "item-a532f37bcc0a",
+  "title": "Кабинет руководителя \"MORRIS\" - стол письменный",
+  "source": "https://www.felix-almaty.kz/product-page/кабинет-руководителя-morris-стол-письменный",
+  "checked_at": "2026-10-31T10:07:04.825Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_b7f9f48550aa469dad8b9469aec46dc0~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_3272148a654944e189a378bd1ca45d42~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_ec1f11bcea7e48acb1c03d8cb3e12039~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_d31497786554480885a90bcf8a3712c5~mv2_d_1600_1600_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_ace9e6f890fe4a148ee94fd9b83fe4a0~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 815,
+      "height": 599
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_3dd1c7c9ee5d4f029b9eee019668a4c0~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 815,
+      "height": 599
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "executive"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-a532f37bcc0a.jpg"
+}

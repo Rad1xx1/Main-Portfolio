@@ -1,0 +1,60 @@
+{
+  "id": "item-ca72c2749514",
+  "title": "CHAIRMAN 445",
+  "source": "https://www.felix-almaty.kz/product-page/chairman-445",
+  "checked_at": "2026-10-31T10:05:38.785Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_9b1dbddde78a4cf6b904f2802e1d6087~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_cc02cb2458c44a6b94cc986d87a3f515~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_858be73344314e408bd0b56fa0d6d92b~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_1a23fa21ddf54d749088e9e49474a3c6~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_e380f33d0b2e488bb7cf0f90f866f3da~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_f7c85a9cded3445c8c14e335c73a752f~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_f4fdd54de0094a4ea38f71568ce267f4~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "Обивка Натуральная кожа",
+    "Подлокотники Металлические с кожаными накладками",
+    "Каркас Mонолитный",
+    "Набивка кресла Стандартный поролон плотности 25-40 кг/м3",
+    "Рекомендованная максимальная нагрузка 100 кг.",
+    "Срок гарантии 2 года"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "chairs"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-ca72c2749514.jpg"
+}

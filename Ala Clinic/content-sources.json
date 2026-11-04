@@ -1,0 +1,231 @@
+{
+  "source": "https://alaclinic.kz/",
+  "checked": "2026-11-01",
+  "doctors": [
+    {
+      "image": "https://alaclinic.kz/wp-content/uploads/2025/05/4cd6ed1127d94531d9f80390ac2079188100c173-1.jpg",
+      "name": "Махмуд Османжанович",
+      "role": "Детский стоматолог-терапевт",
+      "experience": "Стаж: 10+ лет"
+    },
+    {
+      "image": "https://alaclinic.kz/wp-content/uploads/2025/05/f09a99efae9899d582a49e5b04f12345169bd32f-1.jpg",
+      "name": "Асанов Ислам",
+      "role": "Стоматолог-хирург, имплантолог, ортопед",
+      "experience": "Стаж: 10+ лет"
+    },
+    {
+      "image": "https://alaclinic.kz/wp-content/uploads/2025/05/e00a9681e60afdb6840dc0edce2731d2fbd069bb-1.jpg",
+      "name": "Назым Нурлановна",
+      "role": "Стоматолог-ортодонт, терапевт",
+      "experience": "Стаж: 5+ лет"
+    },
+    {
+      "image": "https://alaclinic.kz/wp-content/uploads/2025/05/c6be06d46e8895e723836845cf0d4967eae695e4.jpg",
+      "name": "Гульдара Жанартовна",
+      "role": "Стоматолог-терапевт, детский хирург",
+      "experience": "Стаж: 5+ лет"
+    },
+    {
+      "image": "https://alaclinic.kz/wp-content/uploads/2025/06/ala5-3-iz-71-scaled.jpg",
+      "name": "Тайжанова Айгуль Николаевна",
+      "role": "Детский и взрослый стоматолог",
+      "experience": "Стаж: 5+ лет"
+    },
+    {
+      "image": "https://alaclinic.kz/wp-content/uploads/2025/10/img_1857.jpg",
+      "name": "Жарас Зангарович",
+      "role": "Стоматолог-терапевт",
+      "experience": "Стаж: 5+ лет"
+    },
+    {
+      "image": "https://alaclinic.kz/wp-content/uploads/2025/10/img_1847.jpg",
+      "name": "Зульяров Диас Османжанович",
+      "role": "Стоматолог-терапевт",
+      "experience": "Стаж: 3+ года"
+    },
+    {
+      "image": "https://alaclinic.kz/wp-content/uploads/2025/10/img_1848-scaled.jpg",
+      "name": "Майлаш Едил",
+      "role": "Стоматолог-хирург, ортопед, имплантолог",
+      "experience": "Стаж: 3+ года"
+    }
+  ],
+  "works": [
+    {
+      "images": [
+        "https://alaclinic.kz/wp-content/uploads/2025/05/86a9e06faa9f09270bcabbc7821737f10b96ecc8-1-scaled.jpg",
+        "https://alaclinic.kz/wp-content/uploads/2025/05/777d0567b7a55815f77e9abd395a34156446ea34-1-scaled.jpg"
+      ],
+      "doctor": "Ислам Шамшидинович",
+      "role": "Имплантолог, хирург, ортопед",
+      "avatar": "https://alaclinic.kz/wp-content/uploads/2025/05/rectangle-148.jpg",
+      "service": "Имплантация",
+      "time": "1 год 8 месяцев",
+      "description": "Удаление всех несостоятельных Зубов ,по показаниям ,установка дентальных имплантов с моментальных протезированием ,несьемными временными конструкциями"
+    },
+    {
+      "images": [
+        "https://alaclinic.kz/wp-content/uploads/2025/05/photo_2025-06-12-16.00.49-e1749726095206.jpeg",
+        "https://alaclinic.kz/wp-content/uploads/2025/05/photo_2025-06-12-16.00.52-e1749726105714.jpeg"
+      ],
+      "doctor": "Махмуд Османжанович",
+      "role": "Детский стоматолог",
+      "avatar": "https://alaclinic.kz/wp-content/uploads/2025/05/4cd6ed1127d94531d9f80390ac2079188100c173-1.jpg",
+      "service": "Лечение кариеса",
+      "time": "1 посещение",
+      "description": "Ребенок 2.5 года\nПролечили 14 Зубов. 4 пульпита и 10 кариесов"
+    },
+    {
+      "images": [
+        "https://alaclinic.kz/wp-content/uploads/2025/11/img_2935.jpg",
+        "https://alaclinic.kz/wp-content/uploads/2025/11/img_2934.jpg"
+      ],
+      "doctor": "Назым Нурлановна",
+      "role": "Ортодонт",
+      "avatar": "https://alaclinic.kz/wp-content/uploads/2025/05/ad942c2fbdf1b70a4f02f416413af4f7f6d7ecc6.png",
+      "service": "Ортодонтия",
+      "time": "",
+      "description": "Пациентке 18 лет, обратилась с жалобами на неровные  зубы, неправильное смыкание  и эстетический дискомфорт.\nУстановлена лигатурная брекет-система\nПостепенно выравниваем зубные ряды и раскрываем прикус.\nУлыбка уже изменилась\nПрофиль стал мягче, а прикус правильнее."
+    },
+    {
+      "images": [
+        "https://alaclinic.kz/wp-content/uploads/2025/11/img_2928_compressed-1.jpg",
+        "https://alaclinic.kz/wp-content/uploads/2025/11/img_2927_compressed-1.jpg"
+      ],
+      "doctor": "Гульдара Жанартовна",
+      "role": "Терапевт, Хирург",
+      "avatar": "https://alaclinic.kz/wp-content/uploads/2025/06/f9654e4f0c5aff4439a7eb0bec853a970d7040e0.png",
+      "service": "Хирургия",
+      "time": "",
+      "description": "Ребенок 2,5 года. Лечение кариеса и его осложнений с восстановлением жевательной функции при помощи металлических коронок трех молочных жевательных зубов, т.к на этих зубах были крупные повреждения кариозным процессом. Лечение проходило в условиях общего наркоза"
+    },
+    {
+      "images": [
+        "https://alaclinic.kz/wp-content/uploads/2025/05/7da84c719001c394ba4a60c5086d6a4e0223d127-1-scaled.jpg",
+        "https://alaclinic.kz/wp-content/uploads/2025/05/01fdebcb80d915dde5af739b8c181207400f22f0-1-scaled-e1748281401738.jpg"
+      ],
+      "doctor": "Ислам Шамшидинович",
+      "role": "Имплантолог, хирург, ортопед",
+      "avatar": "https://alaclinic.kz/wp-content/uploads/2025/05/rectangle-148.jpg",
+      "service": "Имплантация",
+      "time": "1 год 8 месяцев",
+      "description": "На верхней челюсти были установлены дентальные импланты с циркониевыми коронками ,на нижней челюсти циркониевые коронки и виниры"
+    },
+    {
+      "images": [
+        "https://alaclinic.kz/wp-content/uploads/2025/11/img_2932_compressed.jpg",
+        "https://alaclinic.kz/wp-content/uploads/2025/11/img_2933_compressed.jpg"
+      ],
+      "doctor": "Гульдара Жанартовна",
+      "role": "Терапевт, Хирург",
+      "avatar": "https://alaclinic.kz/wp-content/uploads/2025/06/f9654e4f0c5aff4439a7eb0bec853a970d7040e0.png",
+      "service": "Хирургия",
+      "time": "",
+      "description": "Ребенок 4 года. Лечение кариеса и его осложнений с восстановлением жевательной функции по помощи коронок + удаление трех передних молочных Зубов в условии общего наркоза"
+    },
+    {
+      "images": [
+        "https://alaclinic.kz/wp-content/uploads/2025/05/11f3055b3670c5cec421284ec5608627aa5b0fc0.jpg",
+        "https://alaclinic.kz/wp-content/uploads/2025/05/9ccdf9dc3b9251de7499a6cd58d602e1bab4019b.jpg"
+      ],
+      "doctor": "Назым Нурлановна",
+      "role": "Ортодонт",
+      "avatar": "https://alaclinic.kz/wp-content/uploads/2025/05/e00a9681e60afdb6840dc0edce2731d2fbd069bb-1.jpg",
+      "service": "Ортодонтия",
+      "time": "6 месяцев",
+      "description": "Пациентке 16 лет.  Обратилась с жалобой, на неправильное смыкание зубов в боковом сегменте справа. На брекет системе исправили перекрестный прикус.  Срок ношения брекетов 6 месяцев."
+    },
+    {
+      "images": [
+        "https://alaclinic.kz/wp-content/uploads/2025/05/a9fbee0eb7e6bd169bc170be288af7759ad78102.jpg",
+        "https://alaclinic.kz/wp-content/uploads/2025/05/9ad53a806e61a91d3606caf513dd8b6d7d713415.jpg"
+      ],
+      "doctor": "Назым Нурлановна",
+      "role": "Ортодонт",
+      "avatar": "https://alaclinic.kz/wp-content/uploads/2025/05/e00a9681e60afdb6840dc0edce2731d2fbd069bb-1.jpg",
+      "service": "Ортодонтия",
+      "time": "2 года",
+      "description": "Пациентке 32 года. \nУстановлены южнокорейские брекеты. \nЖалобы, на неправильное положение боковых резцов, неправильное смыкание зубных рядов. \nСрок лечения год и 7 месяцев \nПосле снятия брекетов, сделали художественную реставрацию зуба 1.2 и 2.1"
+    },
+    {
+      "images": [
+        "https://alaclinic.kz/wp-content/uploads/2025/10/img_1859-scaled.jpg",
+        "https://alaclinic.kz/wp-content/uploads/2025/10/img_1858-scaled.jpg"
+      ],
+      "doctor": "Жарас Зангарович",
+      "role": "",
+      "avatar": "https://alaclinic.kz/wp-content/uploads/2025/10/img_1857.jpg",
+      "service": "",
+      "time": "",
+      "description": "Художественная реставрация, закрытие диастемы"
+    },
+    {
+      "images": [
+        "https://alaclinic.kz/wp-content/uploads/2025/10/img_1861-scaled.jpg",
+        "https://alaclinic.kz/wp-content/uploads/2025/10/img_1860-scaled.jpg"
+      ],
+      "doctor": "Жарас Зангарович",
+      "role": "",
+      "avatar": "https://alaclinic.kz/wp-content/uploads/2025/10/img_1857.jpg",
+      "service": "",
+      "time": "",
+      "description": "Постэндодонтическая пломбирование 36 зуба"
+    },
+    {
+      "images": [
+        "https://alaclinic.kz/wp-content/uploads/2025/10/img_1863-scaled.jpg",
+        "https://alaclinic.kz/wp-content/uploads/2025/10/img_1862-scaled.jpg"
+      ],
+      "doctor": "Жарас Зангарович",
+      "role": "",
+      "avatar": "https://alaclinic.kz/wp-content/uploads/2025/10/img_1857.jpg",
+      "service": "",
+      "time": "",
+      "description": "Восстановление 25 зуба под циркониевую коронку"
+    },
+    {
+      "images": [
+        "https://alaclinic.kz/wp-content/uploads/2025/12/img_4148.jpg",
+        "https://alaclinic.kz/wp-content/uploads/2025/12/img_4150.jpg"
+      ],
+      "doctor": "Назым Нурлановна",
+      "role": "Ортодонт",
+      "avatar": "https://alaclinic.kz/wp-content/uploads/2025/05/ad942c2fbdf1b70a4f02f416413af4f7f6d7ecc6.png",
+      "service": "Ортодонтия",
+      "time": "2 года",
+      "description": "Пациент 8 лет. Обратились с жалобой на скученность и на не правильное смыкание зубов. Проводится лечение аппаратом Марко Росса, частично были установлены брекеты для коррекции положения фронтальных зубов."
+    },
+    {
+      "images": [
+        "https://alaclinic.kz/wp-content/uploads/2026/01/photo_5373032112417607802_y.jpg",
+        "https://alaclinic.kz/wp-content/uploads/2026/01/photo_5373032112417607801_y.jpg"
+      ],
+      "doctor": "Жарас Зангарович",
+      "role": "",
+      "avatar": "https://alaclinic.kz/wp-content/uploads/2025/10/img_1857.jpg",
+      "service": "",
+      "time": "",
+      "description": "11,21,22 зуб коронки из диоксид циркония"
+    },
+    {
+      "images": [
+        "https://alaclinic.kz/wp-content/uploads/2026/01/img_5474.jpg",
+        "https://alaclinic.kz/wp-content/uploads/2026/01/img_5475.jpg"
+      ],
+      "doctor": "Назым Нурлановна",
+      "role": "Ортодонт",
+      "avatar": "https://alaclinic.kz/wp-content/uploads/2025/05/ad942c2fbdf1b70a4f02f416413af4f7f6d7ecc6.png",
+      "service": "Ортодонтия",
+      "time": "",
+      "description": "Пациент обратился с выраженной скученностью зубов и нарушением положения фронтальной группы. Установлена лигатурная брекет-система для поэтапного выравнивания зубных рядов и улучшения окклюзии. Уже на промежуточном этапе  отмечается положительная динамика и упорядочивание положения зубов."
+    }
+  ],
+  "specialtySources": [
+    "https://alaclinic.kz/doctors/page/2/",
+    "https://alaclinic.kz/doctors/terapevt/zharas-zangarovich/",
+    "https://alaclinic.kz/doctors/terapevt/zulyarov-dias-osmanzhanovich/",
+    "https://alaclinic.kz/doctors/implantolog/majlash-edil/"
+  ],
+  "notes": "Диас: направление терапии подтверждено категорией terapevt в URL профиля; текст специальности на странице отсутствует. Две хирургические карточки показывают один ракурс (верхнюю половину исходных коллажей) средствами CSS; исходные фотографии сохранены."
+}

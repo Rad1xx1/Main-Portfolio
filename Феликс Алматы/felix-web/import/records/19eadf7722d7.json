@@ -1,0 +1,48 @@
+{
+  "id": "item-19eadf7722d7",
+  "title": "Мебель для гостиниц \"Рио Гранде\"",
+  "source": "https://www.felix-almaty.kz/product-page/мебель-для-гостиниц-рио-гранде",
+  "checked_at": "2026-10-31T10:05:46.200Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_b5dddb3d9b1447bcaa2bd47f93ab8ee4~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_a188e8e1b64b4f0cb7d35aca711af30e~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_4d4bb87fb3584b6b9912e5c8f59b9569~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_7c25480618bb49999b971b7fc3be1511~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_fd565b37b65e400cbf83a6c505e180ac~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_433d358c8d974cde961444ab96705082~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "hotel"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-19eadf7722d7.jpg"
+}

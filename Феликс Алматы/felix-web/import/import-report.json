@@ -1,0 +1,194 @@
+{
+  "checked_at": "2026-10-31T10:08:53.961Z",
+  "sitemap_count": 209,
+  "unique_urls": 209,
+  "imported": 209,
+  "categories": [
+    {
+      "id": "executive",
+      "title": "Кабинеты руководителя",
+      "links": 20,
+      "emptyConfirmed": false
+    },
+    {
+      "id": "work",
+      "title": "Мебель для персонала",
+      "links": 21,
+      "emptyConfirmed": false
+    },
+    {
+      "id": "executive-chairs",
+      "title": "Кресла руководителя",
+      "links": 62,
+      "emptyConfirmed": false
+    },
+    {
+      "id": "staff-chairs",
+      "title": "Кресла персонала",
+      "links": 70,
+      "emptyConfirmed": false
+    },
+    {
+      "id": "soft",
+      "title": "Мягкая мебель",
+      "links": 12,
+      "emptyConfirmed": false
+    },
+    {
+      "id": "partitions",
+      "title": "Офисные перегородки",
+      "links": 5,
+      "emptyConfirmed": false
+    },
+    {
+      "id": "reception",
+      "title": "Мебель для приёмных",
+      "links": 6,
+      "emptyConfirmed": false
+    },
+    {
+      "id": "chairs",
+      "title": "Стулья",
+      "links": 14,
+      "emptyConfirmed": false
+    },
+    {
+      "id": "kids",
+      "title": "Детская мебель",
+      "links": 5,
+      "emptyConfirmed": false
+    },
+    {
+      "id": "hotel",
+      "title": "Мебель для гостиниц",
+      "links": 4,
+      "emptyConfirmed": false
+    },
+    {
+      "id": "acoustic",
+      "title": "Акустические кабины",
+      "links": 0,
+      "emptyConfirmed": true
+    },
+    {
+      "id": "accessories",
+      "title": "Аксессуары",
+      "links": 8,
+      "emptyConfirmed": false
+    }
+  ],
+  "unassigned": [
+    {
+      "id": "item-a998b256a5f4",
+      "title": "Кабинет премиум класса \"Версаль\" - стол письменный",
+      "source": "https://www.felix-almaty.kz/product-page/кабинет-премиум-класса-версаль-стол-письменный"
+    },
+    {
+      "id": "item-b734eb9b3256",
+      "title": "Кабинет руководителя \"Атташе-М\" - стол письменный",
+      "source": "https://www.felix-almaty.kz/product-page/кабинет-руководителя-атташе-м-стол-письменный"
+    },
+    {
+      "id": "item-23cb3cf98810",
+      "title": "Кабинет руководителя \"БОРН\" - стол письменный",
+      "source": "https://www.felix-almaty.kz/product-page/кабинет-руководителя-борн"
+    },
+    {
+      "id": "item-55d4d2693ede",
+      "title": "Кабинет руководителя \"Лидер\" - стол письменный",
+      "source": "https://www.felix-almaty.kz/product-page/кабинет-руководителя-лидер-стол-письменный"
+    },
+    {
+      "id": "item-cdbf03a5c20e",
+      "title": "Кабинет руководителя \"Патриот\" - стол письменный",
+      "source": "https://www.felix-almaty.kz/product-page/кабинет-руководителя-патриот"
+    },
+    {
+      "id": "item-5097282661a1",
+      "title": "Кабинет руководителя \"Престиж\" - стол письменный",
+      "source": "https://www.felix-almaty.kz/product-page/кабинет-руководителя-престиж"
+    },
+    {
+      "id": "item-bcdebb5eeef8",
+      "title": "Кабинет руководителя \"Reventon\" - стол письменный",
+      "source": "https://www.felix-almaty.kz/product-page/кабинет-руководителя-reventon"
+    },
+    {
+      "id": "item-80a2c2716a14",
+      "title": "Кабинет руководителя премиум класса \"DAO\" - стол писменный",
+      "source": "https://www.felix-almaty.kz/product-page/кабинет-руководителя-премиум-класса-dao"
+    },
+    {
+      "id": "item-37f9b358cbc8",
+      "title": "Кабинет руководителя эконом-класса \"Система МР\" - стол письменный",
+      "source": "https://www.felix-almaty.kz/product-page/кабинет-руководителя-эконом-класса-система-мр-стол-письменный"
+    },
+    {
+      "id": "item-2381f351741b",
+      "title": "Статуэтка \"Знак зодиака Лев\"",
+      "source": "https://www.felix-almaty.kz/product-page/статуэтка-знак-зодиака-лев"
+    },
+    {
+      "id": "item-a3db90feb396",
+      "title": "Статуэтка \"Конь\"",
+      "source": "https://www.felix-almaty.kz/product-page/статуэтка-конь"
+    },
+    {
+      "id": "item-98ae4cad991f",
+      "title": "CHAIRMAN KIDS 101",
+      "source": "https://www.felix-almaty.kz/product-page/chairman-kids-101"
+    },
+    {
+      "id": "item-6b8b39f4602e",
+      "title": "CHAIRMAN KIDS 101 BLACK",
+      "source": "https://www.felix-almaty.kz/product-page/chairman-kids-101-black"
+    },
+    {
+      "id": "item-33b3d9e0eb0a",
+      "title": "CHAIRMAN KIDS 103",
+      "source": "https://www.felix-almaty.kz/product-page/chairman-kids-103"
+    },
+    {
+      "id": "item-300d0d6324bd",
+      "title": "CHAIRMAN KIDS 103 BLACK",
+      "source": "https://www.felix-almaty.kz/product-page/chairman-kids-103-black"
+    },
+    {
+      "id": "item-3e1ba93afb43",
+      "title": "CHAIRMAN KIDS 104",
+      "source": "https://www.felix-almaty.kz/product-page/chairman-kids-104"
+    },
+    {
+      "id": "item-477b34e27c46",
+      "title": "CHAIRMAN KIDS 104 BLACK",
+      "source": "https://www.felix-almaty.kz/product-page/chairman-kids-104-black"
+    },
+    {
+      "id": "item-cad87a9c3265",
+      "title": "CHAIRMAN KIDS 106 BLACK",
+      "source": "https://www.felix-almaty.kz/product-page/chairman-kids-106-black"
+    },
+    {
+      "id": "item-e184e042b6aa",
+      "title": "CHAIRMAN KIDS 108",
+      "source": "https://www.felix-almaty.kz/product-page/chairman-kids-108"
+    },
+    {
+      "id": "item-beb7dbfe44df",
+      "title": "CHAIRMAN KIDS 115",
+      "source": "https://www.felix-almaty.kz/product-page/chairman-kids-115"
+    },
+    {
+      "id": "item-9f8705328e41",
+      "title": "CHAIRMAN KIDS 122",
+      "source": "https://www.felix-almaty.kz/product-page/chairman-kids-122"
+    },
+    {
+      "id": "item-ce0e05d6591d",
+      "title": "CHAIRMAN KIDS 122 BLACK",
+      "source": "https://www.felix-almaty.kz/product-page/chairman-kids-122-black"
+    }
+  ],
+  "missing_images": [],
+  "failures": []
+}

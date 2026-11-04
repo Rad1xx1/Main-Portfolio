@@ -1,0 +1,55 @@
+{
+  "id": "item-71f2a35497f1",
+  "title": "CHAIRMAN 433",
+  "source": "https://www.felix-almaty.kz/product-page/chairman-433",
+  "checked_at": "2026-10-31T10:04:31.653Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_9c1a4c1cb1434f0e9809f1bb5ec13f6c~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_a101f44326394aaab29722e835b3d06d~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_857bc9377972409ca201e5ba88f66b29~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_933b469b5ded45c58236ad18f5e4e2e9~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_6703eee2ee5c44d6acef651589ec25e2~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "Обивка Экокожа премиум",
+    "Подлокотники Пластиковые с напылением под металл",
+    "Механизм качания Механизм качания с возможностью фиксации кресла в рабочем положении",
+    "Крестовина Пластиковая с напылением под металл",
+    "Газпатрон 3 категории по стандарту Germany DIN 4550",
+    "Ролики Стандарт BIFMA 5,1 (США). Диаметр штока 11 мм.",
+    "Каркас Немонолитный",
+    "Набивка кресла Стандартный поролон плотности 25-40 кг/м3",
+    "Рекомендованная максимальная нагрузка 120 кг.",
+    "Срок гарантии 2 года"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "executive-chairs",
+    "staff-chairs"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-71f2a35497f1.jpg"
+}

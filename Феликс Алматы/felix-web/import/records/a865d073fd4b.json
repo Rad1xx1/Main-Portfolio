@@ -1,0 +1,60 @@
+{
+  "id": "item-a865d073fd4b",
+  "title": "CHAIRMAN 434",
+  "source": "https://www.felix-almaty.kz/product-page/chairman-434",
+  "checked_at": "2026-10-31T10:05:30.397Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_d2c215bff081497d86baacad302c0503~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_5a7c026c7d9d49b897318235ba543b17~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_e4f7c310ac2e46708763b7a4c6a0888a~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_ab5321bc5a284d2bae1c06cec3c332b5~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_c362b69c2d264c1e9402be16b2ef236b~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_84c4e79b29e44d808f2b2f1a73d2cfa2~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 350,
+      "height": 400
+    }
+  ],
+  "sku": "",
+  "facts": [
+    "Обивка Микрофибра",
+    "Подлокотники Пластиковые с накладками из микрофибры",
+    "Механизм качания Механизм качания с возможностью фиксации кресла в рабочем положении",
+    "Крестовина Пластиковая",
+    "Газпатрон 3 класса по стандарту Germany DIN 4550",
+    "Ролики Стандарт BIFMA 5,1 (США). Диаметр штока 11 мм. Материал - нейлон",
+    "Каркас Немонолитный",
+    "Набивка кресла Искусственный пух / Стандартный поролон плотности 25-40 кг/м3",
+    "Рекомендованная максимальная нагрузка 120 кг.",
+    "Срок гарантии 2 года"
+  ],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "executive-chairs",
+    "soft"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-a865d073fd4b.jpg"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "item-2190740b2a60",
+  "title": "Зонтница \"Венеция\" - 1",
+  "source": "https://www.felix-almaty.kz/product-page/зонтница-венеция-1",
+  "checked_at": "2026-10-31T10:06:31.548Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_7a1ad284fdd5445a97d43529845e21a0~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "width": 220,
+      "height": 220
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "accessories"
+  ],
+  "published_specs": [
+    "3.5 кг"
+  ],
+  "local_image": "images/item-2190740b2a60.jpg"
+}

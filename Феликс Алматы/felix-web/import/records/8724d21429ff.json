@@ -1,0 +1,23 @@
+{
+  "id": "item-8724d21429ff",
+  "title": "Скульптура \"Орел на волне\"",
+  "source": "https://www.felix-almaty.kz/product-page/скульптура-орел-на-волне",
+  "checked_at": "2026-10-31T10:07:42.313Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_10648e3275b5445e9047c46aab4c5bf5~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "width": 220,
+      "height": 220
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "accessories"
+  ],
+  "published_specs": [],
+  "local_image": "images/item-8724d21429ff.jpg"
+}

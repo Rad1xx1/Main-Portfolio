@@ -1,0 +1,45 @@
+{
+  "id": "item-b71a1bdb2eed",
+  "title": "Мебель для персонала \"Старт\" - стол рабочий прямой",
+  "source": "https://www.felix-almaty.kz/product-page/мебель-для-персонала-старт-стол-рабочий-прямой",
+  "checked_at": "2026-10-31T10:06:00.147Z",
+  "images": [
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_5b422cfd1dd44dbbb7835fa3962459bc~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_441878e97cce47a1b1107a14e9f08fab~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_11af38cf5fd74fab901c4bfc57383ba2~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_d89f772b6d124010a1f8a773f9352c2f~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 530,
+      "height": 375
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0be56a_66856e21fa6241fbb5a47360f3719389~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "width": 428,
+      "height": 321
+    }
+  ],
+  "sku": "",
+  "facts": [],
+  "source_price": "0",
+  "currency": "KZT",
+  "source_availability": "https://schema.org/InStock",
+  "categories": [
+    "work"
+  ],
+  "published_specs": [
+    "16 мм"
+  ],
+  "local_image": "images/item-b71a1bdb2eed.jpg"
+}
