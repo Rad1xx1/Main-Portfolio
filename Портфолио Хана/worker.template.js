@@ -70,7 +70,7 @@ async function preview(request, env, ctx, url) {
     "SELECT repository, repo_path FROM projects WHERE slug = ?1 LIMIT 1"
   ).bind(slug).first();
 
-  if (!project || !["Main-Portfolio", "myportfolio"].includes(project.repository)) {
+  if (!project || project.repository !== "Main-Portfolio") {
     return jsonError("Project preview not found.", 404);
   }
 
