@@ -19,6 +19,9 @@
     .brand{display:flex;align-items:center;gap:11px;font-size:14px;font-weight:750;letter-spacing:-.03em}
     .brand-mark{display:grid;place-items:center;width:35px;height:35px;border-radius:50%;background:var(--ink);color:var(--lime);font-size:12px;letter-spacing:-.08em}
     .nav{display:flex;gap:30px;align-items:center;color:#555a51;font-size:13px}
+    .language-toggle{display:flex;gap:2px;padding:3px;border:1px solid var(--line);border-radius:999px;background:#ffffff80}
+    .language-toggle button{min-width:34px;height:27px;border:0;border-radius:999px;background:transparent;color:#777b72;font-size:10px;font-weight:750;cursor:pointer}
+    .language-toggle button[aria-pressed="true"]{background:var(--ink);color:white}
     .nav a:hover,.text-link:hover{color:#758b14}
     .nav-cta{padding:11px 17px;border:1px solid var(--ink);border-radius:999px;color:var(--ink)!important}
     .hero{min-height:590px;display:grid;grid-template-columns:1fr .86fr;align-items:center;gap:50px;padding:74px 0 80px}
@@ -121,34 +124,35 @@
     .modal iframe{flex:1;width:100%;border:0;background:white}
     .loading{grid-column:1/-1;padding:48px;text-align:center;color:#777b72}
     @media(max-width:850px){.hero{grid-template-columns:1fr .75fr;gap:20px}.hero-art{min-height:310px}.project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.about-grid{gap:35px}}
-    @media(max-width:650px){.shell{width:min(100% - 32px,520px)}.topbar{height:65px}.nav{gap:15px;font-size:11px}.nav a:nth-child(2){display:none}.nav-cta{padding:9px 12px}.hero{display:flex;flex-direction:column;align-items:stretch;gap:2px;padding:57px 0 55px}.hero-art{min-height:270px;margin-top:16px}.hero-orbit{width:270px}.mock-window{width:255px}.mock-site{height:174px}.mock-title{font-size:22px;margin-top:19px}.mock-tiles{margin-top:12px}.mock-tiles span{height:30px}.note-one{right:0;top:28px}.note-two{left:0;bottom:25px}.hero-stats{gap:16px;margin-top:31px}.stat{gap:4px;font-size:9px}.stat strong{font-size:19px}.section-head{display:block}.section-intro{margin-top:13px}.catalog{padding:59px 0}.toolbar{align-items:stretch;flex-direction:column}.search{width:100%}.filters{gap:6px}.filter{min-height:32px;padding:0 11px;font-size:10px}.project-grid{grid-template-columns:1fr;gap:14px}.cover{height:205px}.about{padding:55px 0}.about-grid{grid-template-columns:1fr;gap:22px}.contact{align-items:flex-start;flex-direction:column;padding:42px 0}.footer{font-size:9px}.modal{padding:8px}.modal-panel{height:94vh}.modal-head{min-height:55px;padding:0 12px}.modal-title{font-size:17px}.modal-source{display:none}}
+    @media(max-width:650px){.shell{width:min(100% - 32px,520px)}.topbar{height:65px}.nav{gap:9px;font-size:11px}.nav a:nth-child(2){display:none}.nav-cta{padding:9px 10px}.language-toggle{padding:2px}.language-toggle button{min-width:29px;height:25px;font-size:9px}.hero{display:flex;flex-direction:column;align-items:stretch;gap:2px;padding:57px 0 55px}.hero-art{min-height:270px;margin-top:16px}.hero-orbit{width:270px}.mock-window{width:255px}.mock-site{height:174px}.mock-title{font-size:22px;margin-top:19px}.mock-tiles{margin-top:12px}.mock-tiles span{height:30px}.note-one{right:0;top:28px}.note-two{left:0;bottom:25px}.hero-stats{gap:16px;margin-top:31px}.stat{gap:4px;font-size:9px}.stat strong{font-size:19px}.section-head{display:block}.section-intro{margin-top:13px}.catalog{padding:59px 0}.toolbar{align-items:stretch;flex-direction:column}.search{width:100%}.filters{gap:6px}.filter{min-height:32px;padding:0 11px;font-size:10px}.project-grid{grid-template-columns:1fr;gap:14px}.cover{height:205px}.about{padding:55px 0}.about-grid{grid-template-columns:1fr;gap:22px}.contact{align-items:flex-start;flex-direction:column;padding:42px 0}.footer{font-size:9px}.modal{padding:8px}.modal-panel{height:94vh}.modal-head{min-height:55px;padding:0 12px}.modal-title{font-size:17px}.modal-source{display:none}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
   </style>
 </head>
 <body>
   <div class="shell">
     <header class="topbar">
-      <a class="brand" href="#" aria-label="Хан, портфолио">
+        <a class="brand" href="#" aria-label="Хан, портфолио" data-i18n-aria="brandAria">
         <span class="brand-mark">KH</span><span>Хан <span style="color:#858980;font-weight:500">/ portfolio</span></span>
       </a>
-      <nav class="nav" aria-label="Главная навигация">
-        <a href="#work">Проекты</a><a href="#about">Обо мне</a><a class="nav-cta" href="#contact">Связаться <span class="arrow">↗</span></a>
+      <nav class="nav" aria-label="Главная навигация" data-i18n-aria="navAria">
+        <a href="#work" data-i18n="navWorks">Проекты</a><a href="#about" data-i18n="navAbout">Обо мне</a><a class="nav-cta" href="#contact"><span data-i18n="navContact">Связаться</span> <span class="arrow">↗</span></a>
+        <div class="language-toggle" role="group" aria-label="Язык сайта" data-i18n-aria="languageAria"><button type="button" data-language="ru" aria-pressed="true">RU</button><button type="button" data-language="en" aria-pressed="false">EN</button></div>
       </nav>
     </header>
     <main>
       <section class="hero">
         <div>
-          <div class="eyebrow">веб-разработка · портфолио</div>
-          <h1>Проекты,<br>которые можно <em>открыть.</em></h1>
-          <p class="hero-copy">Я Хан. Создаю сайты и интерфейсы для бизнеса — от первой идеи до работающей адаптивной демо-версии.</p>
+          <div class="eyebrow" data-i18n="eyebrow">веб-разработка · портфолио</div>
+          <h1 data-i18n="heroTitle">Проекты,<br>которые можно <em>открыть.</em></h1>
+          <p class="hero-copy" data-i18n="heroCopy">Я Хан. Создаю сайты и интерфейсы для бизнеса — от первой идеи до работающей адаптивной демо-версии.</p>
           <div class="hero-actions">
-            <a class="button" href="#work">Смотреть проекты <span class="arrow">↓</span></a>
+            <a class="button" href="#work"><span data-i18n="viewProjects">Смотреть проекты</span> <span class="arrow">↓</span></a>
             <a class="button secondary" href="https://github.com/Rad1xx1" target="_blank" rel="noreferrer">GitHub <span class="arrow">↗</span></a>
           </div>
           <div class="hero-stats">
-            <div class="stat"><strong id="project-count">—</strong> проекта</div>
-            <div class="stat"><strong>1</strong> репозиторий</div>
-            <div class="stat"><strong>1</strong> год практики</div>
+            <div class="stat"><strong id="project-count">—</strong> <span data-i18n="statProjects">проекта</span></div>
+            <div class="stat"><strong>1</strong> <span data-i18n="statRepos">репозиторий</span></div>
+            <div class="stat"><strong>1</strong> <span data-i18n="statExperience">год практики</span></div>
           </div>
         </div>
         <div class="hero-art" aria-hidden="true">
@@ -162,58 +166,62 @@
               <div class="mock-tiles"><span></span><span></span><span></span></div>
             </div>
           </div>
-          <div class="floating-note note-one">Адаптивно <small>удобно на любом экране</small></div>
-          <div class="floating-note note-two">От идеи к демо <small>понятно показать результат</small></div>
+          <div class="floating-note note-one"><span data-i18n="noteResponsive">Адаптивно</span> <small data-i18n="noteResponsiveSmall">удобно на любом экране</small></div>
+          <div class="floating-note note-two"><span data-i18n="noteDemo">От идеи к демо</span> <small data-i18n="noteDemoSmall">понятно показать результат</small></div>
         </div>
       </section>
 
       <section class="catalog" id="work">
         <div class="section-head">
-          <div><div class="section-kicker">избранные работы</div><h2>Выберите и посмотрите</h2></div>
-          <p class="section-intro">Каждый проект открывается прямо здесь. Ищите по названию или отфильтруйте по направлению.</p>
+          <div><div class="section-kicker" data-i18n="worksKicker">01 / избранные работы</div><h2 data-i18n="worksTitle">Выберите и посмотрите</h2></div>
+          <p class="section-intro" data-i18n="worksIntro">Каждый проект открывается прямо здесь. Ищите по названию или отфильтруйте по направлению.</p>
         </div>
         <div class="toolbar">
-          <div class="filters" role="group" aria-label="Фильтр по категории">
-            <button class="filter active" data-filter="all">Все проекты</button>
-            <button class="filter" data-filter="dental">Стоматология</button>
-            <button class="filter" data-filter="food">Кафе</button>
-            <button class="filter" data-filter="commerce">Магазины</button>
-            <button class="filter" data-filter="business">Бизнес</button>
-            <button class="filter" data-filter="tech">IT и интерфейсы</button>
-            <button class="filter" data-filter="education">Образование</button>
+          <div class="filters" role="group" aria-label="Фильтр по категории" data-i18n-aria="filterAria">
+            <button class="filter active" data-filter="all" data-i18n="filterAll">Все проекты</button>
+            <button class="filter" data-filter="dental" data-i18n="filterDental">Стоматология</button>
+            <button class="filter" data-filter="food" data-i18n="filterFood">Кафе</button>
+            <button class="filter" data-filter="commerce" data-i18n="filterCommerce">Магазины</button>
+            <button class="filter" data-filter="business" data-i18n="filterBusiness">Бизнес</button>
+            <button class="filter" data-filter="tech" data-i18n="filterTech">IT и интерфейсы</button>
+            <button class="filter" data-filter="education" data-i18n="filterEducation">Образование</button>
           </div>
-          <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Найти проект" aria-label="Найти проект"></label>
+          <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Найти проект" aria-label="Найти проект" data-i18n-placeholder="searchPlaceholder" data-i18n-aria="searchPlaceholder"></label>
         </div>
         <div class="project-grid" id="project-grid" aria-live="polite"><div class="loading">Загружаю проекты…</div></div>
-        <p class="catalog-note">Работы представлены как демонстрационные проекты и концепции. Упоминание организаций в названиях не означает коммерческий заказ или сотрудничество с ними.</p>
+        <p class="catalog-note" data-i18n="catalogNote">Работы представлены как демонстрационные проекты и концепции. Упоминание организаций в названиях не означает коммерческий заказ или сотрудничество с ними.</p>
       </section>
 
       <section class="about" id="about">
         <div class="shell about-grid">
-          <div><div class="section-kicker">подход</div><h2>Сложное — простым и ясным.</h2></div>
+          <div><div class="section-kicker" data-i18n="aboutKicker">02 / подход</div><h2 data-i18n="aboutTitle">Сложное — простым и ясным.</h2></div>
           <div class="about-copy">
-            <p>Собираю сайты так, чтобы посетителю было легко понять предложение, посмотреть важное и сделать следующий шаг. В портфолио есть концепции для клиник, кафе, магазинов и цифровых продуктов.</p>
-            <p>Работаю с адаптивной вёрсткой, интерактивными элементами и каталогами. Для каждого проекта подбираю структуру под его задачу.</p>
-            <div class="skill-row"><span class="skill">адаптивные сайты</span><span class="skill">лендинги</span><span class="skill">каталоги</span><span class="skill">интерфейсы</span><span class="skill">Cloudflare</span></div>
+            <p data-i18n="aboutP1">Собираю сайты так, чтобы посетителю было легко понять предложение, посмотреть важное и сделать следующий шаг. В портфолио есть концепции для клиник, кафе, магазинов и цифровых продуктов.</p>
+            <p data-i18n="aboutP2">Работаю с адаптивной вёрсткой, интерактивными элементами и каталогами. Для каждого проекта подбираю структуру под его задачу.</p>
+            <div class="skill-row"><span class="skill" data-i18n="skillResponsive">адаптивные сайты</span><span class="skill" data-i18n="skillLanding">лендинги</span><span class="skill" data-i18n="skillCatalog">каталоги</span><span class="skill" data-i18n="skillInterface">интерфейсы</span><span class="skill">Cloudflare</span></div>
           </div>
         </div>
       </section>
       <section class="contact shell" id="contact">
-        <div><div class="section-kicker">есть идея?</div><h2>Давайте обсудим ваш сайт.</h2><p>Напишите удобным вам способом — расскажу, как можно представить задачу в виде сайта.</p></div>
-        <a class="button" href="https://wa.me/77780101148?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." target="_blank" rel="noopener noreferrer">Связаться в WhatsApp <span class="arrow">↗</span></a>
+        <div><div class="section-kicker" data-i18n="contactKicker">03 / на связи</div><h2 data-i18n="contactTitle">Давайте обсудим ваш сайт.</h2><p data-i18n="contactCopy">Напишите удобным вам способом — расскажу, как можно представить задачу в виде сайта.</p></div>
+        <a class="button" href="https://wa.me/77780101148?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0." target="_blank" rel="noopener noreferrer"><span data-i18n="contactButton">Связаться в WhatsApp</span> <span class="arrow">↗</span></a>
       </section>
     </main>
-    <footer class="footer"><span>© Хан · веб-разработка</span><span>Сделано для удобного просмотра работ</span></footer>
+    <footer class="footer"><span data-i18n="footerLeft">© Хан · веб-разработка</span><span data-i18n="footerRight">Сделано для удобного просмотра работ</span></footer>
   </div>
-  <div class="modal" id="preview-modal" role="dialog" aria-modal="true" aria-label="Предпросмотр проекта">
+  <div class="modal" id="preview-modal" role="dialog" aria-modal="true" aria-label="Предпросмотр проекта" data-i18n-aria="modalAria">
     <div class="modal-panel">
-      <div class="modal-head"><div class="modal-title" id="modal-title">Предпросмотр</div><div class="modal-actions"><a class="modal-source" id="modal-source" href="#" target="_blank" rel="noreferrer">Исходный проект ↗</a><button class="modal-close" id="modal-close" aria-label="Закрыть предпросмотр">×</button></div></div>
+      <div class="modal-head"><div class="modal-title" id="modal-title" data-i18n="modalTitle">Предпросмотр</div><div class="modal-actions"><a class="modal-source" id="modal-source" href="#" target="_blank" rel="noreferrer"><span data-i18n="modalSource">Исходный проект</span> ↗</a><button class="modal-close" id="modal-close" aria-label="Закрыть предпросмотр" data-i18n-aria="modalClose">×</button></div></div>
       <iframe id="preview-frame" title="Демо выбранного проекта" sandbox="allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox" loading="lazy"></iframe>
     </div>
   </div>
   <script>
     (function(){
-      const labels={dental:"Стоматология",food:"Кафе и рестораны",commerce:"Магазины",business:"Бизнес",tech:"IT и интерфейсы",education:"Образование",creative:"Концепция"};
+      const copy={
+        ru:{brandAria:"Хан, портфолио",navAria:"Главная навигация",navWorks:"Проекты",navAbout:"Обо мне",navContact:"Связаться",languageAria:"Язык сайта",eyebrow:"веб-разработка · портфолио",heroTitle:"Проекты,<br>которые можно <em>открыть.</em>",heroCopy:"Я Хан. Создаю сайты и интерфейсы для бизнеса — от первой идеи до работающей адаптивной демо-версии.",viewProjects:"Смотреть проекты",statProjects:"проекта",statRepos:"репозиторий",statExperience:"год практики",noteResponsive:"Адаптивно",noteResponsiveSmall:"удобно на любом экране",noteDemo:"От идеи к демо",noteDemoSmall:"понятно показать результат",worksKicker:"01 / избранные работы",worksTitle:"Выберите и посмотрите",worksIntro:"Каждый проект открывается прямо здесь. Ищите по названию или отфильтруйте по направлению.",filterAria:"Фильтр по категории",filterAll:"Все проекты",filterDental:"Стоматология",filterFood:"Кафе",filterCommerce:"Магазины",filterBusiness:"Бизнес",filterTech:"IT и интерфейсы",filterEducation:"Образование",searchPlaceholder:"Найти проект",catalogNote:"Работы представлены как демонстрационные проекты и концепции. Упоминание организаций в названиях не означает коммерческий заказ или сотрудничество с ними.",aboutKicker:"02 / подход",aboutTitle:"Сложное — простым и ясным.",aboutP1:"Собираю сайты так, чтобы посетителю было легко понять предложение, посмотреть важное и сделать следующий шаг. В портфолио есть концепции для клиник, кафе, магазинов и цифровых продуктов.",aboutP2:"Работаю с адаптивной вёрсткой, интерактивными элементами и каталогами. Для каждого проекта подбираю структуру под его задачу.",skillResponsive:"адаптивные сайты",skillLanding:"лендинги",skillCatalog:"каталоги",skillInterface:"интерфейсы",contactKicker:"03 / на связи",contactTitle:"Давайте обсудим ваш сайт.",contactCopy:"Напишите удобным вам способом — расскажу, как можно представить задачу в виде сайта.",contactButton:"Связаться в WhatsApp",footerLeft:"© Хан · веб-разработка",footerRight:"Сделано для удобного просмотра работ",modalAria:"Предпросмотр проекта",modalTitle:"Предпросмотр",modalSource:"Исходный проект",modalClose:"Закрыть предпросмотр",demo:"демо-проект",viewDemo:"Смотреть демо",github:"GitHub",emptySearch:"Ничего не найдено. Измените запрос или выберите другую категорию.",catalogError:"Каталог временно недоступен. Попробуйте обновить страницу.",loading:"Загружаю проекты…",labels:{dental:"Стоматология",food:"Кафе и рестораны",commerce:"Магазины",business:"Бизнес",tech:"IT и интерфейсы",education:"Образование",creative:"Концепция"},descriptions:{"ala-clinic":"Демонстрация сайта стоматологии: направления лечения, знакомство с клиникой и запись.","almeda-stom":"Концепция сайта стоматологии с услугами и информацией для пациентов.","dental-park":"Дизайн-концепция стоматологии: услуги, ориентиры стоимости и запись на консультацию.","imatek-dent":"Демонстрационная концепция сайта: направления стоматологии, специалисты и контакты.",alani:"Концепция сайта ресторана: меню, атмосфера и запрос брони столика.","coffee-original":"Концепция сайта кофейни с завтраками и выбором места.","lati-cafe":"Дизайн-концепция кафе с кофе, завтраками и десертами.","silver-climat":"Демонстрация каталога климатической техники с подбором решения.","felix-almaty":"Каталог мебели и решений для жилых и коммерческих пространств."}},
+        en:{brandAria:"Khan, portfolio",navAria:"Main navigation",navWorks:"Work",navAbout:"About",navContact:"Contact",languageAria:"Site language",eyebrow:"web development · portfolio",heroTitle:"Projects<br>you can <em>explore.</em>",heroCopy:"I’m Khan. I build websites and interfaces for businesses, from the first idea to a working, responsive demo.",viewProjects:"Explore projects",statProjects:"projects",statRepos:"repository",statExperience:"year of practice",noteResponsive:"Responsive",noteResponsiveSmall:"made for every screen",noteDemo:"Idea to demo",noteDemoSmall:"a clear way to see the result",worksKicker:"01 / selected work",worksTitle:"Choose a project to explore",worksIntro:"Open each project right here. Search by name or filter by category.",filterAria:"Filter by category",filterAll:"All projects",filterDental:"Dental",filterFood:"Cafés",filterCommerce:"Retail",filterBusiness:"Business",filterTech:"Tech & interfaces",filterEducation:"Education",searchPlaceholder:"Find a project",catalogNote:"These are demo projects and design concepts. Organization names do not imply a paid project or partnership.",aboutKicker:"02 / approach",aboutTitle:"Make complex things clear.",aboutP1:"I build websites that help visitors understand an offer, find what matters, and take the next step. My portfolio includes concepts for clinics, cafés, shops, and digital products.",aboutP2:"I work with responsive layouts, interactive elements, and catalogs. Each project gets a structure suited to its needs.",skillResponsive:"responsive websites",skillLanding:"landing pages",skillCatalog:"catalogs",skillInterface:"interfaces",contactKicker:"03 / get in touch",contactTitle:"Let’s talk about your website.",contactCopy:"Message me in the way that works for you, and we can discuss how to shape your idea into a website.",contactButton:"Contact on WhatsApp",footerLeft:"© Khan · web development",footerRight:"Made for easy project browsing",modalAria:"Project preview",modalTitle:"Project preview",modalSource:"Source project",modalClose:"Close preview",demo:"demo project",viewDemo:"View demo",github:"GitHub",emptySearch:"No projects found. Try another search or category.",catalogError:"The project catalog is temporarily unavailable. Please refresh the page.",loading:"Loading projects…",labels:{dental:"Dental",food:"Cafés & restaurants",commerce:"Retail",business:"Business",tech:"Tech & interfaces",education:"Education",creative:"Concept"},descriptions:{"ala-clinic":"Dental website demo featuring treatments, clinic information, and appointment inquiries.","almeda-stom":"Dental website concept with services and helpful information for patients.","dental-park":"Dental website concept featuring services, indicative pricing, and consultation inquiries.","imatek-dent":"Dental website concept featuring treatments, specialists, and contact details.",alani:"Restaurant website concept featuring its menu, atmosphere, and table booking inquiries.","coffee-original":"Café website concept featuring breakfast and a choice of location.","lati-cafe":"Café website concept featuring coffee, breakfast, and desserts.","silver-climat":"Demo catalog for climate equipment with a guided product selection.","felix-almaty":"Furniture catalog for residential and commercial spaces."}}
+      };
+      let language=localStorage.getItem("han-portfolio-language")||((navigator.language||"").toLowerCase().startsWith("en")?"en":"ru");
       const grid=document.getElementById("project-grid");
       const search=document.getElementById("search");
       const modal=document.getElementById("preview-modal");
@@ -224,19 +232,39 @@
       let activeFilter="all";
       function escapeHtml(value){return String(value||"").replace(/[&<>"']/g,function(ch){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[ch]})}
       function makeCard(p){
-        const category=labels[p.category]||"Проект";
+        const t=copy[language];
+        const category=t.labels[p.category]||(language==="en"?"Project":"Проект");
         const short=p.title.split(/[ —–|:]/)[0];
-        return '<article class="project-card"><div class="cover '+escapeHtml(p.category)+'"><div class="cover-device"><div class="cover-top"><i></i><i></i><i></i></div><div class="cover-body"><span class="cover-kicker"></span><strong class="cover-headline">'+escapeHtml(short)+'</strong><span class="cover-rule"></span><span class="cover-action"></span></div></div><span class="cover-chip">'+escapeHtml(category)+'</span></div><div class="card-body"><div class="card-meta"><span>'+escapeHtml(category)+'</span><span>демо-проект</span></div><h3 class="card-title">'+escapeHtml(p.title)+'</h3><p class="card-description">'+escapeHtml(p.description)+'</p><div class="card-actions"><button class="preview-button" data-open="'+escapeHtml(p.slug)+'">Смотреть демо <span class="arrow">↗</span></button><a class="source-link" href="'+escapeHtml(p.source_url)+'" target="_blank" rel="noreferrer">GitHub ↗</a></div></div></article>'
+        const description=t.descriptions[p.slug]||p.description;
+        return '<article class="project-card"><div class="cover '+escapeHtml(p.category)+'"><div class="cover-device"><div class="cover-top"><i></i><i></i><i></i></div><div class="cover-body"><span class="cover-kicker"></span><strong class="cover-headline">'+escapeHtml(short)+'</strong><span class="cover-rule"></span><span class="cover-action"></span></div></div><span class="cover-chip">'+escapeHtml(category)+'</span></div><div class="card-body"><div class="card-meta"><span>'+escapeHtml(category)+'</span><span>'+t.demo+'</span></div><h3 class="card-title">'+escapeHtml(p.title)+'</h3><p class="card-description">'+escapeHtml(description)+'</p><div class="card-actions"><button class="preview-button" data-open="'+escapeHtml(p.slug)+'">'+t.viewDemo+' <span class="arrow">↗</span></button><a class="source-link" href="'+escapeHtml(p.source_url)+'" target="_blank" rel="noreferrer">'+t.github+' ↗</a></div></div></article>'
       }
       function render(){
-        const query=search.value.trim().toLocaleLowerCase("ru");
+        const t=copy[language];
+        const query=search.value.trim().toLocaleLowerCase(language);
         const shown=projects.filter(function(p){
           const matchesFilter=activeFilter==="all"||p.category===activeFilter;
-          const haystack=(p.title+" "+p.description+" "+(labels[p.category]||"")).toLocaleLowerCase("ru");
+          const haystack=(p.title+" "+p.description+" "+(t.descriptions[p.slug]||"")+" "+(t.labels[p.category]||"")).toLocaleLowerCase(language);
           return matchesFilter&&haystack.includes(query);
         });
-        grid.innerHTML=shown.length?shown.map(makeCard).join(""):'<div class="empty-state">Ничего не найдено. Измените запрос или выберите другую категорию.</div>';
+        grid.innerHTML=shown.length?shown.map(makeCard).join(""):'<div class="empty-state">'+t.emptySearch+'</div>';
       }
+      function applyLanguage(){
+        const t=copy[language];
+        document.documentElement.lang=language;
+        document.title=language==="en"?"Khan — web developer portfolio":"Хан — портфолио веб-разработчика";
+        document.querySelector('meta[name="description"]').content=language==="en"?"Khan’s portfolio of interactive website and interface demos.":"Портфолио Хана: интерактивные демонстрации сайтов и интерфейсов.";
+        document.querySelectorAll("[data-i18n]").forEach(function(el){el.innerHTML=t[el.dataset.i18n]});
+        document.querySelectorAll("[data-i18n-aria]").forEach(function(el){el.setAttribute("aria-label",t[el.dataset.i18nAria])});
+        document.querySelectorAll("[data-i18n-placeholder]").forEach(function(el){el.placeholder=t[el.dataset.i18nPlaceholder]});
+        document.querySelectorAll("[data-language]").forEach(function(el){el.setAttribute("aria-pressed",String(el.dataset.language===language))});
+        const loading=grid.querySelector(".loading");if(loading)loading.textContent=t.loading;
+        render();
+      }
+      document.querySelector(".language-toggle").addEventListener("click",function(event){
+        const button=event.target.closest("[data-language]");if(!button)return;
+        language=button.dataset.language;localStorage.setItem("han-portfolio-language",language);applyLanguage();
+      });
+      applyLanguage();
       document.querySelector(".filters").addEventListener("click",function(event){
         const button=event.target.closest("[data-filter]");
         if(!button)return;
@@ -266,7 +294,7 @@
         document.getElementById("project-count").textContent=String(projects.length).padStart(2,"0");
         render();
       }).catch(function(){
-        grid.innerHTML='<div class="empty-state">Каталог временно недоступен. Попробуйте обновить страницу.</div>';
+        grid.innerHTML='<div class="empty-state">'+copy[language].catalogError+'</div>';
       });
     })();
   </script>
